@@ -12,7 +12,7 @@
 篇幅:          中文正文 4000~4500 字（硬上限 4500）
 图表合计:      5 幅（默认 图 3 + 表 2）
 参考文献:      10 条，近五年（2021—2026），按正文出现顺序编号，附 DOI
-学科方向:      <在此填写，如：电力系统 / 计算机视觉 / 材料 / 医学信息>
+学科方向:      
 仿真工具:      MATLAB R2025b（按需启用：Symbolic Math / Signal Processing / Statistics and Machine Learning / Deep Learning / Simulink）
 可否联网核验:  是（文献与公开数据集必须核验）
 ```

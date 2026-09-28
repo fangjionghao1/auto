@@ -1,0 +1,1 @@
+- `python watch_src.py --once` 执行一次 否则就是循环执行 每一分钟执行一次 拉取最新的repo 如果有新的txt写入goal.md

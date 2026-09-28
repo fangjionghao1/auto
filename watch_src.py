@@ -36,15 +36,15 @@ def parse_manuscripts(content):
     values = {}
     current = None
     for line in content.splitlines():
-        match = re.match(r"^\s*([^：:]+)[：:]\s*(.*?)\s*$", line)
-        if match:
-            key, value = match.groups()
-            key = key.strip()
-            if key in (*FIELDS, "目标等级", "状态", "备注", "note"):
-                current = key
-                values[key] = value
-            else:
-                current = None
+        matches = list(re.finditer(
+            r"(?<!\S)(部门|采编|订单时间|类别|作者|题目|目标等级|状态|备注|note)[：:]",
+            line,
+        ))
+        if matches:
+            for index, match in enumerate(matches):
+                end = matches[index + 1].start() if index + 1 < len(matches) else len(line)
+                current = match.group(1)
+                values[current] = line[match.end():end].strip()
         elif current == "题目" and line[:1].isspace() and line.strip():
             values["题目"] += "\n" + line.strip()
         elif line.strip():
@@ -59,24 +59,42 @@ def safe_cell(value):
     return str(value).replace("|", "\\|").replace("\r", " ").replace("\n", "；")
 
 
+def goal_table():
+    lines = GOAL.read_text(encoding="utf-8-sig").splitlines()
+    rows = []
+    for line in lines:
+        if line.startswith("|"):
+            rows.append([cell.strip().replace("\\|", "|")
+                         for cell in re.split(r"(?<!\\)\|", line)[1:-1]])
+    if not rows:
+        raise ValueError("goal.md has no table header")
+    return lines, rows[0], rows[2:]
+
+
 def historical_manuscripts():
     """Read author/title pairs whose recorded source is a file in src."""
     found = set()
-    for line in GOAL.read_text(encoding="utf-8-sig").splitlines():
-        if not line.startswith("|"):
+    _, headers, rows = goal_table()
+    source_index = headers.index("src") if "src" in headers else headers.index("产物路径")
+    for cells in rows:
+        if len(cells) <= source_index or not cells[0]:
             continue
-        cells = [cell.strip().replace("\\|", "|") for cell in re.split(r"(?<!\\)\|", line)[1:-1]]
-        if len(cells) < 6 or cells[0] in ("稿件ID", ":---", ""):
-            continue
-        source = Path(cells[5].replace("\\", "/"))
+        source = Path(cells[source_index].replace("\\", "/"))
         if source.parent.name.lower() == "src" and source.suffix.lower() == ".txt":
-            found.add((" ".join(cells[1].split()), " ".join(cells[2].split())))
+            found.add((" ".join(cells[headers.index("auth")].split()),
+                       " ".join(cells[headers.index("标题")].split())))
     return found
 
 
-def duplicate_title(parsed):
+def manuscript_pairs(parsed):
     values, titles = parsed
-    existing = historical_manuscripts()
+    author = " ".join(values["作者"].split())
+    return {(author, " ".join(title.split())) for title in titles}
+
+
+def duplicate_title(parsed, reference_pairs=()):
+    values, titles = parsed
+    existing = historical_manuscripts() | set(reference_pairs)
     author = " ".join(values["作者"].split())
     return next((title for title in titles if (author, " ".join(title.split())) in existing), None)
 
@@ -92,21 +110,26 @@ def duplicate_destination(path):
 
 def add_goal_rows(path, parsed, upload_date):
     values, titles = parsed
-    existing = GOAL.read_text(encoding="utf-8-sig")
+    lines, headers, old_rows = goal_table()
+    existing_ids = {row[headers.index("稿件ID")] for row in old_rows
+                    if len(row) == len(headers)}
     rows = []
     for index, title in enumerate(titles, 1):
         manuscript_id = path.stem + "-" + upload_date.strftime("%m%d")
         if len(titles) > 1:
             manuscript_id += f"-{index}"
-        if re.search(r"^\|\s*" + re.escape(manuscript_id) + r"\s*\|", existing, re.M):
+        if manuscript_id in existing_ids:
             continue
-        cells = [manuscript_id, values["作者"], title,
-                 values.get("目标等级") or "正常", values.get("状态") or "V1",
-                 str(path.resolve()), "", values.get("备注") or values.get("note") or "", ""]
-        rows.append("| " + " | ".join(safe_cell(cell) for cell in cells) + " |")
+        record = {"稿件ID": manuscript_id, "auth": values["作者"], "标题": title,
+                  "目标等级": values.get("目标等级") or "正常",
+                  "状态": values.get("状态") or "V1",
+                  "note": values.get("备注") or values.get("note") or "",
+                  "src": str(path.resolve())}
+        if "src" not in headers:
+            record["产物路径"] = str(path.resolve())
+        rows.append("| " + " | ".join(safe_cell(record.get(header, "")) for header in headers) + " |")
     if rows:
-        lines = existing.splitlines()
-        lines = [line for line in lines if not re.fullmatch(r"\|(?:\s*\|){9}", line)]
+        lines = [line for line in lines if not re.fullmatch(r"\|(?:\s*\|){" + str(len(headers)) + r"}", line)]
         GOAL.write_text("\n".join(lines).rstrip() + "\n" + "\n".join(rows) + "\n", encoding="utf-8")
     return len(rows)
 
@@ -115,6 +138,13 @@ def poll(repo, branch, state):
     items = gh("api", f"repos/{repo}/contents/src?ref={quote(branch)}")
     if not isinstance(items, list):
         raise RuntimeError("GitHub src is not a directory")
+    reference_pairs = set()
+    if any(item.get("name") == "1.txt" for item in items):
+        reference_data = gh("api", f"repos/{repo}/contents/src/1.txt?ref={quote(branch)}")
+        reference_text = base64.b64decode(reference_data["content"]).decode("utf-8-sig")
+        reference = parse_manuscripts(reference_text)
+        if reference:
+            reference_pairs = manuscript_pairs(reference)
     names = {item["name"]: item for item in items if item.get("type") == "file"
              and item["name"].lower().endswith(".txt") and item["name"] != "1.txt"
              and not item["name"].lower().endswith((".faild.txt", ".duplicate.txt"))}
@@ -130,7 +160,7 @@ def poll(repo, branch, state):
             path.with_name(path.stem + ".faild.txt").write_text(
                 "格式校验失败：缺少部门、采编、订单时间、类别、作者或题目。\n", encoding="utf-8")
             print(f"Ignored invalid file: {name}", flush=True)
-        elif duplicate_title(parsed):
+        elif duplicate_title(parsed, reference_pairs):
             target = duplicate_destination(path)
             path.rename(target)
             print(f"Duplicate {name}: renamed to {target.name}", flush=True)

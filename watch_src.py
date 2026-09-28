@@ -59,6 +59,37 @@ def safe_cell(value):
     return str(value).replace("|", "\\|").replace("\r", " ").replace("\n", "；")
 
 
+def historical_manuscripts():
+    """Read author/title pairs whose recorded source is a file in src."""
+    found = set()
+    for line in GOAL.read_text(encoding="utf-8-sig").splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip().replace("\\|", "|") for cell in re.split(r"(?<!\\)\|", line)[1:-1]]
+        if len(cells) < 6 or cells[0] in ("稿件ID", ":---", ""):
+            continue
+        source = Path(cells[5].replace("\\", "/"))
+        if source.parent.name.lower() == "src" and source.suffix.lower() == ".txt":
+            found.add((" ".join(cells[1].split()), " ".join(cells[2].split())))
+    return found
+
+
+def duplicate_title(parsed):
+    values, titles = parsed
+    existing = historical_manuscripts()
+    author = " ".join(values["作者"].split())
+    return next((title for title in titles if (author, " ".join(title.split())) in existing), None)
+
+
+def duplicate_destination(path):
+    target = path.with_name(path.stem + ".duplicate.txt")
+    number = 2
+    while target.exists():
+        target = path.with_name(f"{path.stem}-{number}.duplicate.txt")
+        number += 1
+    return target
+
+
 def add_goal_rows(path, parsed, upload_date):
     values, titles = parsed
     existing = GOAL.read_text(encoding="utf-8-sig")
@@ -86,7 +117,7 @@ def poll(repo, branch, state):
         raise RuntimeError("GitHub src is not a directory")
     names = {item["name"]: item for item in items if item.get("type") == "file"
              and item["name"].lower().endswith(".txt") and item["name"] != "1.txt"
-             and not item["name"].lower().endswith(".faild.txt")}
+             and not item["name"].lower().endswith((".faild.txt", ".duplicate.txt"))}
     for name, item in sorted(names.items()):
         if name in state:
             continue
@@ -99,6 +130,10 @@ def poll(repo, branch, state):
             path.with_name(path.stem + ".faild.txt").write_text(
                 "格式校验失败：缺少部门、采编、订单时间、类别、作者或题目。\n", encoding="utf-8")
             print(f"Ignored invalid file: {name}", flush=True)
+        elif duplicate_title(parsed):
+            target = duplicate_destination(path)
+            path.rename(target)
+            print(f"Duplicate {name}: renamed to {target.name}", flush=True)
         else:
             commits = gh("api", f"repos/{repo}/commits?path={quote('src/' + name, safe='/')}&per_page=1")
             stamp = commits[0]["commit"]["committer"]["date"]

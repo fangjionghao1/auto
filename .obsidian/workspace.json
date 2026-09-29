@@ -190,6 +190,7 @@
   },
   "active": "080a7dc4e6fdac8b",
   "lastOpenFiles": [
+    "src/13.txt",
     "__pycache__/generate_src.cpython-313.pyc.2004889141136",
     "README.md",
     "src/goal.md",
@@ -206,7 +207,6 @@
     "gen/artifacts/11-0929",
     "src/11.txt",
     "src/新建 文本文档.txt",
-    "src/10.txt",
     "test/script/README.md",
     "gen/artifacts/10-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/speek.md",
     "gen/artifacts/10-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/src.md",

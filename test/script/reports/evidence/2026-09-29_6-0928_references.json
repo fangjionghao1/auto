@@ -1,0 +1,967 @@
+{
+  "checked_at": "2026-09-29T10:12:57.579883+08:00",
+  "scope": "Crossref DOI metadata and deposited update-to/updated-by/relation fields only; absence is not proof of absence of a retraction.",
+  "project": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V1\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+  "references": [
+    {
+      "doi": "10.1109/ACCESS.2024.3497669",
+      "source": "https://api.crossref.org/works/10.1109%2FACCESS.2024.3497669",
+      "title": [
+        "Impact of Synchronous Condensers on Small-Signal Stability of Offshore Wind Power Plants"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3227-0606",
+          "authenticated-orcid": false,
+          "given": "Sulav",
+          "family": "Ghimire",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Siemens Gamesa Renewable Energy A/S, Brande, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kanakesh",
+          "family": "Vatta Kkuni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Siemens Gamesa Renewable Energy A/S, Brande, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emerson D.",
+          "family": "Guest",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Siemens Gamesa Renewable Energy A/S, Brande, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kim H.",
+          "family": "Jensen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Siemens Gamesa Renewable Energy A/S, Brande, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4695-6705",
+          "authenticated-orcid": false,
+          "given": "Guangya",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Wind and Energy Systems, Technical University of Denmark, Kongens Lyngby, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Access"
+      ],
+      "volume": "12",
+      "issue": null,
+      "page": "168018-168029",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/access.2024.3497669",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.3390/en17071730",
+      "source": "https://api.crossref.org/works/10.3390%2Fen17071730",
+      "title": [
+        "Impact of Synchronous Condensers’ Ratings on Mitigating Subsynchronous Oscillations in Wind Farms"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6254-9678",
+          "authenticated-orcid": false,
+          "given": "Dimitrios",
+          "family": "Dimitropoulos",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "AAU Energy, Aalborg University, 9220 Aalborg, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9918-904X",
+          "authenticated-orcid": false,
+          "given": "Mohammad Kazem",
+          "family": "Bakhshizadeh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ørsted Wind Power A/S, 2820 Gentofte, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9694-4027",
+          "authenticated-orcid": false,
+          "given": "Lukasz",
+          "family": "Kocewiak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ørsted Wind Power A/S, 2820 Gentofte, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6327-9729",
+          "authenticated-orcid": false,
+          "given": "Xiongfei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "AAU Energy, Aalborg University, 9220 Aalborg, Denmark"
+            },
+            {
+              "name": "Division of Electric Power and Energy Systems, KTH Royal Institute of Technology, 11428 Stockholm, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8311-7412",
+          "authenticated-orcid": false,
+          "given": "Frede",
+          "family": "Blaabjerg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "AAU Energy, Aalborg University, 9220 Aalborg, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            4
+          ]
+        ]
+      },
+      "published-print": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            4
+          ]
+        ]
+      },
+      "container-title": [
+        "Energies"
+      ],
+      "volume": "17",
+      "issue": "7",
+      "page": "1730",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.3390/en17071730",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/OAJPE.2024.3428365",
+      "source": "https://api.crossref.org/works/10.1109%2FOAJPE.2024.3428365",
+      "title": [
+        "Quantifying Stability in Inverter-Based Weak Grids in the Presence of Synchronous Condensers"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5967-3830",
+          "authenticated-orcid": false,
+          "given": "Sajjad",
+          "family": "Hadavi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Windlab Pty Ltd., Melbourne, VIC, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5068-440X",
+          "authenticated-orcid": false,
+          "given": "Nabil",
+          "family": "Mohammed",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computer, Electrical, and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9072-4819",
+          "authenticated-orcid": false,
+          "given": "Ali",
+          "family": "Mehrizi-Sani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bradley Department of Electrical and Computer Engineering, Virginia Tech, Blacksburg, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9482-2990",
+          "authenticated-orcid": false,
+          "given": "Behrooz",
+          "family": "Bahrani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Systems Engineering, Monash University, Clayton, VIC, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Open Access Journal of Power and Energy"
+      ],
+      "volume": "11",
+      "issue": null,
+      "page": "314-324",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.22541/au.167907485.53414275/v1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "URL": "https://doi.org/10.1109/oajpe.2024.3428365",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/TPWRS.2022.3214484",
+      "source": "https://api.crossref.org/works/10.1109%2FTPWRS.2022.3214484",
+      "title": [
+        "Small-Signal Synchronous Stability of a New-Generation Power System With 100% Renewable Energy"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0053-9386",
+          "authenticated-orcid": false,
+          "given": "Ziqian",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Advanced Electromagnetic Engineering, Technology, and School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2331-2002",
+          "authenticated-orcid": false,
+          "given": "Meng",
+          "family": "Zhan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Advanced Electromagnetic Engineering, Technology, and School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Grid Hubei Electric Power Research Institute, Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chang",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Grid Hubei Electric Power Research Institute, Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kan",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Grid Hubei Electric Power Research Institute, Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shijie",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Advanced Electromagnetic Engineering, Technology, and School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Power Systems"
+      ],
+      "volume": "38",
+      "issue": "5",
+      "page": "4269-4280",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tpwrs.2022.3214484",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.13335/j.1000-3673.pst.2025.0440",
+      "source": "https://api.crossref.org/works/10.13335%2Fj.1000-3673.pst.2025.0440",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "doi": "10.1016/j.segan.2024.101469",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.segan.2024.101469",
+      "title": [
+        "Real-time small-signal security assessment using graph neural networks"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0004-3066-8201",
+          "authenticated-orcid": false,
+          "given": "Glory",
+          "family": "Justin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Santiago",
+          "family": "Paternain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Sustainable Energy, Grids and Networks"
+      ],
+      "volume": "39",
+      "issue": null,
+      "page": "101469",
+      "article-number": "101469",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.segan.2024.101469",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.ijepes.2024.109846",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.ijepes.2024.109846",
+      "title": [
+        "Edge-graph convolution and multi-hop attention jointly driven small-signal stability assessment against topology changes"
+      ],
+      "author": [
+        {
+          "given": "Jiyu",
+          "family": "Huang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2625-707X",
+          "authenticated-orcid": false,
+          "given": "Lin",
+          "family": "Guan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mengxuan",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zihan",
+          "family": "Cai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Siting",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yihan",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "International Journal of Electrical Power &amp; Energy Systems"
+      ],
+      "volume": "157",
+      "issue": null,
+      "page": "109846",
+      "article-number": "109846",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.ijepes.2024.109846",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.eswa.2026.131907",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.eswa.2026.131907",
+      "title": [
+        "A heterogeneous graph transformer network for small-signal stability assessment of low-frequency inter-area oscillations in power systems"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6454-0565",
+          "authenticated-orcid": false,
+          "given": "Hailiang",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-1607-9817",
+          "authenticated-orcid": false,
+          "given": "Shiyuan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-2145-9964",
+          "authenticated-orcid": false,
+          "given": "Zhaoming",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-8557-7744",
+          "authenticated-orcid": false,
+          "given": "Jinghan",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Expert Systems with Applications"
+      ],
+      "volume": "317",
+      "issue": null,
+      "page": "131907",
+      "article-number": "131907",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.eswa.2026.131907",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.epsr.2025.111775",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.epsr.2025.111775",
+      "title": [
+        "Domain-adversarial graph neural network for small-signal stability constrained optimal power flow in AC/DC renewable power systems"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6602-5524",
+          "authenticated-orcid": false,
+          "given": "Xin",
+          "family": "Dong",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenjuan",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qiang",
+          "family": "Fu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haifeng",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Electric Power Systems Research"
+      ],
+      "volume": "247",
+      "issue": null,
+      "page": "111775",
+      "article-number": "111775",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.epsr.2025.111775",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.epsr.2024.110853",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.epsr.2024.110853",
+      "title": [
+        "Fast small signal stability assessment using deep convolutional neural networks"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3312-9244",
+          "authenticated-orcid": false,
+          "given": "Tetiana",
+          "family": "Bogodorova",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9134-3919",
+          "authenticated-orcid": false,
+          "given": "Denis",
+          "family": "Osipov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4125-1055",
+          "authenticated-orcid": false,
+          "given": "Luigi",
+          "family": "Vanfretti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Electric Power Systems Research"
+      ],
+      "volume": "235",
+      "issue": null,
+      "page": "110853",
+      "article-number": "110853",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.epsr.2024.110853",
+      "type": "journal-article",
+      "status": "retrieved"
+    }
+  ]
+}

@@ -1,0 +1,1299 @@
+{
+  "checked_at": "2026-09-29T11:11:40+08:00",
+  "scope": "Crossref DOI metadata and deposited update fields; the rate-limited Applied Energy item was recovered. Formal pagination/year exceptions follow cited primary records. Empty update fields do not prove no undisclosed update.",
+  "project": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制",
+  "references": [
+    {
+      "doi": "10.1016/j.apenergy.2022.119530",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.apenergy.2022.119530",
+      "title": [
+        "A graph policy network approach for Volt-Var Control in power distribution systems"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6639-8398",
+          "authenticated-orcid": false,
+          "given": "Xian Yeow",
+          "family": "Lee",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Soumik",
+          "family": "Sarkar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yubo",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            10
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Applied Energy"
+      ],
+      "volume": "323",
+      "issue": null,
+      "page": "119530",
+      "article-number": "119530",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.apenergy.2022.119530",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.ijepes.2022.108637",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.ijepes.2022.108637",
+      "title": [
+        "Real-time optimal scheduling for active distribution networks: A graph reinforcement learning method"
+      ],
+      "author": [
+        {
+          "given": "Qiang",
+          "family": "Xing",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhong",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tian",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xu",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "KeHui",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            2
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "International Journal of Electrical Power &amp; Energy Systems"
+      ],
+      "volume": "145",
+      "issue": null,
+      "page": "108637",
+      "article-number": "108637",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.ijepes.2022.108637",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.apenergy.2023.121743",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.apenergy.2023.121743",
+      "status": "retrieved",
+      "previous_retrieval_error": "HTTP Error 429: Too Many Requests",
+      "title": [
+        "Physical-assisted multi-agent graph reinforcement learning enabled fast voltage regulation for PV-rich active distribution network"
+      ],
+      "author": [
+        {
+          "given": "Yongdong",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Youbo",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junbo",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gao",
+          "family": "Qiu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hang",
+          "family": "Yin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhengbo",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Applied Energy"
+      ],
+      "volume": "351",
+      "issue": null,
+      "page": "121743",
+      "article-number": "121743",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.apenergy.2023.121743",
+      "type": "journal-article",
+      "retrieved_at": "2026-09-29T11:11:40+08:00",
+      "publisher_evidence": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0306261923011078",
+        "indexed_title": "Physical-assisted multi-agent graph reinforcement learning enabled fast voltage regulation for PV-rich active distribution network",
+        "indexed_journal": "Applied Energy",
+        "indexed_year": 2023,
+        "indexed_volume": "351",
+        "indexed_article_number": "121743",
+        "method": "Original ScienceDirect publisher page indexed content inspected.",
+        "checked_at": "2026-09-29T11:11:40+08:00"
+      }
+    },
+    {
+      "doi": "10.1016/j.ijepes.2023.109531",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.ijepes.2023.109531",
+      "title": [
+        "Multi-agent graph reinforcement learning for decentralized Volt-VAR control in power distribution systems"
+      ],
+      "author": [
+        {
+          "given": "Daner",
+          "family": "Hu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zichen",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhenhui",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yonggang",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Xi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tiantian",
+          "family": "Cai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "International Journal of Electrical Power &amp; Energy Systems"
+      ],
+      "volume": "155",
+      "issue": null,
+      "page": "109531",
+      "article-number": "109531",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.ijepes.2023.109531",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/TSG.2023.3324474",
+      "source": "https://api.crossref.org/works/10.1109%2FTSG.2023.3324474",
+      "title": [
+        "Real-Time Coordination of Dynamic Network Reconfiguration and Volt-VAR Control in Active Distribution Network: A Graph-Aware Deep Reinforcement Learning Approach"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8865-1785",
+          "authenticated-orcid": false,
+          "given": "Ruoheng",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering, The Hong Kong Polytechnic University, Hong Kong, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaowen",
+          "family": "Bi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, City University of Hong Kong, Hong Kong, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1047-2568",
+          "authenticated-orcid": false,
+          "given": "Siqi",
+          "family": "Bu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering, Shenzhen Research Institute, the Centre for Grid Modernization, the International Centre of Urban Energy Nexus, the Centre for Advances in Reliability and Safety, the Research Institute for Smart Energy, and the Policy Research Centre for Innovation and Technology, The Hong Kong Polytechnic University, Hong Kong, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Smart Grid"
+      ],
+      "volume": "15",
+      "issue": "3",
+      "page": "3288-3302",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tsg.2023.3324474",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/TSG.2024.3423700",
+      "source": "https://api.crossref.org/works/10.1109%2FTSG.2024.3423700",
+      "title": [
+        "Attention-Enhanced Multi-Agent Reinforcement Learning Against Observation Perturbations for Distributed Volt-VAR Control"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5883-7677",
+          "authenticated-orcid": false,
+          "given": "Xu",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, State Key Laboratory of Power Systems, Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haotian",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, State Key Laboratory of Power Systems, Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8154-2412",
+          "authenticated-orcid": false,
+          "given": "Wenchuan",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, State Key Laboratory of Power Systems, Tsinghua University, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Smart Grid"
+      ],
+      "volume": "15",
+      "issue": "6",
+      "page": "5761-5772",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tsg.2024.3423700",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/ACCESS.2024.3512993",
+      "source": "https://api.crossref.org/works/10.1109%2FACCESS.2024.3512993",
+      "title": [
+        "GAT-ADNet: Leveraging Graph Attention Network for Optimal Power Flow in Active Distribution Network with High Renewables"
+      ],
+      "author": [
+        {
+          "given": "Dinesh Kumar",
+          "family": "Mahto",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, Malaviya National Institute of Technology, Jaipur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2507-7501",
+          "authenticated-orcid": false,
+          "given": "Mahipal",
+          "family": "Bukya",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, Udupi, Karnataka, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6019-0702",
+          "authenticated-orcid": false,
+          "given": "Rajesh",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, Malaviya National Institute of Technology, Jaipur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2945-6277",
+          "authenticated-orcid": false,
+          "given": "Akhilesh",
+          "family": "Mathur",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, Malaviya National Institute of Technology, Jaipur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7659-4197",
+          "authenticated-orcid": false,
+          "given": "Vikash Kumar",
+          "family": "Saini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Computer Science, Advanced Power and Energy Center, Khalifa University, Abu Dhabi, United Arab Emirates"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Access"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1-1",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/access.2024.3512993",
+      "type": "journal-article",
+      "status": "retrieved",
+      "formal_pagination_evidence": {
+        "crossref_page": "1-1",
+        "accepted_final_page": "185728-185739",
+        "journal": "IEEE Access",
+        "volume": "12",
+        "year": 2024,
+        "basis": "Two author-affiliated institutional records report the final IEEE Access pagination; Crossref still retains provisional 1-1.",
+        "primary_urls": [
+          "https://khazna.ku.ac.ae/en/publications/gat-adnet-leveraging-graph-attention-network-for-optimal-power-fl/",
+          "https://ujcontent.uj.ac.za/esploro/outputs/journalArticle/GAT-ADNet-Leveraging-graph-attention-network-for/9949109407691"
+        ],
+        "checked_at": "2026-09-29T11:11:40+08:00"
+      }
+    },
+    {
+      "doi": "10.1016/j.apenergy.2025.126409",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.apenergy.2025.126409",
+      "title": [
+        "Domain knowledge-enhanced graph reinforcement learning method for Volt/Var control in distribution networks"
+      ],
+      "author": [
+        {
+          "given": "Fengzhang",
+          "family": "Luo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shengyuan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yunqiang",
+          "family": "Lv",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ranfeng",
+          "family": "Mu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiacheng",
+          "family": "Fo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tianyu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jing",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chengshan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Applied Energy"
+      ],
+      "volume": "398",
+      "issue": null,
+      "page": "126409",
+      "article-number": "126409",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.apenergy.2025.126409",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.renene.2025.124345",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.renene.2025.124345",
+      "title": [
+        "Enhancing economic efficiency and operational stability of high-penetration renewable distribution networks: A multi-timescale coordinated optimization method leveraging multi-agent graph reinforcement learning"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4163-251X",
+          "authenticated-orcid": false,
+          "given": "Changxu",
+          "family": "Jiang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chen",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junchi",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junjie",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shunlin",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Renewable Energy"
+      ],
+      "volume": "256",
+      "issue": null,
+      "page": "124345",
+      "article-number": "124345",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.renene.2025.124345",
+      "type": "journal-article",
+      "status": "retrieved",
+      "formal_year_evidence": {
+        "doi_year_fragment": 2025,
+        "accepted_formal_year": 2026,
+        "crossref_published": [
+          [
+            2026,
+            1
+          ]
+        ],
+        "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0960148125020099",
+        "publisher_issue": "Renewable Energy, Volume 256, Part F, 1 January 2026, article 124345",
+        "checked_at": "2026-09-29T11:11:40+08:00"
+      }
+    },
+    {
+      "doi": "10.3390/electronics15102026",
+      "source": "https://api.crossref.org/works/10.3390%2Felectronics15102026",
+      "title": [
+        "Coordinated Active Voltage Control Strategy for Active Distribution Networks Based on Multi-Agent Actor-Critic with Multi-Head Attention"
+      ],
+      "author": [
+        {
+          "given": "Jianli",
+          "family": "Zhao",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "State Grid Shanghai Electric Power Company, Shanghai 200030, China"
+            },
+            {
+              "name": "Shanghai Key Laboratory of Smart Grid Demand Response, Shanghai 200030, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiani",
+          "family": "Xiang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Grid Shanghai Electric Power Company, Shanghai 200030, China"
+            },
+            {
+              "name": "Shanghai Key Laboratory of Smart Grid Demand Response, Shanghai 200030, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qing",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Grid Shanghai Electric Power Company, Shanghai 200030, China"
+            },
+            {
+              "name": "Shanghai Key Laboratory of Smart Grid Demand Response, Shanghai 200030, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Weijian",
+          "family": "Tao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, Shanghai Jiaotong University, Shanghai 200240, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6904-1458",
+          "authenticated-orcid": false,
+          "given": "Qian",
+          "family": "Ai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, Shanghai Jiaotong University, Shanghai 200240, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            9
+          ]
+        ]
+      },
+      "published-print": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            9
+          ]
+        ]
+      },
+      "container-title": [
+        "Electronics"
+      ],
+      "volume": "15",
+      "issue": "10",
+      "page": "2026",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.3390/electronics15102026",
+      "type": "journal-article",
+      "status": "retrieved"
+    }
+  ],
+  "manuscript_metadata_comparison": {
+    "source": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制\\论文_中文.md",
+    "references_compared": 10,
+    "all_fields_match": true,
+    "items": [
+      {
+        "reference_number": 1,
+        "doi": "10.1016/j.apenergy.2022.119530",
+        "manuscript_line": 135,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      },
+      {
+        "reference_number": 2,
+        "doi": "10.1016/j.ijepes.2022.108637",
+        "manuscript_line": 137,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      },
+      {
+        "reference_number": 3,
+        "doi": "10.1016/j.apenergy.2023.121743",
+        "manuscript_line": 139,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      },
+      {
+        "reference_number": 4,
+        "doi": "10.1016/j.ijepes.2023.109531",
+        "manuscript_line": 141,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      },
+      {
+        "reference_number": 5,
+        "doi": "10.1109/TSG.2023.3324474",
+        "manuscript_line": 143,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      },
+      {
+        "reference_number": 6,
+        "doi": "10.1109/TSG.2024.3423700",
+        "manuscript_line": 145,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      },
+      {
+        "reference_number": 7,
+        "doi": "10.1109/ACCESS.2024.3512993",
+        "manuscript_line": 147,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": "Formal pages from two author-affiliated institutional records supersede provisional Crossref page 1-1."
+      },
+      {
+        "reference_number": 8,
+        "doi": "10.1016/j.apenergy.2025.126409",
+        "manuscript_line": 149,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      },
+      {
+        "reference_number": 9,
+        "doi": "10.1016/j.renene.2025.124345",
+        "manuscript_line": 151,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": "Formal 2026 publisher issue date supersedes the 2025 DOI string fragment."
+      },
+      {
+        "reference_number": 10,
+        "doi": "10.3390/electronics15102026",
+        "manuscript_line": 153,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true,
+        "source_priority_note": null
+      }
+    ]
+  },
+  "public_update_check": {
+    "crossref_deposited_update_flags_present": [],
+    "interpretation": "No registered Crossref update-to, updated-by or relation link in this snapshot; this is not a full retraction search."
+  }
+}

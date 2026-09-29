@@ -1,0 +1,646 @@
+{
+  "generated_at": "2026-09-29T12:39:12+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373",
+  "rule_version_heading": "# 论文闭环验证规则 · VERIFICATION SPEC v2.0",
+  "target_configuration_card": {
+    "project_id": "7-0928",
+    "declared_goal_metadata": {
+      "authors_in_goal": "董工",
+      "category_in_goal": "EI会议-优质会议",
+      "title_in_goal": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "progress_in_goal": "已完成",
+      "goal_path": "D:\\wkplace\\auto\\src\\goal.md",
+      "goal_sha256": "29702ddc54c96a1a0be558c37285fe203367798fd2e1c3da9588d3d47a9605d1"
+    },
+    "venue_name": null,
+    "manuscript_type": null,
+    "official_guideline_url": null,
+    "template_url": null,
+    "guideline_checked_at": null,
+    "page_limit": null,
+    "word_or_character_limit": null,
+    "venue_count_scope": null,
+    "figure_table_requirement": null,
+    "reference_requirement": null,
+    "blind_review_requirement": null,
+    "language_requirement": null,
+    "declaration_requirement": null,
+    "revision_file_requirement": null,
+    "decision_letter_requirement": null,
+    "manual_review_required": "Null fields must be filled from the named venue and article type; goal metadata is a declaration, not venue verification."
+  },
+  "related_review_evidence": {
+    "target_configuration_file": {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测\\目标配置卡.md",
+      "sha256": "54be6610b4b20ac189e755c2776a645e7dfde13b5e1d96002d427ae8c9a381fd",
+      "bytes": 1936
+    },
+    "reference_verification_file": {
+      "path": "D:\\wkplace\\auto\\test\\script\\reports\\evidence\\2026-09-29_7-0928_V2_references.json",
+      "sha256": "b3571e8b509ffc2f567410617be8bb511cb40d44b9e010a0c872de83085a6cdb",
+      "bytes": 21622,
+      "selection_basis": "Latest modified matching project references JSON"
+    }
+  },
+  "files": {
+    "final_prompt.md": {
+      "sha256": "df1a45b070436442b1c8ebcceb3811f5ca3801b32c6643fd67779fa107992195",
+      "bytes": 19781
+    },
+    "框架.md": {
+      "sha256": "dd885575090762af62d990ef97f903961844e2edbd0b0c047522cbfd09f55492",
+      "bytes": 9237
+    },
+    "P3_自检.md": {
+      "sha256": "dd8ed2aab26963a5d0e6a5f44c6b48fab22d48ebeb99f5fcd923011e4e697108",
+      "bytes": 4717
+    },
+    "P4_审稿返修.md": {
+      "sha256": "855cfde5226aad958a3fe1d0c00022fee1d0f439bda26112cae9aebb8639eb3b",
+      "bytes": 2320
+    },
+    "目标配置卡.md": {
+      "sha256": "54be6610b4b20ac189e755c2776a645e7dfde13b5e1d96002d427ae8c9a381fd",
+      "bytes": 1936
+    },
+    "交付说明.md": {
+      "sha256": "0236aa428db44e83f960d89fd4bd9886bc1a97f97cc39b39e6ff26b4db6cf7ad",
+      "bytes": 3026
+    },
+    "文献核验.md": {
+      "sha256": "f01e04838d95b47e5843116318a1bf420bcee8dd169e81d0050355dcc95fdfba",
+      "bytes": 5162
+    },
+    "论文_中文.md": {
+      "sha256": "8e5785c28da946b6fc3edc958ea8720fec468c2bee126b09e8c1df4ffbb8e839",
+      "bytes": 16561
+    },
+    "论文_英文.md": {
+      "sha256": "9d4dba005f270a0d64af3d0f89704542eacfcd892ddf38d3cc43a565d153578c",
+      "bytes": 21086
+    },
+    "论文_中文.docx": {
+      "sha256": "4a5029de01e256ae2150daacdaf5103d60dc2f7ed157ddbd75a9d3cba86df216",
+      "bytes": 456183
+    },
+    "论文_英文.docx": {
+      "sha256": "9ee53a1d0b4c7dc063708af119b5425e39638e374dfcd1cb15b949a568efd04d",
+      "bytes": 456413
+    }
+  },
+  "markdown": {
+    "中文": {
+      "sha256": "8e5785c28da946b6fc3edc958ea8720fec468c2bee126b09e8c1df4ffbb8e839",
+      "bytes": 16561,
+      "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 148,
+      "counts": {
+        "unit": "Han characters",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 3379,
+        "body_net_count": 2709,
+        "body_start_line": 11,
+        "body_end_line_exclusive": 128,
+        "references_heading_line": 128,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    },
+    "英文": {
+      "sha256": "9d4dba005f270a0d64af3d0f89704542eacfcd892ddf38d3cc43a565d153578c",
+      "bytes": 21086,
+      "title": "Attention-Based Rotor-Angle Stability Prediction for a Synchronous Condenser in a Renewable Energy Plant",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 151,
+      "counts": {
+        "unit": "English lexical tokens",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 2851,
+        "body_net_count": 1908,
+        "body_start_line": 11,
+        "body_end_line_exclusive": 130,
+        "references_heading_line": 130,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    }
+  },
+  "docx": {
+    "中文": {
+      "sha256": "4a5029de01e256ae2150daacdaf5103d60dc2f7ed157ddbd75a9d3cba86df216",
+      "bytes": 456183,
+      "zip_crc_bad_member": null,
+      "omml_objects": 58,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    },
+    "英文": {
+      "sha256": "9ee53a1d0b4c7dc063708af119b5425e39638e374dfcd1cb15b949a568efd04d",
+      "bytes": 456413,
+      "zip_crc_bad_member": null,
+      "omml_objects": 56,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    }
+  },
+  "render_pdf": {
+    "中文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测\\排版核验\\论文_中文_20260929_105741\\论文_中文.pdf",
+      "filename": "论文_中文.pdf",
+      "candidate_count": 3,
+      "selection_basis": "Largest YYYYMMDD_HHMMSS stamp in matching render-folder name; file mtime breaks ties.",
+      "render_folder_stamp": 20260929105741,
+      "modified_at": "2026-09-29T10:57:46+08:00",
+      "sha256": "c547e0c606de54795c7e8f20b5d605066d9882283a66021ec929f6895d744805",
+      "bytes": 827173,
+      "docx_modified_at": "2026-09-29T10:57:41+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 6,
+      "page_count_tool": "pypdf.PdfReader"
+    },
+    "英文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测\\排版核验\\论文_英文_20260929_105749\\论文_英文.pdf",
+      "filename": "论文_英文.pdf",
+      "candidate_count": 2,
+      "selection_basis": "Largest YYYYMMDD_HHMMSS stamp in matching render-folder name; file mtime breaks ties.",
+      "render_folder_stamp": 20260929105749,
+      "modified_at": "2026-09-29T10:57:53+08:00",
+      "sha256": "46b010c83e5c3bd5a0b419e8fb57d9b79a26493b8cdacf2a2d0244ce8ff0706e",
+      "bytes": 658995,
+      "docx_modified_at": "2026-09-29T10:57:49+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 8,
+      "page_count_tool": "pypdf.PdfReader"
+    }
+  },
+  "figures": {
+    "图1": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "5f9a03729b81701d0a0d0e39cbfeccf70d9e4831a433054ac92c4156bb1b11a1",
+      "png_sha256": "33c20acd13b07cede5e38d27a2696ab8bfbf9e94d4fce01c700b0d997157a472"
+    },
+    "图2": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "acd1743c2ec4901dc9ba768bc0017f7a2fb77ad7fde26a69cf3a4e1224d3d8ed",
+      "png_sha256": "42a00c49e3e6af764dbbf79b24fa73e1e07ea01ddfc831a7d1228a2a919d0eac"
+    },
+    "图3": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "276740a19ef77be77f78ba91a6d058aebf2b420dc35784c650c608c4cff527a4",
+      "png_sha256": "7730304875b744df21786e2924ff1c4bb82e0b90aa730cc14b559fcb0e2e4250"
+    }
+  },
+  "asset_manifest": {
+    "figure_and_png_assets": {
+      "仿真/图/图1.fig": {
+        "sha256": "5f9a03729b81701d0a0d0e39cbfeccf70d9e4831a433054ac92c4156bb1b11a1",
+        "bytes": 11619,
+        "publication_figure": true
+      },
+      "仿真/图/图1.png": {
+        "sha256": "33c20acd13b07cede5e38d27a2696ab8bfbf9e94d4fce01c700b0d997157a472",
+        "bytes": 98548,
+        "publication_figure": true
+      },
+      "仿真/图/图2.fig": {
+        "sha256": "acd1743c2ec4901dc9ba768bc0017f7a2fb77ad7fde26a69cf3a4e1224d3d8ed",
+        "bytes": 12954,
+        "publication_figure": true
+      },
+      "仿真/图/图2.png": {
+        "sha256": "42a00c49e3e6af764dbbf79b24fa73e1e07ea01ddfc831a7d1228a2a919d0eac",
+        "bytes": 132529,
+        "publication_figure": true
+      },
+      "仿真/图/图3.fig": {
+        "sha256": "276740a19ef77be77f78ba91a6d058aebf2b420dc35784c650c608c4cff527a4",
+        "bytes": 86538,
+        "publication_figure": true
+      },
+      "仿真/图/图3.png": {
+        "sha256": "7730304875b744df21786e2924ff1c4bb82e0b90aa730cc14b559fcb0e2e4250",
+        "bytes": 270782,
+        "publication_figure": true
+      },
+      "排版核验/论文_中文_20260929_105048/page-1.png": {
+        "sha256": "eaf90adf44758debb33a7de4ed162c75f6e064cce2b4221759054eca03f3e58f",
+        "bytes": 701763,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105048/page-2.png": {
+        "sha256": "b2062c6c82daf71fd8a646eaf8332f4b8f34eb0efe628be50c9ece92d530b35c",
+        "bytes": 629748,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105048/page-3.png": {
+        "sha256": "f13acacb133e0f0b4d145ffb6cb60b4e356f0d0d3565720ccfdb633679e8359d",
+        "bytes": 303987,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105048/page-4.png": {
+        "sha256": "e4a0ac69ecab37491acc0b287a785befcb21c3a972d929244a5287382df21e5a",
+        "bytes": 460848,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105048/page-5.png": {
+        "sha256": "6452f064b3356f5395e0ae42bd48571960bc49533636394ee9b1cb6ab4725aa3",
+        "bytes": 469292,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105048/page-6.png": {
+        "sha256": "8a7c07fc3b46299d0e8075bc84c29cbcf5532d776cdb7e95cb2dedf0149d2fc3",
+        "bytes": 310133,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105741/page-1.png": {
+        "sha256": "cb1976c9df4fdae5dc7536560f0f9fd04f4802908e45f6036809600bd8b12e30",
+        "bytes": 701964,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105741/page-2.png": {
+        "sha256": "dc62b7b6a8e5f97b2eb66e54c3194e26e23625c6739ce77c19cb88cdf7429e2b",
+        "bytes": 635121,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105741/page-3.png": {
+        "sha256": "52c0b5828fb9913ea1b73abbb8ccddbf1251efd3bec04e079105300d2a0ca4f2",
+        "bytes": 308087,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105741/page-4.png": {
+        "sha256": "c75c6aad9779f8b51ba7159f2259c2c47c8b20988178188e8619c36f2ce04660",
+        "bytes": 486184,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105741/page-5.png": {
+        "sha256": "38326cee701b925a06470661cf777a1d72bc31374fb0b5cde459ec4e2fdac732",
+        "bytes": 488327,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260929_105741/page-6.png": {
+        "sha256": "481b06ec2f26852c872ed34f14164b94d9f4e61e17241c9ddb347b2deb74de6b",
+        "bytes": 311227,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-1.png": {
+        "sha256": "aed26e6885917c200ffc8c3f00657379f07cc16fcce0ebfd46a7bf0aa9c7fab8",
+        "bytes": 485872,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-2.png": {
+        "sha256": "70cd9d16081793f3076d1f09c945dccd3108e0a25c1d7e7b380e6be9b1546711",
+        "bytes": 445180,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-3.png": {
+        "sha256": "405bd391792a2e45e0a7e70ad34d019f4af69434c66412cbc2be9bfb4ff05e97",
+        "bytes": 359877,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-4.png": {
+        "sha256": "c5f334e371fbc9e26828335a475a382f300cb74ca2c5a1823ca049de0dbd00fd",
+        "bytes": 224773,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-5.png": {
+        "sha256": "bee784cf9fa1f250a3182facf9615d3486c88acf640c9e658a6c15a000d4fcbd",
+        "bytes": 277428,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-6.png": {
+        "sha256": "8a051151ff55ac9d072720453bd10a3220005c479084e98a2d52d7e9e86f992a",
+        "bytes": 150200,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-7.png": {
+        "sha256": "35dff7da300a9d33067b72cfe220b802c9892ffc0fd3cdffb88293b5f1c99754",
+        "bytes": 393300,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105104/page-8.png": {
+        "sha256": "0c54d5f89be451f767335dd8e4896abf8911e96b908314ea24d0b266207fe98d",
+        "bytes": 310099,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-1.png": {
+        "sha256": "aed26e6885917c200ffc8c3f00657379f07cc16fcce0ebfd46a7bf0aa9c7fab8",
+        "bytes": 485872,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-2.png": {
+        "sha256": "8b892cfb30734236935d31f95390f63f331c4d1ba3f608aa765fda4117b0afdf",
+        "bytes": 447076,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-3.png": {
+        "sha256": "df54cae1755a4d96d5901310fb2ba76464cb13cc3ea53e09527c0c6f504d92cc",
+        "bytes": 359704,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-4.png": {
+        "sha256": "17ceadb08a1760a55f99d376effdc45e1755f1a739eeb5f167f96798ef5c8001",
+        "bytes": 224740,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-5.png": {
+        "sha256": "9ccca483c5398c5e0f2bcff9ba6dd7808acf0e6417e1a8217986997b487b5f3a",
+        "bytes": 277383,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-6.png": {
+        "sha256": "8a051151ff55ac9d072720453bd10a3220005c479084e98a2d52d7e9e86f992a",
+        "bytes": 150200,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-7.png": {
+        "sha256": "9fdd8dd4027a806faa82aa57409ee0c17ea53a4badf2283acd2f3dfc7a63edc3",
+        "bytes": 403828,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260929_105749/page-8.png": {
+        "sha256": "e8e473c182513b50ddbca489391057ddbcc86ff4ce25c185768849c7bae36273",
+        "bytes": 343283,
+        "publication_figure": false
+      }
+    },
+    "simulation_data_source_and_packages": {
+      "仿真/capacity_margin_crosstab.csv": {
+        "sha256": "fa7d7194ccb5b42e4bf6a3c2f90c48334b27a7c1044eb98c3868125effcc03dc",
+        "bytes": 136
+      },
+      "仿真/case_census.csv": {
+        "sha256": "e7987308c8e2182f6a7270d4542f5a5109ee9ae3faf06ea0062e8fb3c71744b5",
+        "bytes": 119982
+      },
+      "仿真/env.txt": {
+        "sha256": "2d31f75bc56e2b09af8ed7b3b9049b9aa4fd8b586c27c9265eb956694dbebefc",
+        "bytes": 5253
+      },
+      "仿真/family_params.csv": {
+        "sha256": "cf33f5191e210258161ad4a0320946278f343ef2f134c94b65f7c104c90d4348",
+        "bytes": 161530
+      },
+      "仿真/functions/attention_forward.m": {
+        "sha256": "fc7b3eb2493afd8cacac9055c74b098dce9187cf04c2eedab29053c06ac6c7c2",
+        "bytes": 1000
+      },
+      "仿真/functions/check_physics.m": {
+        "sha256": "0bf8c56260f2908fbcb5523ab5ef9dd8811f706a81d999f14da52a8fe1f56b8f",
+        "bytes": 2833
+      },
+      "仿真/functions/energy_pcc.m": {
+        "sha256": "ce04c92c8187fc52227dea04db673a94e6c67e57b3501afead2265a23eef991f",
+        "bytes": 516
+      },
+      "仿真/functions/export_raw_csv.m": {
+        "sha256": "65388b4d3174756f652f8f7c4f19faad31d3811323b017f21aff6942294b7f53",
+        "bytes": 4090
+      },
+      "仿真/functions/gradient_check_attention.m": {
+        "sha256": "5cfda474feee424ee747ad4f7a4f094fd9f183f25111313b4d852efb92e870bd",
+        "bytes": 4470
+      },
+      "仿真/functions/make_families.m": {
+        "sha256": "436087780b89a7e1baffc34fd6ebea112cfc922fcd608fd77c78b7a50d086478",
+        "bytes": 3082
+      },
+      "仿真/functions/pcc_network.m": {
+        "sha256": "879667a7c28a4e8c6e1931132ddd880cb59e544ca99e3b90f345034c7dc4aa1c",
+        "bytes": 612
+      },
+      "仿真/functions/predict_attention_model.m": {
+        "sha256": "4706da311a6e014d881a06d0e3aebc9a06a8516b4cf4ba12e44767f473515805",
+        "bytes": 887
+      },
+      "仿真/functions/simulate_scenario.m": {
+        "sha256": "1ed5c4206ca6d4d2937f2a5725bd93a0e6c05827a499d7e05d1d968f87b39665",
+        "bytes": 6836
+      },
+      "仿真/functions/solve_pcc_equilibrium.m": {
+        "sha256": "4894b9cf9127053a43b637d1005ba1ad905060835890bd17c72dab1a88cc31a2",
+        "bytes": 2067
+      },
+      "仿真/functions/swing_rhs.m": {
+        "sha256": "6e1f98943da1a4eb7729b6afd176fee9a6a96f1876fd40b1335df206274d0fc2",
+        "bytes": 454
+      },
+      "仿真/functions/train_attention_models.m": {
+        "sha256": "afd7de34d91da6060b738942a313ce43b40c2273fb15fcce6cc45d5f2dddc6d0",
+        "bytes": 10314
+      },
+      "仿真/functions/train_baselines.m": {
+        "sha256": "62b729e7a62a2e14c434b9b020b07dcf09bbb4c7794c54663b739c5eb83ee8e1",
+        "bytes": 8882
+      },
+      "仿真/make_figures.m": {
+        "sha256": "9edfc9e8f1523cb8cdd8223b58cdd8e0f350f5b74b0a089f92a9fd71ead12cdb",
+        "bytes": 6758
+      },
+      "仿真/metrics.csv": {
+        "sha256": "0d45d9742077637928eb133f92296be02951dcd911e7f1a0056007773a271394",
+        "bytes": 4619
+      },
+      "仿真/observations.csv": {
+        "sha256": "ed2b3b6bb67ddad79b233b95fe30b510749d5f1ef98da5662108ba2eb237b0da",
+        "bytes": 11585766
+      },
+      "仿真/package_assets.m": {
+        "sha256": "304d28c0a904d77b2a5de4b4ee290bd62e806cae3f3f162035d74ee07b398025",
+        "bytes": 2017
+      },
+      "仿真/params.m": {
+        "sha256": "947233f19842991136f3615b2c090218162323018f44e7c5dfd20a3d243dc18a",
+        "bytes": 2627
+      },
+      "仿真/physics_qa.csv": {
+        "sha256": "dba9d2cab39cee2828c58b4c03ed8bb410c5c6338a7ea7880a1ad07faeb271a1",
+        "bytes": 80465
+      },
+      "仿真/pilot_cases.mat": {
+        "sha256": "eb30d962f27979a0dc2ee72dc375c81b706871a4de480ae95912135c95030d03",
+        "bytes": 6129383
+      },
+      "仿真/pilot_census.csv": {
+        "sha256": "123129f87f1528c7d3e261635fa1327e2e4ca74eefc4c9ef6c2660ab6d638ecc",
+        "bytes": 5249
+      },
+      "仿真/pilot_physics_qa.csv": {
+        "sha256": "ef027266f39766652138f48a8c045f79bff7c8da9fd3a5085140da59963afecf",
+        "bytes": 10409
+      },
+      "仿真/predictions.csv": {
+        "sha256": "47a23a9009f78c840113befccc886b35b9f52c3cd7740012f8ed7c10d5072c3b",
+        "bytes": 97997
+      },
+      "仿真/qa_pilot.m": {
+        "sha256": "1a23306ac629fbcc652b215b27fd8e1089c587231307880c6f4e623a9ee4b066",
+        "bytes": 959
+      },
+      "仿真/raw_results.csv": {
+        "sha256": "e7987308c8e2182f6a7270d4542f5a5109ee9ae3faf06ea0062e8fb3c71744b5",
+        "bytes": 119982
+      },
+      "仿真/raw_results.mat": {
+        "sha256": "9be06560311e65806081d5c3e4a32fa34cac6f46405b3b1a3dcaaee3d1494950",
+        "bytes": 58523852
+      },
+      "仿真/run_experiment.m": {
+        "sha256": "43df9f37338e351fb416531945f8be043502c506ea24e23dc9aa7c53119817a9",
+        "bytes": 292
+      },
+      "仿真/run_full.m": {
+        "sha256": "ad030d1dcb490708f1e698df1ef61ee93840dcc51ad88ad055a88740889e550f",
+        "bytes": 1480
+      },
+      "仿真/run_pilot.m": {
+        "sha256": "f321ae7e0255be5de73ad962914ab485539425f07b8531df8bafa8c298139706",
+        "bytes": 2084
+      },
+      "仿真/simulation_cases.mat": {
+        "sha256": "9be06560311e65806081d5c3e4a32fa34cac6f46405b3b1a3dcaaee3d1494950",
+        "bytes": 58523852
+      },
+      "仿真/train_full.m": {
+        "sha256": "1fa7cdba035d24730887fd30334f2a690ecd35a199024ffc0fe7c0357530d440",
+        "bytes": 4138
+      },
+      "仿真/training_results.mat": {
+        "sha256": "09c1ce614e3a53818cd37a67d5d6e5e647130d618e856bfb4945c255a4de060e",
+        "bytes": 516651
+      },
+      "仿真/trajectory_points.csv": {
+        "sha256": "a26ed36289f967534e19d57c09b8e544f410dbe12f7da0c6e5edd74fdf87ec81",
+        "bytes": 114130905
+      },
+      "仿真/仿真打包.zip": {
+        "sha256": "76236ebef00f563e78389ab04cebeefeef2b9b690b8e6917f71c2197133cfb29",
+        "bytes": 143426094
+      },
+      "仿真/仿真打包.zip.sha256": {
+        "sha256": "1f31e459812897c62e5d3a0186c3e7194979f35c8fd4ffc4fa2b84642cfb741b",
+        "bytes": 84
+      }
+    },
+    "figure_and_png_count": 34,
+    "simulation_file_count": 39
+  },
+  "simulation_package": {
+    "sha256": "76236ebef00f563e78389ab04cebeefeef2b9b690b8e6917f71c2197133cfb29",
+    "bytes": 143426094,
+    "members": 46,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar_path": "gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测\\仿真\\仿真打包.zip.sha256",
+    "sha256_sidecar": "76236ebef00f563e78389ab04cebeefeef2b9b690b8e6917f71c2197133cfb29",
+    "sha256_matches_sidecar": true
+  },
+  "raw_files": {
+    "raw_results.csv": {
+      "sha256": "e7987308c8e2182f6a7270d4542f5a5109ee9ae3faf06ea0062e8fb3c71744b5",
+      "bytes": 119982
+    },
+    "raw_results.mat": {
+      "sha256": "9be06560311e65806081d5c3e4a32fa34cac6f46405b3b1a3dcaaee3d1494950",
+      "bytes": 58523852
+    },
+    "case_census.csv": {
+      "sha256": "e7987308c8e2182f6a7270d4542f5a5109ee9ae3faf06ea0062e8fb3c71744b5",
+      "bytes": 119982
+    },
+    "simulation_cases.mat": {
+      "sha256": "9be06560311e65806081d5c3e4a32fa34cac6f46405b3b1a3dcaaee3d1494950",
+      "bytes": 58523852
+    }
+  }
+}

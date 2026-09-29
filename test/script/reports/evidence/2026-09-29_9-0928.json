@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-09-29T09:49:42+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "596dcfaae69640df478ac0d24f473f2c2976bca144f3d6803fd7bda0e792a728",
+  "files": {
+    "final_prompt.md": {
+      "sha256": "1669d3fbc67c1493b830951512cdf1ad3713cd38105aa80d85f90d77c2f5222a",
+      "bytes": 16321
+    },
+    "框架.md": {
+      "sha256": "57f3f02421c3ad2d51ae8dcb72d0f1781ff1e8dd3b29c49a7d1d8cdfb7b755c0",
+      "bytes": 16934
+    },
+    "P3_自检.md": {
+      "sha256": "9c2d54a392930196e885aa14ee70492c572d0e0a0aa20c2d42ff66ea012f4b2b",
+      "bytes": 6722
+    },
+    "P4_审稿返修.md": {
+      "sha256": "cfce593596cb0a0ebd0c8e1375ca4e19f8798f017430997d56914635ec691da5",
+      "bytes": 5159
+    },
+    "交付说明.md": {
+      "sha256": "6917b1a81dc63986cbcf2b4758bc481c4bb6855954aeaeae56bcab1aba949022",
+      "bytes": 5209
+    },
+    "文献核验.md": {
+      "sha256": "02b350fcf64b0a37bf16c0cf9c450e84edb17dafb881ca36ad2a34741461d1eb",
+      "bytes": 8887
+    },
+    "论文_中文.md": {
+      "sha256": "c41292c7f7ed358ede41267fc4cfc5ce9e32af157ef828b48f9d826ce4aa80f9",
+      "bytes": 20657
+    },
+    "论文_英文.md": {
+      "sha256": "d5d5fcb8873fba2e1fd62cee822e66b1aecf2de871b7507d0d77529100c31f70",
+      "bytes": 24962
+    },
+    "论文_中文.docx": {
+      "sha256": "d0fc1f1c575f473a7ae91fa47a92988a8dc2cd2de7a6f8daafcf039f69eec2f5",
+      "bytes": 437390
+    },
+    "论文_英文.docx": {
+      "sha256": "6e11a6f5cd8b263b91087a9b34dd7e05213aa3b38aa64dbb695404812316c7d3",
+      "bytes": 437424
+    }
+  },
+  "markdown": {
+    "中文": {
+      "sha256": "c41292c7f7ed358ede41267fc4cfc5ce9e32af157ef828b48f9d826ce4aa80f9",
+      "bytes": 20657,
+      "title": "基于多头注意力图神经网络的大规模配电网动态优化控制",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 153
+    },
+    "英文": {
+      "sha256": "d5d5fcb8873fba2e1fd62cee822e66b1aecf2de871b7507d0d77529100c31f70",
+      "bytes": 24962,
+      "title": "Dynamic Optimal Control of Large-Scale Distribution Networks Using Multi-Head Attention Graph Neural Networks",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 153
+    }
+  },
+  "docx": {
+    "中文": {
+      "sha256": "d0fc1f1c575f473a7ae91fa47a92988a8dc2cd2de7a6f8daafcf039f69eec2f5",
+      "bytes": 437390,
+      "zip_crc_bad_member": null,
+      "omml_objects": 99,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    },
+    "英文": {
+      "sha256": "6e11a6f5cd8b263b91087a9b34dd7e05213aa3b38aa64dbb695404812316c7d3",
+      "bytes": 437424,
+      "zip_crc_bad_member": null,
+      "omml_objects": 99,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    }
+  },
+  "figures": {
+    "图1": {
+      "fig": true,
+      "png": true
+    },
+    "图2": {
+      "fig": true,
+      "png": true
+    },
+    "图3": {
+      "fig": true,
+      "png": true
+    }
+  },
+  "simulation_package": {
+    "sha256": "27426f7f6014f951635e042d813431ecee8cdc42d53b1dc9a750410407510dae",
+    "bytes": 49716181,
+    "members": 55,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar_path": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制\\仿真\\仿真打包.sha256",
+    "sha256_sidecar": "27426f7f6014f951635e042d813431ecee8cdc42d53b1dc9a750410407510dae",
+    "sha256_matches_sidecar": true
+  },
+  "raw_files": {
+    "raw_results.csv": {
+      "sha256": "b7e0b84844bee6b597931d278236969858096bd56cdbe7a317b6ba2f10cdf42f",
+      "bytes": 508795
+    },
+    "raw_results.mat": {
+      "sha256": "e760913b7b2d8ba45773dc6fc0825a393d11c2f1eb951fea223dbbfaabf23300",
+      "bytes": 30631367
+    }
+  }
+}

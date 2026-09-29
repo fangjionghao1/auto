@@ -1,0 +1,813 @@
+{
+  "checked_at": "2026-09-29T10:19:32.521062+08:00",
+  "scope": "Crossref DOI metadata and deposited update-to/updated-by/relation fields only; absence is not proof of absence of a retraction.",
+  "project": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+  "references": [
+    {
+      "doi": "10.1109/TPWRS.2023.3271025",
+      "source": "https://api.crossref.org/works/10.1109%2FTPWRS.2023.3271025",
+      "title": [
+        "Transient Stability of Synchronous Condenser Co-Located With Renewable Power Plants"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5262-7647",
+          "authenticated-orcid": false,
+          "given": "Xinyu",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5327-1371",
+          "authenticated-orcid": false,
+          "given": "Huanhai",
+          "family": "Xin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9654-5181",
+          "authenticated-orcid": false,
+          "given": "Di",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical and Electrical Engineering, China Jiliang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8161-2794",
+          "authenticated-orcid": false,
+          "given": "Dong",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National HVDC Centre, Cumbernauld, U.K."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jingzhe",
+          "family": "Tu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "China Electric Power Research Institute, Beijing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Power Systems"
+      ],
+      "volume": "39",
+      "issue": "1",
+      "page": "2030-2041",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tpwrs.2023.3271025",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/TSTE.2024.3429210",
+      "source": "https://api.crossref.org/works/10.1109%2FTSTE.2024.3429210",
+      "title": [
+        "Transient Stability of Synchronous Condenser Co-Located With Renewable Power Plants Under High-Resistance Faults and Risk Mitigation"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5262-7647",
+          "authenticated-orcid": false,
+          "given": "Xinyu",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5327-1371",
+          "authenticated-orcid": false,
+          "given": "Huanhai",
+          "family": "Xin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yongpeng",
+          "family": "Shan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9654-5181",
+          "authenticated-orcid": false,
+          "given": "Di",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Mechanical and Electrical Engineering, China Jiliang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8161-2794",
+          "authenticated-orcid": false,
+          "given": "Dong",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National HVDC Centre, Cumbernauld, U.K."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Sustainable Energy"
+      ],
+      "volume": "15",
+      "issue": "4",
+      "page": "2581-2593",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tste.2024.3429210",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.19595/j.cnki.1000-6753.tces.241690",
+      "source": "https://api.crossref.org/works/10.19595%2Fj.cnki.1000-6753.tces.241690",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "doi": "10.19595/j.cnki.1000-6753.tces.232014",
+      "source": "https://api.crossref.org/works/10.19595%2Fj.cnki.1000-6753.tces.232014",
+      "status": "unavailable",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "doi": "10.1109/TPWRS.2020.3033468",
+      "source": "https://api.crossref.org/works/10.1109%2FTPWRS.2020.3033468",
+      "title": [
+        "Transient Stability of Power Systems Integrated With Inverter-Based Generation"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3755-7553",
+          "authenticated-orcid": false,
+          "given": "Xiuqiang",
+          "family": "He",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8336-6731",
+          "authenticated-orcid": false,
+          "given": "Hua",
+          "family": "Geng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Power Systems"
+      ],
+      "volume": "36",
+      "issue": "1",
+      "page": "553-556",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tpwrs.2020.3033468",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.ijepes.2023.109020",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.ijepes.2023.109020",
+      "title": [
+        "A data-driven method for online transient stability monitoring with vision-transformer networks"
+      ],
+      "author": [
+        {
+          "given": "Jiashu",
+          "family": "Fang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chongru",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7547-3094",
+          "authenticated-orcid": false,
+          "given": "Le",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chenbo",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "International Journal of Electrical Power &amp; Energy Systems"
+      ],
+      "volume": "149",
+      "issue": null,
+      "page": "109020",
+      "article-number": "109020",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.ijepes.2023.109020",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.epsr.2025.111973",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.epsr.2025.111973",
+      "title": [
+        "Transient stability assessment based on attention mechanism guided by dominant pattern"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-4010-2541",
+          "authenticated-orcid": false,
+          "given": "Jie",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jing",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Electric Power Systems Research"
+      ],
+      "volume": "248",
+      "issue": null,
+      "page": "111973",
+      "article-number": "111973",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.epsr.2025.111973",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.seta.2025.104432",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.seta.2025.104432",
+      "title": [
+        "Ultra-short sequence-augmented power system transient stability assessment using transformer-based deep learning"
+      ],
+      "author": [
+        {
+          "given": "Hailiang",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dexin",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenjie",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5327-6658",
+          "authenticated-orcid": false,
+          "given": "Weike",
+          "family": "Mo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Sustainable Energy Technologies and Assessments"
+      ],
+      "volume": "81",
+      "issue": null,
+      "page": "104432",
+      "article-number": "104432",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.seta.2025.104432",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.gloei.2024.09.001",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.gloei.2024.09.001",
+      "title": [
+        "A transient stability assessment method for power systems incorporating residual networks and BiGRU-attention"
+      ],
+      "author": [
+        {
+          "given": "Shan",
+          "family": "Cheng",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qiping",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haidong",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zihao",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tao",
+          "family": "Ran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Global Energy Interconnection"
+      ],
+      "volume": "8",
+      "issue": "1",
+      "page": "143-159",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.gloei.2024.09.001",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.3390/electronics14142780",
+      "source": "https://api.crossref.org/works/10.3390%2Felectronics14142780",
+      "title": [
+        "Transient Stability Assessment of Power Systems Based on Temporal Feature Selection and LSTM-Transformer Variational Fusion"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-8835-624X",
+          "authenticated-orcid": false,
+          "given": "Zirui",
+          "family": "Huang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Electric Power Engineering, South China University of Technology, Guangzhou 510641, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhaobin",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electric Power Engineering, South China University of Technology, Guangzhou 510641, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiawei",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electric Power Engineering, South China University of Technology, Guangzhou 510641, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guoduan",
+          "family": "Zhong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electric Power Engineering, South China University of Technology, Guangzhou 510641, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            10
+          ]
+        ]
+      },
+      "published-print": null,
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "Electronics"
+      ],
+      "volume": "14",
+      "issue": "14",
+      "page": "2780",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.3390/electronics14142780",
+      "type": "journal-article",
+      "status": "retrieved"
+    }
+  ]
+}

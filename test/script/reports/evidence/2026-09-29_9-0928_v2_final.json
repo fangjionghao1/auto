@@ -1,0 +1,749 @@
+{
+  "generated_at": "2026-09-29T11:13:15+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "8b0dd76b9db2f19e56898f053455e11a33b8824beb2da8aee933b062d0f445b1",
+  "rule_version_heading": "# 论文闭环验证规则 · VERIFICATION SPEC v2.0",
+  "target_configuration_card": {
+    "project_id": "9-0928",
+    "declared_goal_metadata": {
+      "authors_in_goal": "李辰，周爱华，彭林，乔俊峰，钱仲豪",
+      "category_in_goal": "EI会议",
+      "title_in_goal": "基于多头注意力图神经网络的大规模配电网动态优化控制",
+      "progress_in_goal": "待签署",
+      "goal_path": "D:\\wkplace\\auto\\src\\goal.md",
+      "goal_sha256": "32475bfda7737cfceee0275a26a1ca1a4261ddf1fbd232c86e17c013b6269ba7"
+    },
+    "venue_name": null,
+    "manuscript_type": null,
+    "official_guideline_url": null,
+    "template_url": null,
+    "guideline_checked_at": null,
+    "page_limit": null,
+    "word_or_character_limit": null,
+    "venue_count_scope": null,
+    "figure_table_requirement": null,
+    "reference_requirement": null,
+    "blind_review_requirement": null,
+    "language_requirement": null,
+    "declaration_requirement": null,
+    "revision_file_requirement": null,
+    "decision_letter_requirement": null,
+    "manual_review_required": "Null fields must be filled from the named venue and article type; goal metadata is a declaration, not venue verification."
+  },
+  "related_review_evidence": {
+    "target_configuration_file": {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制\\目标配置卡.md",
+      "sha256": "045af1f8bd799931899267cc7b6b3e08857877cd1773480b680b47c14f0a6890",
+      "bytes": 1870
+    },
+    "reference_verification_file": {
+      "path": "D:\\wkplace\\auto\\test\\script\\reports\\evidence\\2026-09-29_9-0928_references.json",
+      "sha256": "6c888573f4b436d465ecb436323107fcf7d8678f785750170c15de9e0cf1f4ff",
+      "bytes": 36145,
+      "selection_basis": "Latest modified matching project references JSON"
+    }
+  },
+  "files": {
+    "final_prompt.md": {
+      "sha256": "1669d3fbc67c1493b830951512cdf1ad3713cd38105aa80d85f90d77c2f5222a",
+      "bytes": 16321
+    },
+    "框架.md": {
+      "sha256": "57f3f02421c3ad2d51ae8dcb72d0f1781ff1e8dd3b29c49a7d1d8cdfb7b755c0",
+      "bytes": 16934
+    },
+    "P3_自检.md": {
+      "sha256": "1ac0c5526f624d05a6b2e9bffe91e2c394cc858c8753758047f954af044069bc",
+      "bytes": 6748
+    },
+    "P4_审稿返修.md": {
+      "sha256": "a2d6a6ccfc2043f03b2a141d40f78f257009dcb04cdb669a37a26d2a4241f7a5",
+      "bytes": 5230
+    },
+    "目标配置卡.md": {
+      "sha256": "045af1f8bd799931899267cc7b6b3e08857877cd1773480b680b47c14f0a6890",
+      "bytes": 1870
+    },
+    "交付说明.md": {
+      "sha256": "ecaade0a5a0a48cc161ae234847ce87b4ee3da5fd247ec821bf05653ea73314b",
+      "bytes": 5460
+    },
+    "文献核验.md": {
+      "sha256": "02b350fcf64b0a37bf16c0cf9c450e84edb17dafb881ca36ad2a34741461d1eb",
+      "bytes": 8887
+    },
+    "论文_中文.md": {
+      "sha256": "c41292c7f7ed358ede41267fc4cfc5ce9e32af157ef828b48f9d826ce4aa80f9",
+      "bytes": 20657
+    },
+    "论文_英文.md": {
+      "sha256": "d5d5fcb8873fba2e1fd62cee822e66b1aecf2de871b7507d0d77529100c31f70",
+      "bytes": 24962
+    },
+    "论文_中文.docx": {
+      "sha256": "d0fc1f1c575f473a7ae91fa47a92988a8dc2cd2de7a6f8daafcf039f69eec2f5",
+      "bytes": 437390
+    },
+    "论文_英文.docx": {
+      "sha256": "6e11a6f5cd8b263b91087a9b34dd7e05213aa3b38aa64dbb695404812316c7d3",
+      "bytes": 437424
+    }
+  },
+  "markdown": {
+    "中文": {
+      "sha256": "c41292c7f7ed358ede41267fc4cfc5ce9e32af157ef828b48f9d826ce4aa80f9",
+      "bytes": 20657,
+      "title": "基于多头注意力图神经网络的大规模配电网动态优化控制",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 153,
+      "counts": {
+        "unit": "Han characters",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 3669,
+        "body_net_count": 2464,
+        "body_start_line": 13,
+        "body_end_line_exclusive": 133,
+        "references_heading_line": 133,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    },
+    "英文": {
+      "sha256": "d5d5fcb8873fba2e1fd62cee822e66b1aecf2de871b7507d0d77529100c31f70",
+      "bytes": 24962,
+      "title": "Dynamic Optimal Control of Large-Scale Distribution Networks Using Multi-Head Attention Graph Neural Networks",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 153,
+      "counts": {
+        "unit": "English lexical tokens",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 3086,
+        "body_net_count": 2124,
+        "body_start_line": 13,
+        "body_end_line_exclusive": 133,
+        "references_heading_line": 133,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    }
+  },
+  "docx": {
+    "中文": {
+      "sha256": "d0fc1f1c575f473a7ae91fa47a92988a8dc2cd2de7a6f8daafcf039f69eec2f5",
+      "bytes": 437390,
+      "zip_crc_bad_member": null,
+      "omml_objects": 99,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    },
+    "英文": {
+      "sha256": "6e11a6f5cd8b263b91087a9b34dd7e05213aa3b38aa64dbb695404812316c7d3",
+      "bytes": 437424,
+      "zip_crc_bad_member": null,
+      "omml_objects": 99,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    }
+  },
+  "render_pdf": {
+    "中文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制\\排版核验\\论文_中文_20260928_211207\\论文_中文.pdf",
+      "filename": "论文_中文.pdf",
+      "candidate_count": 2,
+      "selection_basis": "Largest YYYYMMDD_HHMMSS stamp in matching render-folder name; file mtime breaks ties.",
+      "render_folder_stamp": 20260928211207,
+      "modified_at": "2026-09-28T21:12:13+08:00",
+      "sha256": "6857c95395c525d6b47f3807ac8447438cd1305aae4ff50382df3c62d74275af",
+      "bytes": 882743,
+      "docx_modified_at": "2026-09-28T21:12:07+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 8,
+      "page_count_tool": "pypdf.PdfReader"
+    },
+    "英文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制\\排版核验\\论文_英文_20260928_211700\\论文_英文.pdf",
+      "filename": "论文_英文.pdf",
+      "candidate_count": 3,
+      "selection_basis": "Largest YYYYMMDD_HHMMSS stamp in matching render-folder name; file mtime breaks ties.",
+      "render_folder_stamp": 20260928211700,
+      "modified_at": "2026-09-28T21:17:04+08:00",
+      "sha256": "883be68b094478174af316088438d26dfed86c3a961974bb9e7907c3e413e55b",
+      "bytes": 715729,
+      "docx_modified_at": "2026-09-28T21:17:00+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 9,
+      "page_count_tool": "pypdf.PdfReader"
+    }
+  },
+  "figures": {
+    "图1": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "392ed181e4fa496b4d82cb531806c2cc15877f1f71bfa14dae794ab90bd5caa5",
+      "png_sha256": "0ac1d9e59e726dfbc01f726a175a096626b160b75ac168f95bfd95f0f4f1ab06"
+    },
+    "图2": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "8772b48585f207ac75d4b49640a9650eaec313bcb72b349bd5f0a7d90b51059a",
+      "png_sha256": "9da6b5a33b4d6e450c258b5bb982eb1284279d438215798109e89cd63b4953bb"
+    },
+    "图3": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "4ab25ac54985380e1fdb20ad43f39568a3fd23515cafe88a047e3862fcc6b5ba",
+      "png_sha256": "5840e415fb0b34e57527e908ea9bfe7d34f1978dff9034519b20ee74a5b9bcc0"
+    }
+  },
+  "asset_manifest": {
+    "figure_and_png_assets": {
+      "仿真/图/图1.fig": {
+        "sha256": "392ed181e4fa496b4d82cb531806c2cc15877f1f71bfa14dae794ab90bd5caa5",
+        "bytes": 24337,
+        "publication_figure": true
+      },
+      "仿真/图/图1.png": {
+        "sha256": "0ac1d9e59e726dfbc01f726a175a096626b160b75ac168f95bfd95f0f4f1ab06",
+        "bytes": 160506,
+        "publication_figure": true
+      },
+      "仿真/图/图2.fig": {
+        "sha256": "8772b48585f207ac75d4b49640a9650eaec313bcb72b349bd5f0a7d90b51059a",
+        "bytes": 21818,
+        "publication_figure": true
+      },
+      "仿真/图/图2.png": {
+        "sha256": "9da6b5a33b4d6e450c258b5bb982eb1284279d438215798109e89cd63b4953bb",
+        "bytes": 144459,
+        "publication_figure": true
+      },
+      "仿真/图/图3.fig": {
+        "sha256": "4ab25ac54985380e1fdb20ad43f39568a3fd23515cafe88a047e3862fcc6b5ba",
+        "bytes": 23402,
+        "publication_figure": true
+      },
+      "仿真/图/图3.png": {
+        "sha256": "5840e415fb0b34e57527e908ea9bfe7d34f1978dff9034519b20ee74a5b9bcc0",
+        "bytes": 182824,
+        "publication_figure": true
+      },
+      "排版核验/论文_中文_20260928_210523/page-1.png": {
+        "sha256": "fa1e6b6bf785b7f3d3c1d0beed9d937e739ff0bdbaf2d08bc0c405dd10091f37",
+        "bytes": 748946,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_210523/page-2.png": {
+        "sha256": "87fa70dd999f6ea1405d6e2e4ac996e2e941ac349bf192971d4a6ef74640fccc",
+        "bytes": 504360,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_210523/page-3.png": {
+        "sha256": "017f3fc12da348a14971ab04ed131e46bf16073f4e84cd82dbde8355d4da029f",
+        "bytes": 607810,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_210523/page-4.png": {
+        "sha256": "a88531d283a9946482b97e9fd74f3e6d301277c3320069929b56d734a058c0e6",
+        "bytes": 189588,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_210523/page-5.png": {
+        "sha256": "4f4bbebeea6f8e6c18cb81e2820a5e7094c93eb31ca3d93cd7375f8b496f54de",
+        "bytes": 151491,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_210523/page-6.png": {
+        "sha256": "d207981f5fe97f578c4174d21930d7965453c6438c90da458539f46e781845c4",
+        "bytes": 226040,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_210523/page-7.png": {
+        "sha256": "f3c4b71305c83cd03c03674a0c9b6020ea396a4212d3021adce2dfd3634fc8d5",
+        "bytes": 422681,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_210523/page-8.png": {
+        "sha256": "8873a13cdcc0b6ac023d09554bd33d53b505a79785a5d84b57b17a1fe425727b",
+        "bytes": 307754,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-1.png": {
+        "sha256": "fa1e6b6bf785b7f3d3c1d0beed9d937e739ff0bdbaf2d08bc0c405dd10091f37",
+        "bytes": 748946,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-2.png": {
+        "sha256": "87fa70dd999f6ea1405d6e2e4ac996e2e941ac349bf192971d4a6ef74640fccc",
+        "bytes": 504360,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-3.png": {
+        "sha256": "9759207d2fb44ec7208088a7624e1b165199edf7adf61f5dbd1a948c230d272a",
+        "bytes": 604845,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-4.png": {
+        "sha256": "a7a030b0517ab097e768f756e5cf48150a1a315f860361a23c59568f40580a14",
+        "bytes": 189271,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-5.png": {
+        "sha256": "4f4bbebeea6f8e6c18cb81e2820a5e7094c93eb31ca3d93cd7375f8b496f54de",
+        "bytes": 151491,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-6.png": {
+        "sha256": "d207981f5fe97f578c4174d21930d7965453c6438c90da458539f46e781845c4",
+        "bytes": 226040,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-7.png": {
+        "sha256": "018f866bfb997a978921edfb00460151e7be740d2b9c86833b0b99fbfcc0418f",
+        "bytes": 436360,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_211207/page-8.png": {
+        "sha256": "a1cd76f136bae499f8b36db22100dcb16e12ac99de7bb5e34708b4730d8324de",
+        "bytes": 307917,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-1.png": {
+        "sha256": "c7c6bdbabda4842d0f785f976235810424adea38563b661fc39c0ca6ecd7b688",
+        "bytes": 472265,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-2.png": {
+        "sha256": "cdba96475a85e02d5e0f707fe5880ab09bd8bc8395d4efb6f695467bc27243c4",
+        "bytes": 450999,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-3.png": {
+        "sha256": "d6f5395cb3696ba8cfe705bd9e54f7c81a73a07129f251b5b1906294f1b6e51e",
+        "bytes": 408533,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-4.png": {
+        "sha256": "70cb7b762f71c050dc98ece27034df71948b2cb677bef9cd7e9c18de07a62852",
+        "bytes": 360018,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-5.png": {
+        "sha256": "7fab30797a9e278c8be30511f5dff4a7bb21edb722f437cd69d107a65bf7629b",
+        "bytes": 195500,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-6.png": {
+        "sha256": "d1ab8993bb3f85cd60baf67ef5180a416a2ae05713b76c2e43fcd0cf30744b88",
+        "bytes": 152025,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-7.png": {
+        "sha256": "111e537d49d5d31625abf360adfb3d92a7a330661343658189672f3c6d99f505",
+        "bytes": 215985,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-8.png": {
+        "sha256": "c767316a9dec29e516620ab746ce489488151f447adad3047cfd292142d7257e",
+        "bytes": 370575,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_210716/page-9.png": {
+        "sha256": "2e121a62117e05e7f3adad5b40f5273fd1e468a464303cc7269355e05f0724dc",
+        "bytes": 345042,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-1.png": {
+        "sha256": "c7c6bdbabda4842d0f785f976235810424adea38563b661fc39c0ca6ecd7b688",
+        "bytes": 472265,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-2.png": {
+        "sha256": "cdba96475a85e02d5e0f707fe5880ab09bd8bc8395d4efb6f695467bc27243c4",
+        "bytes": 450999,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-3.png": {
+        "sha256": "966495ec71cbcdde4892f5c5e407eb94bf7b2f435be05744bfb7589bf97fcae0",
+        "bytes": 408059,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-4.png": {
+        "sha256": "50ea12c19231fc7c04f74ad97859b55a7956612d1c4cdeace409ca8568434f38",
+        "bytes": 357554,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-5.png": {
+        "sha256": "5fb0f564898ed50ee8cb612d268a6378a03110d6b68fc011056425860d752d3a",
+        "bytes": 195925,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-6.png": {
+        "sha256": "d1ab8993bb3f85cd60baf67ef5180a416a2ae05713b76c2e43fcd0cf30744b88",
+        "bytes": 152025,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-7.png": {
+        "sha256": "111e537d49d5d31625abf360adfb3d92a7a330661343658189672f3c6d99f505",
+        "bytes": 215985,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-8.png": {
+        "sha256": "391e889f33223a393406b94f51230dbde35f186337c3fff5fe85e3e3c3d6c167",
+        "bytes": 378279,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211222/page-9.png": {
+        "sha256": "98b9fe620841ca34f73acdabad4372cf2b1e0edcdc0fb6d1e36678977ab393f9",
+        "bytes": 345407,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-1.png": {
+        "sha256": "c7c6bdbabda4842d0f785f976235810424adea38563b661fc39c0ca6ecd7b688",
+        "bytes": 472265,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-2.png": {
+        "sha256": "cdba96475a85e02d5e0f707fe5880ab09bd8bc8395d4efb6f695467bc27243c4",
+        "bytes": 450999,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-3.png": {
+        "sha256": "966495ec71cbcdde4892f5c5e407eb94bf7b2f435be05744bfb7589bf97fcae0",
+        "bytes": 408059,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-4.png": {
+        "sha256": "35e4df6cb12ac4d7e68e87abe06b55d115fd4d6d5d5fb825273b54beb34b7f5c",
+        "bytes": 358227,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-5.png": {
+        "sha256": "5fb0f564898ed50ee8cb612d268a6378a03110d6b68fc011056425860d752d3a",
+        "bytes": 195925,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-6.png": {
+        "sha256": "d1ab8993bb3f85cd60baf67ef5180a416a2ae05713b76c2e43fcd0cf30744b88",
+        "bytes": 152025,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-7.png": {
+        "sha256": "111e537d49d5d31625abf360adfb3d92a7a330661343658189672f3c6d99f505",
+        "bytes": 215985,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-8.png": {
+        "sha256": "391e889f33223a393406b94f51230dbde35f186337c3fff5fe85e3e3c3d6c167",
+        "bytes": 378279,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_211700/page-9.png": {
+        "sha256": "98b9fe620841ca34f73acdabad4372cf2b1e0edcdc0fb6d1e36678977ab393f9",
+        "bytes": 345407,
+        "publication_figure": false
+      }
+    },
+    "simulation_data_source_and_packages": {
+      "仿真/asset_manifest.csv": {
+        "sha256": "22462b982a59d3e40d39e142ff6c4b551ceab8a42734d4303507afcc82de3be0",
+        "bytes": 5272
+      },
+      "仿真/day_metrics.csv": {
+        "sha256": "955c9d02bd6421babb467fcc58db874f5a9a3f2881945466de46c02463c08d74",
+        "bytes": 14823
+      },
+      "仿真/env.txt": {
+        "sha256": "e7cc919021981cc09f1a56c7cf12547424a34039f64dbcc2d6571982e435994a",
+        "bytes": 1270
+      },
+      "仿真/evaluate_all.m": {
+        "sha256": "3975b2c4c5a16b2769d1389955bb3a316b973213bed4f2a0b5fa3a6567ca93de",
+        "bytes": 3161
+      },
+      "仿真/finalize_results.m": {
+        "sha256": "06969f2b198d04a03b34a8dd1d635f849d038b3a3cd8b063b1b423e9a3269d93",
+        "bytes": 12030
+      },
+      "仿真/functions/ac_flow.m": {
+        "sha256": "3f456bf98aed5b40f6e3fecbc43a4597c08078ad215c76ffe36993cc991ef6c6",
+        "bytes": 2184
+      },
+      "仿真/functions/control_bounds.m": {
+        "sha256": "be7f8a2bb57e0000d7b629263271b0ad53f92618213bc449b65a09f8d19e63ae",
+        "bytes": 430
+      },
+      "仿真/functions/control_features.m": {
+        "sha256": "e7e3a8bc19061528217527d7f39a11e8ac209ab33d2e58562af6b14228879576",
+        "bytes": 906
+      },
+      "仿真/functions/make_days.m": {
+        "sha256": "a90765a4c746ec36e8e56db245ce99dfb0462cb35e50ab43dc940cb7d63e7e9b",
+        "bytes": 1947
+      },
+      "仿真/functions/make_figures.m": {
+        "sha256": "1434320a4320d238e98b8b1eeb06296976efcd457b622f0673b8a6d338fe14de",
+        "bytes": 6430
+      },
+      "仿真/functions/make_network.m": {
+        "sha256": "7e46394a593d935f3831faf4f72f1f3d1b2985d2e2f899679a26ce96be4ad277",
+        "bytes": 2645
+      },
+      "仿真/functions/policy_forward.m": {
+        "sha256": "840ac214939fc75e172c353ecc4f3ba47bdd03fefedd82a9dad0f058a58242a7",
+        "bytes": 2373
+      },
+      "仿真/functions/policy_gradients.m": {
+        "sha256": "f0fc123e730509ff1370c967fbcfb7d192a2d099622361d073c25bc36cfbeea6",
+        "bytes": 256
+      },
+      "仿真/functions/policy_graph_prepare.m": {
+        "sha256": "a4cf9946b3acb8ffb860bf5b824c21654ee8c10abfc29a0ce23eb749256f964c",
+        "bytes": 829
+      },
+      "仿真/functions/policy_init_params.m": {
+        "sha256": "77aff990d7aab3b4d26167341c9ebb9ab60fd0267d5563beba7318e179d5ab32",
+        "bytes": 1420
+      },
+      "仿真/functions/policy_objective.m": {
+        "sha256": "b391f4fc5fa0fd8c7a3ac0ba1c355d6a25eda47f1b012dac610080b945cda86b",
+        "bytes": 441
+      },
+      "仿真/functions/predict_policy.m": {
+        "sha256": "fbac1f534fa0b82deccd57ddd715e1bc565401ad876a6aad0985f7b1cb81681f",
+        "bytes": 1211
+      },
+      "仿真/functions/rollout_day.m": {
+        "sha256": "a408832e56dd23bf3d8d16075c3d5a85a214ed031e87dcf1c4c62a911acff69b",
+        "bytes": 3196
+      },
+      "仿真/functions/safety_screen.m": {
+        "sha256": "a92f178cbeaa33afac04e2b8b71944f0fe71fefa763ca4286b88ab5420ab6199",
+        "bytes": 1235
+      },
+      "仿真/functions/teacher_qp.m": {
+        "sha256": "06e059a4b7a125b546f97b3e9769ed479406c45345a4a04df1256971d68b7bcf",
+        "bytes": 2009
+      },
+      "仿真/functions/train_policy.m": {
+        "sha256": "a61467b62abc5ba38382fc9dbb4b8b0442e31318fc695a1f3601940edb683201",
+        "bytes": 6338
+      },
+      "仿真/generate_teacher.m": {
+        "sha256": "cbd92357cba77854875a440ee57a7602fc3492c69e4743c737f9e04c1052db22",
+        "bytes": 1777
+      },
+      "仿真/model_gat1.mat": {
+        "sha256": "ec857fc2de6faa192156f4a535c287860c1b47e8c5cb5d0b8824badf53920ef8",
+        "bytes": 32760
+      },
+      "仿真/model_gat4.mat": {
+        "sha256": "c9628d2d1aee036be97091615e36ee376cae6d2efb9370748259685211df6558",
+        "bytes": 44024
+      },
+      "仿真/model_gat4_noprev.mat": {
+        "sha256": "3e7c66edab18d93ed1697a73f650b46f757ca61b44a4e1f8121805534f1954d0",
+        "bytes": 44040
+      },
+      "仿真/model_gcn.mat": {
+        "sha256": "416f28861b92bbc789f6a60f3202d417ffa252784cf700d19654866c58bcc34e",
+        "bytes": 30056
+      },
+      "仿真/network_buses.csv": {
+        "sha256": "20489ea8647b509c090b99c3c09ff3edf6b7559b1b8d151a5b27290c3b087f63",
+        "bytes": 4194
+      },
+      "仿真/network_lines.csv": {
+        "sha256": "4737192bcfee5e9d7eeb5427062fe0dda0b956d7294a6c77f1dc59b5f9cda33b",
+        "bytes": 11375
+      },
+      "仿真/package_v1.py": {
+        "sha256": "f11631e68f8dbacfcd3e2803255497fe77b1cb99997df8091bd497d4912342df",
+        "bytes": 3457
+      },
+      "仿真/params.m": {
+        "sha256": "db2fb612125576e4a57849e8261a33b1d15c0b037b7a16dc1682003b1f648aff",
+        "bytes": 1851
+      },
+      "仿真/pilot.m": {
+        "sha256": "86da9a26fd7346e6155535628a0bc358758a8d0f3d8ea62750cde868a2bbd2ce",
+        "bytes": 3262
+      },
+      "仿真/pilot_results.mat": {
+        "sha256": "3c718f9faebfca160f18046e18315c4362ebfc9f104f4a0049cb998b2706a668",
+        "bytes": 1175532
+      },
+      "仿真/qa_physics.m": {
+        "sha256": "287451c2aebad8b2935ad9772bd7684bd7674c38df969bd22cf921206aaa65ef",
+        "bytes": 6567
+      },
+      "仿真/qa_policy_gradient.m": {
+        "sha256": "83ce3c384608abdbeae5775b9fe57b7ff82be22b3cb6957778168c31614f9cc2",
+        "bytes": 4071
+      },
+      "仿真/qa_results.csv": {
+        "sha256": "78b91dd3f3038597575267e0b2a684f79f3123e31c7eccdeb54eaa49c7e0d41f",
+        "bytes": 444
+      },
+      "仿真/qa_results.mat": {
+        "sha256": "a9abc1ed90993845e84890a69d3c1ebcdf9d1850539371bcb1ed088e87a0461f",
+        "bytes": 44424
+      },
+      "仿真/raw_results.csv": {
+        "sha256": "b7e0b84844bee6b597931d278236969858096bd56cdbe7a317b6ba2f10cdf42f",
+        "bytes": 508795
+      },
+      "仿真/raw_results.mat": {
+        "sha256": "e760913b7b2d8ba45773dc6fc0825a393d11c2f1eb951fea223dbbfaabf23300",
+        "bytes": 30631367
+      },
+      "仿真/run_experiment.m": {
+        "sha256": "fec08968866b603856597a3938dbfcda8c5c694a8747647dd4ea6f9a7a83c040",
+        "bytes": 959
+      },
+      "仿真/scale_checkpoint.mat": {
+        "sha256": "89739d669a1b67d269d6cb40f89f2ddfb16f184ed5a101d2fd61946f9b076c47",
+        "bytes": 8923280
+      },
+      "仿真/scale_metrics.csv": {
+        "sha256": "0bf65144db1d9250a549a3bb298069c016140aa25c073e710be1bf50d949fedb",
+        "bytes": 3045
+      },
+      "仿真/table2_methods.csv": {
+        "sha256": "4498ae2248d64ab86f2ff94ca5417cee4b392619444b1438ceee2f0f7fcde0e6",
+        "bytes": 1801
+      },
+      "仿真/teacher_checkpoint.mat": {
+        "sha256": "7e9319da8cbf034f81d1d078a735fc5620b8f6993ee2e7015afb45a9a29d93b0",
+        "bytes": 13843223
+      },
+      "仿真/test_checkpoint.mat": {
+        "sha256": "2d9da4d4c63b90ae0e3e86087389ec368901ae75f2e7adc212aec28cf9a57463",
+        "bytes": 7421850
+      },
+      "仿真/train_one_model.m": {
+        "sha256": "675066823a8ac63b804927aeb044165e5d676b8d48594fc42121657774fd01f8",
+        "bytes": 1422
+      },
+      "仿真/training_metrics.csv": {
+        "sha256": "a8fcde22da58769cf769c9e45d20572e1fce98e4a9828efab19ffd2922016c8f",
+        "bytes": 442
+      },
+      "仿真/仿真打包.sha256": {
+        "sha256": "48a98fb5d8dd89f8025b45f1d133b4440f710dbb7feb388996426f48a1513efe",
+        "bytes": 84
+      },
+      "仿真/仿真打包.zip": {
+        "sha256": "27426f7f6014f951635e042d813431ecee8cdc42d53b1dc9a750410407510dae",
+        "bytes": 49716181
+      }
+    },
+    "figure_and_png_count": 49,
+    "simulation_file_count": 48
+  },
+  "simulation_package": {
+    "sha256": "27426f7f6014f951635e042d813431ecee8cdc42d53b1dc9a750410407510dae",
+    "bytes": 49716181,
+    "members": 55,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar_path": "gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制\\仿真\\仿真打包.sha256",
+    "sha256_sidecar": "27426f7f6014f951635e042d813431ecee8cdc42d53b1dc9a750410407510dae",
+    "sha256_matches_sidecar": true
+  },
+  "raw_files": {
+    "raw_results.csv": {
+      "sha256": "b7e0b84844bee6b597931d278236969858096bd56cdbe7a317b6ba2f10cdf42f",
+      "bytes": 508795
+    },
+    "raw_results.mat": {
+      "sha256": "e760913b7b2d8ba45773dc6fc0825a393d11c2f1eb951fea223dbbfaabf23300",
+      "bytes": 30631367
+    }
+  }
+}

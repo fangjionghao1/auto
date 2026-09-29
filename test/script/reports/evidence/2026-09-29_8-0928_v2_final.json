@@ -1,0 +1,713 @@
+{
+  "generated_at": "2026-09-29T11:13:14+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "8b0dd76b9db2f19e56898f053455e11a33b8824beb2da8aee933b062d0f445b1",
+  "rule_version_heading": "# 论文闭环验证规则 · VERIFICATION SPEC v2.0",
+  "target_configuration_card": {
+    "project_id": "8-0928",
+    "declared_goal_metadata": {
+      "authors_in_goal": "李辰，周爱华，彭林，乔俊峰，钱仲豪",
+      "category_in_goal": "EI会议",
+      "title_in_goal": "考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+      "progress_in_goal": "待签署",
+      "goal_path": "D:\\wkplace\\auto\\src\\goal.md",
+      "goal_sha256": "32475bfda7737cfceee0275a26a1ca1a4261ddf1fbd232c86e17c013b6269ba7"
+    },
+    "venue_name": null,
+    "manuscript_type": null,
+    "official_guideline_url": null,
+    "template_url": null,
+    "guideline_checked_at": null,
+    "page_limit": null,
+    "word_or_character_limit": null,
+    "venue_count_scope": null,
+    "figure_table_requirement": null,
+    "reference_requirement": null,
+    "blind_review_requirement": null,
+    "language_requirement": null,
+    "declaration_requirement": null,
+    "revision_file_requirement": null,
+    "decision_letter_requirement": null,
+    "manual_review_required": "Null fields must be filled from the named venue and article type; goal metadata is a declaration, not venue verification."
+  },
+  "related_review_evidence": {
+    "target_configuration_file": {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法\\目标配置卡.md",
+      "sha256": "cefa32f5a5b2092edd48e4d72b1681672e8b3f0f9b76af8698b92491ec90281c",
+      "bytes": 1977
+    },
+    "reference_verification_file": {
+      "path": "D:\\wkplace\\auto\\test\\script\\reports\\evidence\\2026-09-29_8-0928_references.json",
+      "sha256": "a1f4accf40a87dcf54708fbb4203a039d984a86595f82be45a76446f34025e96",
+      "bytes": 40301,
+      "selection_basis": "Latest modified matching project references JSON"
+    }
+  },
+  "files": {
+    "final_prompt.md": {
+      "sha256": "c933e2bb5f9021df7325c614637f1da6081ff1effa47c8068d19fa4ac5571932",
+      "bytes": 16358
+    },
+    "框架.md": {
+      "sha256": "46333f2fdef8222d9a4a1518c322865b00a180a16e53edd25e6f9c43c3537c24",
+      "bytes": 16800
+    },
+    "P3_自检.md": {
+      "sha256": "92cbb553431d04d7337663cd900549e2d0c6b5934753cc487f8656bdd42691b1",
+      "bytes": 9403
+    },
+    "P4_审稿返修.md": {
+      "sha256": "09a35ba66b8075113cfef55c08a15b19c7b3ad9f9f9a7922a25212500db410e2",
+      "bytes": 4965
+    },
+    "目标配置卡.md": {
+      "sha256": "cefa32f5a5b2092edd48e4d72b1681672e8b3f0f9b76af8698b92491ec90281c",
+      "bytes": 1977
+    },
+    "交付说明.md": {
+      "sha256": "a8606ccde43fb5c8a1831762d623dd03b6bb2ef4c523ecd5698c3a7f1400b8df",
+      "bytes": 4264
+    },
+    "文献核验.md": {
+      "sha256": "04c3a1bd5e1a607cf5f85a59e12cb7f6ede21cd5219f1854671944eb74d0278f",
+      "bytes": 8071
+    },
+    "论文_中文.md": {
+      "sha256": "466cad5ea0e8cc61629d08a3c18a78d8075ab40811418260abd39c36a66af422",
+      "bytes": 16874
+    },
+    "论文_英文.md": {
+      "sha256": "9fb782abac958969193a331f64d8783c048def7ac28d243fc8679832c304fc18",
+      "bytes": 20976
+    },
+    "论文_中文.docx": {
+      "sha256": "86d8854db42b82557b4d5dabb73a8e9af2668a174798d45bb8affad946668a6c",
+      "bytes": 322580
+    },
+    "论文_英文.docx": {
+      "sha256": "621425ec907a6490959f11f3d220354367399bdfc405d4cd3f3a5be9cefa2f7e",
+      "bytes": 322840
+    }
+  },
+  "markdown": {
+    "中文": {
+      "sha256": "466cad5ea0e8cc61629d08a3c18a78d8075ab40811418260abd39c36a66af422",
+      "bytes": 16874,
+      "title": "考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 151,
+      "counts": {
+        "unit": "Han characters",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 3253,
+        "body_net_count": 2385,
+        "body_start_line": 13,
+        "body_end_line_exclusive": 131,
+        "references_heading_line": 131,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    },
+    "英文": {
+      "sha256": "9fb782abac958969193a331f64d8783c048def7ac28d243fc8679832c304fc18",
+      "bytes": 20976,
+      "title": "A Risk Tracing Method for Vulnerable Components in Distribution Networks Considering Cascading Failures and Probabilistic Load Transfer",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 151,
+      "counts": {
+        "unit": "English lexical tokens",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 2879,
+        "body_net_count": 1952,
+        "body_start_line": 13,
+        "body_end_line_exclusive": 131,
+        "references_heading_line": 131,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    }
+  },
+  "docx": {
+    "中文": {
+      "sha256": "86d8854db42b82557b4d5dabb73a8e9af2668a174798d45bb8affad946668a6c",
+      "bytes": 322580,
+      "zip_crc_bad_member": null,
+      "omml_objects": 70,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    },
+    "英文": {
+      "sha256": "621425ec907a6490959f11f3d220354367399bdfc405d4cd3f3a5be9cefa2f7e",
+      "bytes": 322840,
+      "zip_crc_bad_member": null,
+      "omml_objects": 71,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    }
+  },
+  "render_pdf": {
+    "中文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法\\排版核验\\论文_中文_20260928_200940\\论文_中文.pdf",
+      "filename": "论文_中文.pdf",
+      "candidate_count": 3,
+      "selection_basis": "Largest YYYYMMDD_HHMMSS stamp in matching render-folder name; file mtime breaks ties.",
+      "render_folder_stamp": 20260928200940,
+      "modified_at": "2026-09-28T20:09:45+08:00",
+      "sha256": "775f192509a7750b5ee823d6c1fb0c6107e4332dcea092288315c7a1d07feefd",
+      "bytes": 648660,
+      "docx_modified_at": "2026-09-28T20:09:40+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 6,
+      "page_count_tool": "pypdf.PdfReader"
+    },
+    "英文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法\\排版核验\\论文_英文_20260928_200958\\论文_英文.pdf",
+      "filename": "论文_英文.pdf",
+      "candidate_count": 3,
+      "selection_basis": "Largest YYYYMMDD_HHMMSS stamp in matching render-folder name; file mtime breaks ties.",
+      "render_folder_stamp": 20260928200958,
+      "modified_at": "2026-09-28T20:10:01+08:00",
+      "sha256": "aa43e1d69dd61c719da801c0b967cd1b86a8e33e9a805b27b52fe5d2ffeaf951",
+      "bytes": 500361,
+      "docx_modified_at": "2026-09-28T20:09:58+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 7,
+      "page_count_tool": "pypdf.PdfReader"
+    }
+  },
+  "figures": {
+    "图1": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "bb4d16feebe103abd27ddc10ce2f11e8767817062f08bcaf159e9aab198d9a6b",
+      "png_sha256": "a0a2221821351cad067a97b8b936278063f2661a2e30111568a7c08d1dc22385"
+    },
+    "图2": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "6ee4f2ccb4875b692a9339a3bca0c23d347215dc96aef7beb078bef9f5c8f0a2",
+      "png_sha256": "ba972cfae31c7bffab377bf32a0fdc50f0b1e1ee61187a25847ca7e29bd082e9"
+    },
+    "图3": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "c09a14144ad92241a95cb11f1e239d48bbb18416adebc3a2c99dfdf46f405f23",
+      "png_sha256": "6bc94d15c6b5c058109ddfac2ed942cd92cd573340e09fe4b775dd106081d2e4"
+    }
+  },
+  "asset_manifest": {
+    "figure_and_png_assets": {
+      "仿真/图/图1.fig": {
+        "sha256": "bb4d16feebe103abd27ddc10ce2f11e8767817062f08bcaf159e9aab198d9a6b",
+        "bytes": 20799,
+        "publication_figure": true
+      },
+      "仿真/图/图1.png": {
+        "sha256": "a0a2221821351cad067a97b8b936278063f2661a2e30111568a7c08d1dc22385",
+        "bytes": 48126,
+        "publication_figure": true
+      },
+      "仿真/图/图2.fig": {
+        "sha256": "6ee4f2ccb4875b692a9339a3bca0c23d347215dc96aef7beb078bef9f5c8f0a2",
+        "bytes": 11553,
+        "publication_figure": true
+      },
+      "仿真/图/图2.png": {
+        "sha256": "ba972cfae31c7bffab377bf32a0fdc50f0b1e1ee61187a25847ca7e29bd082e9",
+        "bytes": 85023,
+        "publication_figure": true
+      },
+      "仿真/图/图3.fig": {
+        "sha256": "c09a14144ad92241a95cb11f1e239d48bbb18416adebc3a2c99dfdf46f405f23",
+        "bytes": 12944,
+        "publication_figure": true
+      },
+      "仿真/图/图3.png": {
+        "sha256": "6bc94d15c6b5c058109ddfac2ed942cd92cd573340e09fe4b775dd106081d2e4",
+        "bytes": 210614,
+        "publication_figure": true
+      },
+      "排版核验/论文_中文_20260928_200232/page-1.png": {
+        "sha256": "0f80cafdbc4ce96d976b1b58cdc5eb474b018b1c8e6f0a903f887564fc5d31db",
+        "bytes": 670378,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200232/page-2.png": {
+        "sha256": "164ff76e07a5cd6d1f9e8ce43ce9271c06c55e335d60e60507c4e0575cc100d6",
+        "bytes": 178260,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200232/page-3.png": {
+        "sha256": "de491da1f83ed987e44d97235ab30d2f0020237b550c733be75089855588d8d5",
+        "bytes": 608348,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200232/page-4.png": {
+        "sha256": "644fd37070830de8b0d5483bc077899c76edfd0f6b63337cd911400a695c3f6e",
+        "bytes": 403357,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200232/page-5.png": {
+        "sha256": "0495c72ff324f68a6bea4a4a29934d3d7cebef642715c8fd51f4b0f7709d8778",
+        "bytes": 318307,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200232/page-6.png": {
+        "sha256": "dcc15c4a3f307e32dc0a38fa51c94785175c489977df6448857147763d0affce",
+        "bytes": 595741,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200232/page-7.png": {
+        "sha256": "83eb0115b15762a95ee17b146d30ebb8dd1841a972bf7ea885ca32c44683a6d4",
+        "bytes": 185978,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200718/contact.png": {
+        "sha256": "6b780a695b1bdb131ead9fe9fc28667f26786f88a467df449b2c1aec43304e16",
+        "bytes": 1285149,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200718/page-1.png": {
+        "sha256": "0f80cafdbc4ce96d976b1b58cdc5eb474b018b1c8e6f0a903f887564fc5d31db",
+        "bytes": 670378,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200718/page-2.png": {
+        "sha256": "cf35d7dd8d5c5f265aeeb6592b31941d3bde98637a896173a793fbb4d0f73dcc",
+        "bytes": 245455,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200718/page-3.png": {
+        "sha256": "53eb0456230319402936f751dddd035bf796144f355aa5abe7d0a8b6fb74df0e",
+        "bytes": 627914,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200718/page-4.png": {
+        "sha256": "fab4b6fa8ee28361f80fcec29292454b1b35e5e8f947db4e6679e3d251b4fe4e",
+        "bytes": 447172,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200718/page-5.png": {
+        "sha256": "07a9912b6ca667506dbc646b0525a302dd3859c4190bcb63e19f72843dc877c8",
+        "bytes": 565113,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200718/page-6.png": {
+        "sha256": "766f33594a78e5eda55f946a1e5d722797ddf9f08fadc2ef335680b11740189c",
+        "bytes": 351243,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200940/contact.png": {
+        "sha256": "1372cff1900810e1cdd3908d1c52258297ed8388a0c39f8866248d12b17f13e8",
+        "bytes": 1288466,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200940/page-1.png": {
+        "sha256": "0f80cafdbc4ce96d976b1b58cdc5eb474b018b1c8e6f0a903f887564fc5d31db",
+        "bytes": 670378,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200940/page-2.png": {
+        "sha256": "3c11ca748573986d4083acccf66380156519d7741cb2d5f19458254e430a2080",
+        "bytes": 289775,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200940/page-3.png": {
+        "sha256": "5d15a973f6a82682d38b703a22e5d680be70bfd9ec988f01644ee2365b400ff0",
+        "bytes": 580462,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200940/page-4.png": {
+        "sha256": "fab4b6fa8ee28361f80fcec29292454b1b35e5e8f947db4e6679e3d251b4fe4e",
+        "bytes": 447172,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200940/page-5.png": {
+        "sha256": "07a9912b6ca667506dbc646b0525a302dd3859c4190bcb63e19f72843dc877c8",
+        "bytes": 565113,
+        "publication_figure": false
+      },
+      "排版核验/论文_中文_20260928_200940/page-6.png": {
+        "sha256": "766f33594a78e5eda55f946a1e5d722797ddf9f08fadc2ef335680b11740189c",
+        "bytes": 351243,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200247/page-1.png": {
+        "sha256": "306f2afbade2e78432e91420edcfdd77c1faa582f87ed3221a153adfe81ecc2c",
+        "bytes": 490459,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200247/page-2.png": {
+        "sha256": "c3f32d47156bb2cfae2b561480a38b0be767edf2e29025ba3f57dbd250780f5a",
+        "bytes": 192070,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200247/page-3.png": {
+        "sha256": "63c15a7beac2b99ac992195c76b46da2b5b336795954b183ec4656b097eb86cc",
+        "bytes": 409855,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200247/page-4.png": {
+        "sha256": "857f4becd8ed282f78222156954da6ea75b917ea1927ade3de8c62ad1186ccf9",
+        "bytes": 443434,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200247/page-5.png": {
+        "sha256": "a7371de39827a3be26ff3038c131a2e30f14e52766f7b55a50ec4ffbbb819990",
+        "bytes": 317743,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200247/page-6.png": {
+        "sha256": "5e8f9f37ff81ba07b53aa8ad0d3a0d203a5c4196b59207a482aa2b3103c77410",
+        "bytes": 498256,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200247/page-7.png": {
+        "sha256": "f968396a9e3bd64c0f7a8446667a67462bca05cab5f29630d904333149d47744",
+        "bytes": 392523,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/contact.png": {
+        "sha256": "bf8405fce3ccafcde05c5b753f4b8384f6cdf76a104c1b3f7a58f679694cd8bd",
+        "bytes": 1328489,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/page-1.png": {
+        "sha256": "306f2afbade2e78432e91420edcfdd77c1faa582f87ed3221a153adfe81ecc2c",
+        "bytes": 490459,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/page-2.png": {
+        "sha256": "619da95ff9a2434377b9c6267bd2d55082879f9e3c2ad99a4eeee2659d48d994",
+        "bytes": 247288,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/page-3.png": {
+        "sha256": "449a5331f49787dc12bde82d8ff68a9985f27da2e5dd72374df0aa2c710f0530",
+        "bytes": 448089,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/page-4.png": {
+        "sha256": "8ec6eefc9a40422a5b336f47df513a618ded75c8a4e80cad02598fb80770348e",
+        "bytes": 465170,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/page-5.png": {
+        "sha256": "0f4d51460587e009ff4ee017d87fe8189edeb2e384a06d4161aab5cc309ab24f",
+        "bytes": 300043,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/page-6.png": {
+        "sha256": "a7ee85160a55df63ed15ae7e20f066389c840e3bfcd8b398eddf3bcdbb96affb",
+        "bytes": 535425,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200803/page-7.png": {
+        "sha256": "96b5c4e73d3e038732bcb2ea0acd1355aefb51784faa693db057941f354e760f",
+        "bytes": 184863,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200958/page-1.png": {
+        "sha256": "306f2afbade2e78432e91420edcfdd77c1faa582f87ed3221a153adfe81ecc2c",
+        "bytes": 490459,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200958/page-2.png": {
+        "sha256": "619da95ff9a2434377b9c6267bd2d55082879f9e3c2ad99a4eeee2659d48d994",
+        "bytes": 247288,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200958/page-3.png": {
+        "sha256": "449a5331f49787dc12bde82d8ff68a9985f27da2e5dd72374df0aa2c710f0530",
+        "bytes": 448089,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200958/page-4.png": {
+        "sha256": "8ec6eefc9a40422a5b336f47df513a618ded75c8a4e80cad02598fb80770348e",
+        "bytes": 465170,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200958/page-5.png": {
+        "sha256": "fac6b27e46d0c0c76dfe12f6949dae97296f94b981926fe34c58322b570d4381",
+        "bytes": 297064,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200958/page-6.png": {
+        "sha256": "4a7a0cc028434219f7100e0da6d2dbfb753ac7ddeab703c7674a63c7d79e535b",
+        "bytes": 535872,
+        "publication_figure": false
+      },
+      "排版核验/论文_英文_20260928_200958/page-7.png": {
+        "sha256": "9373935be0d1ea9669c73edbaca918e764c08f7bedcb220ba0cc357f66547320",
+        "bytes": 185781,
+        "publication_figure": false
+      }
+    },
+    "simulation_data_source_and_packages": {
+      "仿真/archive_linear_v1.py": {
+        "sha256": "2f2b3cfaad152ab1e39b5215bcfd5c89c4decddbb6bffc8f88356774db3fa0d8",
+        "bytes": 1197
+      },
+      "仿真/env.txt": {
+        "sha256": "cceffacbf917cdb1936a9efa769db6263486c25fd9b154ce48dbede5a582ecfb",
+        "bytes": 1067
+      },
+      "仿真/fault_breakdown.csv": {
+        "sha256": "0ac4b5d62e862ee08eaa42d5c5d68e85042928ab73507fa4b9858784d568712f",
+        "bytes": 2228
+      },
+      "仿真/finalize_results.m": {
+        "sha256": "a073c05baf9c1b02677f4b8da0a040c9bb5b2083d02c9d59c264323167df2380",
+        "bytes": 7727
+      },
+      "仿真/functions/ac_radial_check.m": {
+        "sha256": "332f9096f4d25c31f0cc35e6822f3720a5e98a44a2de3f79fc3ab898c37e6132",
+        "bytes": 8144
+      },
+      "仿真/functions/compare_risk.m": {
+        "sha256": "4d67607d9f2273f150bd66d34303391155d055b39f8beb7874e2c6737f491e33",
+        "bytes": 698
+      },
+      "仿真/functions/disconnected_components.m": {
+        "sha256": "d817ef144c73ffe15687d4f16324b3bcf6d169931a8c221280023eafeafb9003",
+        "bytes": 860
+      },
+      "仿真/functions/evaluate_dataset.m": {
+        "sha256": "6ea719281ca7fe46b099298f8a7dc38707915facd4ea3f41725211c3e81ccb37",
+        "bytes": 1482
+      },
+      "仿真/functions/generate_draws.m": {
+        "sha256": "3dc2af6613121c43928c40e50f43c675123477134ef7311c49444a7cc24fada7",
+        "bytes": 562
+      },
+      "仿真/functions/make_figures.m": {
+        "sha256": "f22d9abffd15141573693316bb5eeb58e605b49570c70c64388a4ccf11d8ac85",
+        "bytes": 4521
+      },
+      "仿真/functions/one_draw.m": {
+        "sha256": "134cb5734cef3654952fc10c7663f98e9467192a851109e3ed712d9b67cd13cf",
+        "bytes": 171
+      },
+      "仿真/functions/simulate_event.m": {
+        "sha256": "0e82a521bf33fbe0becbb83d454cb06be97432dad71a00ed8892864e51b96a2c",
+        "bytes": 5786
+      },
+      "仿真/functions/summarize_risk.m": {
+        "sha256": "1cef03500cc76ebbc17c3aebf00188a7ba6d559d7d0efd567184f32039f423fc",
+        "bytes": 1305
+      },
+      "仿真/functions/tree_flow.m": {
+        "sha256": "1a9a3c9f4f5dd97388411a89602b34cddd01ed572910e42c82968effc2391868",
+        "bytes": 1171
+      },
+      "仿真/hardening_pairs.csv": {
+        "sha256": "edeeb32cab769cea40aaba13d275cfa965d81e211ac02102e620f3152a27474b",
+        "bytes": 26088824
+      },
+      "仿真/legacy_linear_v1/ac_check.csv": {
+        "sha256": "5c8497f84cc928c2c1dd85cafea969e6e4017a07fab02acac4d772be2d958f51",
+        "bytes": 28973
+      },
+      "仿真/legacy_linear_v1/ac_check.m": {
+        "sha256": "102f528e01c76d1fb3f3e8cb4ae41155536a8dadc7d8c0cff8c9d8f0e94fd531",
+        "bytes": 2700
+      },
+      "仿真/legacy_linear_v1/ac_check.mat": {
+        "sha256": "6eef39dd3ccd4f136e0222ac71a2c125c1e771512b72fe57bdef30780d584922",
+        "bytes": 52376
+      },
+      "仿真/linear_v1_archive.zip": {
+        "sha256": "0564505f4fc43c9f6828ca7e7df54e77518485a7a24a11c78c88683c8f226684",
+        "bytes": 94267364
+      },
+      "仿真/main_checkpoint.mat": {
+        "sha256": "2487ecf7bc4aa5fde44164eae9f778214f4539df0bbf9d3c80d0e5a5bc02b6a4",
+        "bytes": 4326410
+      },
+      "仿真/network_buses.csv": {
+        "sha256": "fe8c14555223e8561031a5a0eb361ecd58063aaef7c43d632765b183b017e796",
+        "bytes": 442
+      },
+      "仿真/network_lines.csv": {
+        "sha256": "5737f7f430f8d58fbc755f4f7f6a0a42cacc97cb242fa45e4d4cc6f9e11b6946",
+        "bytes": 755
+      },
+      "仿真/package_v2.py": {
+        "sha256": "ee5c85957f569b91104271e3ab615c40470555a0ef699156bb447b033fded793",
+        "bytes": 3730
+      },
+      "仿真/params.m": {
+        "sha256": "514ae4a3c34189df9c9b2084ce66fc38f1db31a341fe4388a2523be55f371a7e",
+        "bytes": 1478
+      },
+      "仿真/pilot.m": {
+        "sha256": "1accae01bfa209abe9887b8c05ced279a4b7c63f9851e687b015f5d182f7f286",
+        "bytes": 1661
+      },
+      "仿真/pilot_results.mat": {
+        "sha256": "12803622fe8c0ef3d1d9e24f8e6438197d651ef538f26404cec527894107fa5c",
+        "bytes": 19858
+      },
+      "仿真/qa_v2.csv": {
+        "sha256": "d188b2b11d9fba06428f2e1155e963018bcaa1e0085834e3537d609f878107ef",
+        "bytes": 8145
+      },
+      "仿真/qa_v2.m": {
+        "sha256": "97f20dbcf2b3c3648f733091dbaeffd67296ebc8314d01b90ad7d6f01d31ea00",
+        "bytes": 3215
+      },
+      "仿真/qa_v2.mat": {
+        "sha256": "cdb2f4e8f337eafd8f7985f0d3feba952233dde8414cb4a0514ea9e1ba7ff89a",
+        "bytes": 46704
+      },
+      "仿真/raw_results.csv": {
+        "sha256": "00575126671358e9c58903628a107b83b734de602da4590c5cefcaf27bf02e7c",
+        "bytes": 7278352
+      },
+      "仿真/raw_results.mat": {
+        "sha256": "b567d4527fb725da9f3ae439aefcdc7831f9e40529994ebc6ac9a38f5e1c4322",
+        "bytes": 43984063
+      },
+      "仿真/reference_checkpoint.mat": {
+        "sha256": "a2953a99719b7188bfd0497f161f2cb4504075974c4fdaf1703ee0de44931ecd",
+        "bytes": 39591294
+      },
+      "仿真/risk_by_line.csv": {
+        "sha256": "aa6ad51c6998e805c095ade82625d578adb253b1299d07fefb23cdb1cad58559",
+        "bytes": 2175
+      },
+      "仿真/run_experiment.m": {
+        "sha256": "07284ab094b0f9bdb1fbed993127a74ba92d442af4a695581aa4cfbcd3d1dc20",
+        "bytes": 416
+      },
+      "仿真/run_main_stage.m": {
+        "sha256": "fdae3ea9b0fa8ad9890eb112f78f83cc45408b85da76a1565617708f2066789f",
+        "bytes": 1189
+      },
+      "仿真/run_reference_stage.m": {
+        "sha256": "6cf0d049fdbd099a0a74f68d3620b0f9bb6ee28cc02a08d94a5356152e6018dc",
+        "bytes": 742
+      },
+      "仿真/summary_metrics.csv": {
+        "sha256": "895d46adfc8ef6cd0a35286b656fad4636b5060517f0e5d2f9c30000c1d6f5e2",
+        "bytes": 696
+      },
+      "仿真/仿真打包.sha256.txt": {
+        "sha256": "58c0703fb15178be7eeb4164e62d326f88044fe5b2f9b6607a996dfe96e3e683",
+        "bytes": 84
+      },
+      "仿真/仿真打包.zip": {
+        "sha256": "0d51b9151ad1e2fc3a7ca85b9f6d690463f2b92bf29c159714e307c5f0e96cb7",
+        "bytes": 94488674
+      }
+    },
+    "figure_and_png_count": 49,
+    "simulation_file_count": 39
+  },
+  "simulation_package": {
+    "sha256": "0d51b9151ad1e2fc3a7ca85b9f6d690463f2b92bf29c159714e307c5f0e96cb7",
+    "bytes": 94488674,
+    "members": 42,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar_path": "gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法\\仿真\\仿真打包.sha256.txt",
+    "sha256_sidecar": "0d51b9151ad1e2fc3a7ca85b9f6d690463f2b92bf29c159714e307c5f0e96cb7",
+    "sha256_matches_sidecar": true
+  },
+  "raw_files": {
+    "raw_results.csv": {
+      "sha256": "00575126671358e9c58903628a107b83b734de602da4590c5cefcaf27bf02e7c",
+      "bytes": 7278352
+    },
+    "raw_results.mat": {
+      "sha256": "b567d4527fb725da9f3ae439aefcdc7831f9e40529994ebc6ac9a38f5e1c4322",
+      "bytes": 43984063
+    }
+  }
+}

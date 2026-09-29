@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-09-29T11:16:45+08:00",
+  "scope": "File/hash/goal consistency only; semantic and scientific reviews are recorded in reports.",
+  "rule_sha256": "8b0dd76b9db2f19e56898f053455e11a33b8824beb2da8aee933b062d0f445b1",
+  "goal_sha256": "32475bfda7737cfceee0275a26a1ca1a4261ddf1fbd232c86e17c013b6269ba7",
+  "order": [
+    "6-0928",
+    "7-0928",
+    "8-0928",
+    "9-0928"
+  ],
+  "checks": [
+    {
+      "id": "6-0928",
+      "version": "V1",
+      "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "authors": "董工",
+      "status": "technical_review_complete_pending_FJH",
+      "report": "D:\\wkplace\\auto\\test\\script\\reports\\2026-09-29_6-0928.md",
+      "report_sha256": "28fbab851213483d733dd06924fcf93e055cd0e4f15a12f442e05cab5214e8cb",
+      "evidence": "D:\\wkplace\\auto\\test\\script\\reports\\evidence\\2026-09-29_6-0928_v2_final.json",
+      "evidence_sha256": "3aa41c3b1e4d2a197d7fc0e3e380e2364708b96f37fc8a7cf383c328eee51b2c",
+      "unresolved_technical_blocker": 0,
+      "unresolved_technical_major": 0,
+      "pdf_pages": {
+        "中文": 7,
+        "英文": 7
+      }
+    },
+    {
+      "id": "7-0928",
+      "version": "V2",
+      "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "authors": "董工",
+      "status": "technical_review_complete_pending_FJH",
+      "report": "D:\\wkplace\\auto\\test\\script\\reports\\2026-09-29_7-0928_V2.md",
+      "report_sha256": "ad80c0de0c97aeeb0a62ca87eb37280e930f76c71a5cff93fd3112d8b1f5dc72",
+      "evidence": "D:\\wkplace\\auto\\test\\script\\reports\\evidence\\2026-09-29_7-0928_gate_v2_final.json",
+      "evidence_sha256": "1257a2940c7887d8cd2c814098ea5b6fde54757388c4400505398cecd4ed3bfc",
+      "unresolved_technical_blocker": 0,
+      "unresolved_technical_major": 0,
+      "pdf_pages": {
+        "中文": 6,
+        "英文": 8
+      }
+    },
+    {
+      "id": "8-0928",
+      "version": "V1",
+      "title": "考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+      "authors": "李辰，周爱华，彭林，乔俊峰，钱仲豪",
+      "status": "technical_review_complete_pending_FJH",
+      "report": "D:\\wkplace\\auto\\test\\script\\reports\\2026-09-29_8-0928.md",
+      "report_sha256": "943e382d25ada312c86847223d5069aa2d0b93d865c2069e4d8de47a1b3f9132",
+      "evidence": "D:\\wkplace\\auto\\test\\script\\reports\\evidence\\2026-09-29_8-0928_v2_final.json",
+      "evidence_sha256": "d61e3c010b759e576f681d7baa7b1e67429e90cbc71fe074a375258f80ff0675",
+      "unresolved_technical_blocker": 0,
+      "unresolved_technical_major": 0,
+      "pdf_pages": {
+        "中文": 6,
+        "英文": 7
+      }
+    },
+    {
+      "id": "9-0928",
+      "version": "V1",
+      "title": "基于多头注意力图神经网络的大规模配电网动态优化控制",
+      "authors": "李辰，周爱华，彭林，乔俊峰，钱仲豪",
+      "status": "technical_review_complete_pending_FJH",
+      "report": "D:\\wkplace\\auto\\test\\script\\reports\\2026-09-29_9-0928.md",
+      "report_sha256": "67e71d5846210791cb680367724e8e7f4d47d6ea4cab44d456d3aa3e5669c597",
+      "evidence": "D:\\wkplace\\auto\\test\\script\\reports\\evidence\\2026-09-29_9-0928_v2_final.json",
+      "evidence_sha256": "7124e1115c125673073b14d4911ed94873dce4be2434b2817e6f1f3ac754401b",
+      "unresolved_technical_blocker": 0,
+      "unresolved_technical_major": 0,
+      "pdf_pages": {
+        "中文": 8,
+        "英文": 9
+      }
+    }
+  ],
+  "prompt_directory_pairs": [
+    "gen\\artifacts\\6-0928\\V1\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+    "gen\\artifacts\\7-0928\\V1\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+    "gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+    "gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+    "gen\\artifacts\\9-0928\\V1\\基于多头注意力图神经网络的大规模配电网动态优化控制"
+  ],
+  "historical_superseded": "7-0928/V1; original zero-positive data retained; active goal is V2.",
+  "unprocessed_active_generation_tasks": 0,
+  "pending_formal_signatures": 4,
+  "checking_scripts_sha256": {
+    "test\\script\\check_delivery_snapshot.py": "891a3654804ad967124a8c96e019f0277b225c2693136fba26ee7069656102bb",
+    "test\\script\\check_gate_evidence.py": "f411d636fc5de5841bbc4338f6a159fc7abbf1734ebe3864b3e95645f470b180",
+    "test\\script\\check_reference_updates.py": "1a165143299b918547a741181bfb0a0675ea1fdf8e59582fcb1181e729604e4c",
+    "test\\script\\check_v2_project7.py": "0c3167470b59827cc54af81732229e618c6dcab85343f1d3a4346c0c2e1dec03",
+    "test\\script\\check_v2_project8.py": "71bea2174de09912ba91d6d7f7436d658f41fc5ea51b560c69fb153c5be6db68"
+  }
+}

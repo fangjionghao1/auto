@@ -1,0 +1,1481 @@
+{
+  "checked_at": "2026-09-29T11:06:57+08:00",
+  "scope": "Crossref DOI metadata and deposited update fields; two initially rate-limited Elsevier records independently recovered and checked against indexed original publisher pages. Empty update fields do not prove no undisclosed update.",
+  "project": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+  "references": [
+    {
+      "doi": "10.1016/j.epsr.2025.111425",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.epsr.2025.111425",
+      "status": "retrieved",
+      "previous_retrieval_error": "HTTP Error 429: Too Many Requests",
+      "title": [
+        "Active distribution network chain fault risk assessment based on probabilistic risk of accident chains"
+      ],
+      "author": [
+        {
+          "given": "Yihong",
+          "family": "Jiao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhibin",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Qing",
+          "family": "Ge",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haohan",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yanbo",
+          "family": "Cui",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yanxin",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chunming",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Electric Power Systems Research"
+      ],
+      "volume": "242",
+      "issue": null,
+      "page": "111425",
+      "article-number": "111425",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.epsr.2025.111425",
+      "type": "journal-article",
+      "retrieved_at": "2026-09-29T11:06:57+08:00",
+      "publisher_evidence": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378779625000185",
+        "indexed_title": "Active distribution network chain fault risk assessment based on probabilistic risk of accident chains",
+        "indexed_authors": [
+          "Yihong Jiao",
+          "Zhibin Ma",
+          "Qing Ge",
+          "Haohan Zhou",
+          "Yanbo Cui",
+          "Yanxin Li",
+          "Chunming Liu"
+        ],
+        "indexed_journal": "Electric Power Systems Research",
+        "indexed_year": 2025,
+        "indexed_volume": "242",
+        "indexed_article_number": "111425",
+        "method": "Original ScienceDirect publisher page indexed content inspected; direct page request returned HTTP 403.",
+        "checked_at": "2026-09-29T11:06:57+08:00"
+      }
+    },
+    {
+      "doi": "10.1186/s44147-026-01191-4",
+      "source": "https://api.crossref.org/works/10.1186%2Fs44147-026-01191-4",
+      "title": [
+        "Cascading risk assessment and event oriented tracing based on probabilistic accident chain for multi-entity distribution networks"
+      ],
+      "author": [
+        {
+          "given": "Weihua",
+          "family": "Zuo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1173-9997",
+          "authenticated-orcid": false,
+          "given": "Qingguang",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haoran",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ding",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Min",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yongkun",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongxin",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xing",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Changwei",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            26
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            12
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            26
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of Engineering and Applied Science"
+      ],
+      "volume": "73",
+      "issue": "1",
+      "page": null,
+      "article-number": "336",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1186/s44147-026-01191-4",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1049/gtd2.70157",
+      "source": "https://api.crossref.org/works/10.1049%2Fgtd2.70157",
+      "title": [
+        "Resilience Analysis of Extensive Meshed Distribution Network to Supply Feeder Outages"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4878-9189",
+          "authenticated-orcid": false,
+          "given": "Vit",
+          "family": "Krcal",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Electrical Engineering and Communication Department of Electrical Power Engineering Brno University of Technology Brno Czechia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Koudelka",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Electrical Engineering and Communication Department of Electrical Power Engineering Brno University of Technology Brno Czechia"
+            },
+            {
+              "name": "Faculty of Mechanical Engineering Jan Evangelista Purkyne University in Usti nad Labem Usti nad Labem Czechia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matej",
+          "family": "Vrtal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Electrical Engineering and Communication Department of Electrical Power Engineering Brno University of Technology Brno Czechia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Topolanek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Electrical Engineering and Communication Department of Electrical Power Engineering Brno University of Technology Brno Czechia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Petr",
+          "family": "Toman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Electrical Engineering and Communication Department of Electrical Power Engineering Brno University of Technology Brno Czechia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            8
+          ]
+        ]
+      },
+      "container-title": [
+        "IET Generation, Transmission &amp; Distribution"
+      ],
+      "volume": "19",
+      "issue": "1",
+      "page": null,
+      "article-number": "e70157",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1049/gtd2.70157",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.32604/ee.2024.052371",
+      "source": "https://api.crossref.org/works/10.32604%2Fee.2024.052371",
+      "title": [
+        "A Cascading Fault Path Prediction Method for Integrated Energy Distribution Networks Based on the Improved OPA Model under Typhoon Disasters"
+      ],
+      "author": [
+        {
+          "given": "Yue",
+          "family": "He",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yaxiong",
+          "family": "You",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhian",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haiying",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuqi",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hongkun",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "container-title": [
+        "Energy Engineering"
+      ],
+      "volume": "121",
+      "issue": "10",
+      "page": "2825-2849",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.32604/ee.2024.052371",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.seta.2024.103675",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.seta.2024.103675",
+      "title": [
+        "Node vulnerability assessment of active distribution network accounting for topological structure, operational characteristics"
+      ],
+      "author": [
+        {
+          "given": "Shiwei",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chen",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongbin",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Bi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pingping",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ming",
+          "family": "Ding",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            4
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Sustainable Energy Technologies and Assessments"
+      ],
+      "volume": "64",
+      "issue": null,
+      "page": "103675",
+      "article-number": "103675",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.seta.2024.103675",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/ACCESS.2023.3309188",
+      "source": "https://api.crossref.org/works/10.1109%2FACCESS.2023.3309188",
+      "title": [
+        "A TOPSIS-Based Vulnerability Assessment Method of Distribution Network Considering Network Topology and Operation Status"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8215-0824",
+          "authenticated-orcid": false,
+          "given": "Juan",
+          "family": "Wen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, University of South China, Hengyang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-3217-2459",
+          "authenticated-orcid": false,
+          "given": "Siyu",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, University of South China, Hengyang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1943-0081",
+          "authenticated-orcid": false,
+          "given": "Xing",
+          "family": "Qu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, University of South China, Hengyang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-6489-5993",
+          "authenticated-orcid": false,
+          "given": "Qiankang",
+          "family": "Xiao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, University of South China, Hengyang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Access"
+      ],
+      "volume": "11",
+      "issue": null,
+      "page": "94358-94370",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/access.2023.3309188",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1016/j.energy.2025.134864",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.energy.2025.134864",
+      "status": "retrieved",
+      "previous_retrieval_error": "HTTP Error 429: Too Many Requests",
+      "title": [
+        "Identification and vulnerability assessment of critical components in distribution networks under high penetration rate conditions"
+      ],
+      "author": [
+        {
+          "given": "Liangyu",
+          "family": "Tang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0786-6731",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Siyu",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5693-8087",
+          "authenticated-orcid": false,
+          "given": "Amr S.",
+          "family": "Zalhaf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ping",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Congling",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5504-7848",
+          "authenticated-orcid": false,
+          "given": "Tao",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chang",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "Energy"
+      ],
+      "volume": "318",
+      "issue": null,
+      "page": "134864",
+      "article-number": "134864",
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1016/j.energy.2025.134864",
+      "type": "journal-article",
+      "retrieved_at": "2026-09-29T11:06:57+08:00",
+      "publisher_evidence": {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360544225005067",
+        "indexed_title": "Identification and vulnerability assessment of critical components in distribution networks under high penetration rate conditions",
+        "indexed_authors": [
+          "Liangyu Tang",
+          "Yang Han",
+          "Siyu Zhou",
+          "Amr S. Zalhaf",
+          "Ping Yang",
+          "Congling Wang",
+          "Tao Huang",
+          "Chang Lu"
+        ],
+        "indexed_journal": "Energy",
+        "indexed_year": 2025,
+        "indexed_volume": "318",
+        "indexed_article_number": "134864",
+        "method": "Original ScienceDirect publisher page indexed content inspected; direct page request returned HTTP 403.",
+        "checked_at": "2026-09-29T11:06:57+08:00"
+      }
+    },
+    {
+      "doi": "10.1109/TPWRD.2022.3153552",
+      "source": "https://api.crossref.org/works/10.1109%2FTPWRD.2022.3153552",
+      "title": [
+        "Reliability-Oriented Reconfiguration of Power Distribution Systems Considering Load and RES Production Scenarios"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7556-4666",
+          "authenticated-orcid": false,
+          "given": "Panagiotis",
+          "family": "Karafotis",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Electrical and Computer Engineering, National Technical University of Athens, Athens, Greece"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8849-3545",
+          "authenticated-orcid": false,
+          "given": "Vasileios",
+          "family": "Evangelopoulos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical and Computer Engineering, National Technical University of Athens, Athens, Greece"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7231-7662",
+          "authenticated-orcid": false,
+          "given": "Pavlos",
+          "family": "Georgilakis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical and Computer Engineering, National Technical University of Athens, Athens, Greece"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Power Delivery"
+      ],
+      "volume": "37",
+      "issue": "6",
+      "page": "4668-4678",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tpwrd.2022.3153552",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/TSG.2021.3120555",
+      "source": "https://api.crossref.org/works/10.1109%2FTSG.2021.3120555",
+      "title": [
+        "Restoration Strategy for Active Distribution Systems Considering Endogenous Uncertainty in Cold Load Pickup"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8988-2254",
+          "authenticated-orcid": false,
+          "given": "Yujia Lauren",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0572-6404",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Engineering, University of Central Florida, Orlando, FL, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8158-499X",
+          "authenticated-orcid": false,
+          "given": "Wenqian",
+          "family": "Yin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shunbo",
+          "family": "Lei",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8882-9897",
+          "authenticated-orcid": false,
+          "given": "Yunhe",
+          "family": "Hou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            7
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            7
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Smart Grid"
+      ],
+      "volume": "13",
+      "issue": "4",
+      "page": "2690-2702",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tsg.2021.3120555",
+      "type": "journal-article",
+      "status": "retrieved"
+    },
+    {
+      "doi": "10.1109/TSG.2024.3404776",
+      "source": "https://api.crossref.org/works/10.1109%2FTSG.2024.3404776",
+      "title": [
+        "Adaptive Robust Load Restoration via Coordinating Distribution Network Reconfiguration and Mobile Energy Storage"
+      ],
+      "author": [
+        {
+          "given": "Ruipeng",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering and Telecommunications, University of New South Wales, Kensington, NSW, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9048-339X",
+          "authenticated-orcid": false,
+          "given": "Cuo",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical and Computer Engineering, The University of Sydney, Camperdown, NSW, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7892-6976",
+          "authenticated-orcid": false,
+          "given": "Daming",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering and Telecommunications, University of New South Wales, Kensington, NSW, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9659-0858",
+          "authenticated-orcid": false,
+          "given": "Zhao",
+          "family": "Yang Dong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, City University of Hong Kong, Kowloon, Hong Kong"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-2835-247X",
+          "authenticated-orcid": false,
+          "given": "Christine",
+          "family": "Yip",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CAFEA Smart City Limited, Hong Kong, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "container-title": [
+        "IEEE Transactions on Smart Grid"
+      ],
+      "volume": "15",
+      "issue": "6",
+      "page": "5485-5499",
+      "article-number": null,
+      "update-to": null,
+      "updated-by": null,
+      "relation": {},
+      "URL": "https://doi.org/10.1109/tsg.2024.3404776",
+      "type": "journal-article",
+      "status": "retrieved"
+    }
+  ],
+  "manuscript_metadata_comparison": {
+    "source": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法\\论文_中文.md",
+    "references_compared": 10,
+    "all_fields_match": true,
+    "items": [
+      {
+        "reference_number": 1,
+        "doi": "10.1016/j.epsr.2025.111425",
+        "manuscript_line": 133,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 2,
+        "doi": "10.1186/s44147-026-01191-4",
+        "manuscript_line": 135,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 3,
+        "doi": "10.1049/gtd2.70157",
+        "manuscript_line": 137,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 4,
+        "doi": "10.32604/ee.2024.052371",
+        "manuscript_line": 139,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 5,
+        "doi": "10.1016/j.seta.2024.103675",
+        "manuscript_line": 141,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 6,
+        "doi": "10.1109/ACCESS.2023.3309188",
+        "manuscript_line": 143,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 7,
+        "doi": "10.1016/j.energy.2025.134864",
+        "manuscript_line": 145,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 8,
+        "doi": "10.1109/TPWRD.2022.3153552",
+        "manuscript_line": 147,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 9,
+        "doi": "10.1109/TSG.2021.3120555",
+        "manuscript_line": 149,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      },
+      {
+        "reference_number": 10,
+        "doi": "10.1109/TSG.2024.3404776",
+        "manuscript_line": 151,
+        "checks": {
+          "doi": true,
+          "title": true,
+          "listed_authors": true,
+          "journal": true,
+          "year": true,
+          "volume": true,
+          "issue": true,
+          "pages_or_article": true
+        },
+        "matches": true
+      }
+    ]
+  },
+  "public_update_check": {
+    "crossref_deposited_update_flags_present": [],
+    "interpretation": "No registered Crossref update-to, updated-by or relation link in this snapshot; this is not a full retraction search."
+  }
+}

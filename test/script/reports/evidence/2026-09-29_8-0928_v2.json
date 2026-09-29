@@ -1,0 +1,21 @@
+{
+  "raw_rows": 57600,
+  "hardening_pair_rows": 316800,
+  "qa_rows": 72,
+  "max_ens_identity_error_MWh": 9.325873406851315e-15,
+  "max_pair_identity_error_MWh_per_year": 5.655198531684391e-16,
+  "max_fault_table_difference": 8.049116928532385e-16,
+  "max_summary_difference": 5.273559366969494e-16,
+  "max_risk_table_difference": 4.5102810375396984e-17,
+  "main_secondary_cases": 173,
+  "reference_full_EENS_MWh_per_year": 0.11918712301396678,
+  "reference_no_secondary_EENS_MWh_per_year": 0.08311530089406707,
+  "reference_signed_difference_MWh_per_year": 0.0360718221198997,
+  "top3_reference_lines": [
+    9,
+    5,
+    1
+  ],
+  "reference_delta_9_minus_5": 0.001414004381627542,
+  "max_QA_power_residual_MW": 1.12333059520964e-12
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-09-29T09:40:00+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V1\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "0d41914d4442eca434ed4b80df378f02b31542026ba6d5ced8e4e5b48071653e",
+  "files": {
+    "final_prompt.md": {
+      "sha256": "4409f24f8123223aafd0ffc71dbf7b94eaf716ceaa05f682d299c58f6b106478",
+      "bytes": 16364
+    },
+    "框架.md": {
+      "sha256": "2e81ca43afbd5c9b38cb772f88d580ef00b90e56d6bdf9207c6c8db25eddd13e",
+      "bytes": 16298
+    },
+    "P3_自检.md": null,
+    "P4_审稿返修.md": null,
+    "交付说明.md": {
+      "sha256": "bbed9fe7c491fb7bc802f9f7bf2b4d1c95754ce142b11f3f834d4e3445e441d1",
+      "bytes": 2487
+    },
+    "文献核验.md": {
+      "sha256": "db724b7611394bc5f983e650dab22c060a10ffc7bee1561477825d812a244c98",
+      "bytes": 3656
+    },
+    "论文_中文.md": null,
+    "论文_英文.md": null,
+    "论文_中文.docx": null,
+    "论文_英文.docx": null
+  },
+  "markdown": {},
+  "docx": {},
+  "figures": {},
+  "simulation_package": {
+    "sha256": "1a1703ba5a90f5a611f5578c893c3c9da6303f7423bb228e126862eece623f34",
+    "bytes": 71002980,
+    "members": 15,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar": null,
+    "sha256_matches_sidecar": null
+  },
+  "raw_files": {
+    "case_census.csv": {
+      "sha256": "6387a708905838ad241f16313b93cf24d4a469d3db181b52dc309ffdcab07c25",
+      "bytes": 35490
+    },
+    "simulation_cases.mat": {
+      "sha256": "fe8410164046dd152a936e32818a0fd265b48f5ecb88d923511c007bbb80834a",
+      "bytes": 80519636
+    }
+  }
+}

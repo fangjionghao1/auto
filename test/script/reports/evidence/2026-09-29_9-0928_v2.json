@@ -1,0 +1,63 @@
+{
+  "raw_rows": 3264,
+  "day_groups": 136,
+  "max_daily_loss_difference_MWh": "6.3E-15",
+  "max_daily_objective_difference": "5.9E-15",
+  "model_version": "P9_V1_AC_127GAT",
+  "languages": {
+    "zh": {
+      "table2_methods_checked": [
+        "teacher",
+        "droop",
+        "gat4",
+        "gcn",
+        "gat1",
+        "gat4_noprev"
+      ],
+      "numbered_equations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "figures": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "references_with_DOI": 10,
+      "repeated_claims_checked": 21
+    },
+    "en": {
+      "table2_methods_checked": [
+        "teacher",
+        "droop",
+        "gat4",
+        "gcn",
+        "gat1",
+        "gat4_noprev"
+      ],
+      "numbered_equations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "figures": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "references_with_DOI": 10,
+      "repeated_claims_checked": 21
+    }
+  },
+  "zip_sha256": "27426f7f6014f951635e042d813431ecee8cdc42d53b1dc9a750410407510dae",
+  "zip_members": 55
+}

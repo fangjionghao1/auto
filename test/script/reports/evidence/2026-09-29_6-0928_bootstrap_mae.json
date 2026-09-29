@@ -1,0 +1,26 @@
+{
+  "source": "gen/artifacts/6-0928/V1/基于图神经网络的新能源场站同步调相机小干扰稳定评估/仿真/raw_results.csv",
+  "source_sha256": "e8785db30a2f1f6fe606183f8f496a28784745b432a92248e964e414e21e9608",
+  "estimand": "mean over test cases of mean-seed absolute-error(GNN) minus mean-seed absolute-error(no-message), s^-1",
+  "resampling_unit": "test case, paired by case, stratified within the three fixed topology templates",
+  "method": "percentile bootstrap, conditional on the one archived dataset and trained seed set",
+  "test_case_count": 80,
+  "topology_counts": {
+    "1": 27,
+    "2": 26,
+    "3": 27
+  },
+  "rng_seed": 20260929,
+  "resamples": 20000,
+  "point_difference_s_inv": 0.004144952796950339,
+  "ci_95_s_inv": [
+    0.002046972540756807,
+    0.006310725077048799
+  ],
+  "fraction_positive_case_differences": 0.625,
+  "mean_difference_by_topology_s_inv": {
+    "1": 0.004292230370149807,
+    "2": 0.005583992500455394,
+    "3": 0.002611933287042303
+  }
+}

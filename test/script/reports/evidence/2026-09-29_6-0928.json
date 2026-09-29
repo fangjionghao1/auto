@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-09-29T09:36:04+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V1\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "0d41914d4442eca434ed4b80df378f02b31542026ba6d5ced8e4e5b48071653e",
+  "files": {
+    "final_prompt.md": {
+      "sha256": "ea6156199b1e496e852235cb6679587e5e16a8ee2122ae802fbf17bfafdc766b",
+      "bytes": 16367
+    },
+    "框架.md": {
+      "sha256": "49397e853f4ecc4bf33dd47c4c88b59395417e5429d9d9e24d448025066befab",
+      "bytes": 7753
+    },
+    "P3_自检.md": {
+      "sha256": "91aa807c830ea60a3f6c9366d5dcc453f4989cc79874e2f654e08a4885aed375",
+      "bytes": 4468
+    },
+    "P4_审稿返修.md": {
+      "sha256": "974a2677b97c123e2f75aef1abccee4eb12858540f328e067bd39b2fffc5aa70",
+      "bytes": 3117
+    },
+    "交付说明.md": {
+      "sha256": "c7a92736a8e41c549f9982d04115a4e0b0f05c3ce76ecf055b1015db490aca97",
+      "bytes": 2510
+    },
+    "文献核验.md": {
+      "sha256": "425f39968acc686bd49180d3d3bc1e83f973f4ee57b383e32788d0a86eabf17d",
+      "bytes": 2091
+    },
+    "论文_中文.md": {
+      "sha256": "c96c9b61d8dcc7afd6595e3637547317a8f195cf225bc04f4b2e7415fd4170e2",
+      "bytes": 13813
+    },
+    "论文_英文.md": {
+      "sha256": "9d63196dfa8671997f98fd27ac42bab2b5e369ff945ad40ee0c57a9182996933",
+      "bytes": 18184
+    },
+    "论文_中文.docx": {
+      "sha256": "dc8983fd5146ccf8e62fc4e593b780356ce8742bcf30a62b29082d61bf769811",
+      "bytes": 236379
+    },
+    "论文_英文.docx": {
+      "sha256": "12e728d1ea2f20109bd7b67fef1c304b541245c89efd4dadb8d57dd24a1479d4",
+      "bytes": 236797
+    }
+  },
+  "markdown": {
+    "中文": {
+      "sha256": "c96c9b61d8dcc7afd6595e3637547317a8f195cf225bc04f4b2e7415fd4170e2",
+      "bytes": 13813,
+      "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 137
+    },
+    "英文": {
+      "sha256": "9d63196dfa8671997f98fd27ac42bab2b5e369ff945ad40ee0c57a9182996933",
+      "bytes": 18184,
+      "title": "Graph Neural Network-Based Small-Signal Stability Assessment of a Renewable Energy Plant with a Synchronous Condenser",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 134
+    }
+  },
+  "docx": {
+    "中文": {
+      "sha256": "dc8983fd5146ccf8e62fc4e593b780356ce8742bcf30a62b29082d61bf769811",
+      "bytes": 236379,
+      "zip_crc_bad_member": null,
+      "omml_objects": 74,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    },
+    "英文": {
+      "sha256": "12e728d1ea2f20109bd7b67fef1c304b541245c89efd4dadb8d57dd24a1479d4",
+      "bytes": 236797,
+      "zip_crc_bad_member": null,
+      "omml_objects": 74,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    }
+  },
+  "figures": {
+    "图1": {
+      "fig": true,
+      "png": true
+    },
+    "图2": {
+      "fig": true,
+      "png": true
+    },
+    "图3": {
+      "fig": true,
+      "png": true
+    }
+  },
+  "simulation_package": {
+    "sha256": "a6b58f474c452ea8125c4843bc587665303d5414fc15556bfce3b6affc4e587d",
+    "bytes": 678648,
+    "members": 20,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar": null,
+    "sha256_matches_sidecar": null
+  },
+  "raw_files": {
+    "raw_results.csv": {
+      "sha256": "e8785db30a2f1f6fe606183f8f496a28784745b432a92248e964e414e21e9608",
+      "bytes": 85334
+    },
+    "raw_results.mat": {
+      "sha256": "4b8816662fc9306ec80b5e0ad9e8f1b42e22c8c947d28fbfe429a07481ceff4a",
+      "bytes": 2236256
+    }
+  }
+}

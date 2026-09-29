@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-09-29T09:42:46+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "0d41914d4442eca434ed4b80df378f02b31542026ba6d5ced8e4e5b48071653e",
+  "files": {
+    "final_prompt.md": {
+      "sha256": "c933e2bb5f9021df7325c614637f1da6081ff1effa47c8068d19fa4ac5571932",
+      "bytes": 16358
+    },
+    "框架.md": {
+      "sha256": "46333f2fdef8222d9a4a1518c322865b00a180a16e53edd25e6f9c43c3537c24",
+      "bytes": 16800
+    },
+    "P3_自检.md": {
+      "sha256": "280d1cb53c998d964970c59d18d3614fafff95300cf4f9292377c45e49ff285f",
+      "bytes": 8972
+    },
+    "P4_审稿返修.md": {
+      "sha256": "145aea621225a91b8334aeaaa867ad8d8a1bda9374aad3cd59cf463399336ade",
+      "bytes": 4940
+    },
+    "交付说明.md": {
+      "sha256": "e4c6b1445d3c03d85cd7f71b0bb60b019aebbdbe332c93a22d082089771e0491",
+      "bytes": 3977
+    },
+    "文献核验.md": {
+      "sha256": "04c3a1bd5e1a607cf5f85a59e12cb7f6ede21cd5219f1854671944eb74d0278f",
+      "bytes": 8071
+    },
+    "论文_中文.md": {
+      "sha256": "466cad5ea0e8cc61629d08a3c18a78d8075ab40811418260abd39c36a66af422",
+      "bytes": 16874
+    },
+    "论文_英文.md": {
+      "sha256": "9fb782abac958969193a331f64d8783c048def7ac28d243fc8679832c304fc18",
+      "bytes": 20976
+    },
+    "论文_中文.docx": {
+      "sha256": "86d8854db42b82557b4d5dabb73a8e9af2668a174798d45bb8affad946668a6c",
+      "bytes": 322580
+    },
+    "论文_英文.docx": {
+      "sha256": "621425ec907a6490959f11f3d220354367399bdfc405d4cd3f3a5be9cefa2f7e",
+      "bytes": 322840
+    }
+  },
+  "markdown": {
+    "中文": {
+      "sha256": "466cad5ea0e8cc61629d08a3c18a78d8075ab40811418260abd39c36a66af422",
+      "bytes": 16874,
+      "title": "考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 151
+    },
+    "英文": {
+      "sha256": "9fb782abac958969193a331f64d8783c048def7ac28d243fc8679832c304fc18",
+      "bytes": 20976,
+      "title": "A Risk Tracing Method for Vulnerable Components in Distribution Networks Considering Cascading Failures and Probabilistic Load Transfer",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1.png",
+        "仿真/图/图2.png",
+        "仿真/图/图3.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1.png": true,
+        "仿真/图/图2.png": true,
+        "仿真/图/图3.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 151
+    }
+  },
+  "docx": {
+    "中文": {
+      "sha256": "86d8854db42b82557b4d5dabb73a8e9af2668a174798d45bb8affad946668a6c",
+      "bytes": 322580,
+      "zip_crc_bad_member": null,
+      "omml_objects": 70,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    },
+    "英文": {
+      "sha256": "621425ec907a6490959f11f3d220354367399bdfc405d4cd3f3a5be9cefa2f7e",
+      "bytes": 322840,
+      "zip_crc_bad_member": null,
+      "omml_objects": 71,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    }
+  },
+  "figures": {
+    "图1": {
+      "fig": true,
+      "png": true
+    },
+    "图2": {
+      "fig": true,
+      "png": true
+    },
+    "图3": {
+      "fig": true,
+      "png": true
+    }
+  },
+  "simulation_package": {
+    "sha256": "0d51b9151ad1e2fc3a7ca85b9f6d690463f2b92bf29c159714e307c5f0e96cb7",
+    "bytes": 94488674,
+    "members": 42,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar_path": "D:\\wkplace\\auto\\gen\\artifacts\\8-0928\\V1\\考虑故障级联与负荷概率迁移的配电网薄弱环节风险溯源方法\\仿真\\仿真打包.sha256.txt",
+    "sha256_sidecar": "0d51b9151ad1e2fc3a7ca85b9f6d690463f2b92bf29c159714e307c5f0e96cb7",
+    "sha256_matches_sidecar": true
+  },
+  "raw_files": {
+    "raw_results.csv": {
+      "sha256": "00575126671358e9c58903628a107b83b734de602da4590c5cefcaf27bf02e7c",
+      "bytes": 7278352
+    },
+    "raw_results.mat": {
+      "sha256": "b567d4527fb725da9f3ae439aefcdc7831f9e40529994ebc6ac9a38f5e1c4322",
+      "bytes": 43984063
+    }
+  }
+}

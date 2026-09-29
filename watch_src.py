@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 GOAL = SRC / "goal.md"
 STATE = ROOT / ".git" / "watch-src-state.json"
-FIELDS = ("部门", "采编", "订单时间", "类别", "作者", "题目")
+REQUIRED = ("订单时间", "题目")
 
 
 def gh(*args):
@@ -49,7 +49,7 @@ def parse_manuscripts(content):
             values["题目"] += "\n" + line.strip()
         elif line.strip():
             current = None
-    if any(not values.get(key, "").strip() for key in FIELDS if key != "作者"):
+    if any(not values.get(key, "").strip() for key in REQUIRED):
         return None
     values.setdefault("作者", "")
     titles = [part.strip() for part in values["题目"].splitlines() if part.strip()]
@@ -122,7 +122,7 @@ def add_goal_rows(path, parsed, upload_date):
         if manuscript_id in existing_ids:
             continue
         record = {"稿件ID": manuscript_id, "auth": values["作者"],
-                  "type": values["类别"], "标题": title,
+                  "type": values.get("类别", ""), "标题": title,
                   "目标等级": values.get("目标等级") or "正常",
                   "状态": values.get("状态") or "V1",
                   "note": values.get("备注") or values.get("note") or "",
@@ -160,7 +160,7 @@ def poll(repo, branch, state):
         parsed = parse_manuscripts(content)
         if parsed is None:
             path.with_name(path.stem + ".faild.txt").write_text(
-                "格式校验失败：缺少部门、采编、订单时间、类别或题目。\n", encoding="utf-8")
+                "格式校验失败：缺少订单时间或题目。\n", encoding="utf-8")
             print(f"Ignored invalid file: {name}", flush=True)
         elif duplicate_title(parsed, reference_pairs):
             target = duplicate_destination(path)

@@ -83,7 +83,7 @@ def main():
         raise FileNotFoundError(SPEEK)
     count = 0
     for row in rows:
-        if row["进度"].strip() == "完成":
+        if row["进度"].strip() in ("完成", "已完成"):
             continue
         manuscript_id = directory_part(row["稿件ID"], "稿件ID")
         status = directory_part(row["状态"], "状态")

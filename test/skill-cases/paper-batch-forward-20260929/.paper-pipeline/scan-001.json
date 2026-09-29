@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-51b9c05ec5f7c617",
+  "workspace": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929",
+  "artifacts_root": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\gen\\artifacts",
+  "goal": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\src\\goal.md",
+  "review": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\test\\README.md",
+  "goal_sha256": "ea4e1a990928ce0005b74731e5f45d02d851c2aa7252537e665d2fcf25353c6b",
+  "review_sha256": "33fad4ba368f3ed8ae081694026d5515ced14bd88f838fbb6f5fc5da4b367a2f",
+  "signature_requirement": {
+    "required": true,
+    "signer": "演练审稿人",
+    "source": "named_rule_clause"
+  },
+  "scope": "all",
+  "project_count": 1,
+  "projects": [
+    {
+      "path": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\gen\\artifacts\\2-0001\\V1\\短期负荷预测增益验证",
+      "relative_path": "gen/artifacts/2-0001/V1/短期负荷预测增益验证",
+      "project_id": "2-0001",
+      "title": "短期负荷预测增益验证",
+      "authors": [
+        "演练作者"
+      ],
+      "authors_source": "prompt",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:3",
+        "line_number": 3,
+        "project_id": "2-0001",
+        "title": "短期负荷预测增益验证",
+        "authors": [
+          "演练作者"
+        ],
+        "path_match": true,
+        "current_progress": "待处理"
+      },
+      "inputs_sha256": {
+        "src": "05ea2d9cb2958c4e6455c8433b1808e84016de4741452a7238e3e70988f2ab0c",
+        "speek": "9833707a3d1e35896da3d3ce4363f70fa8121ce75cd71a4d02c973437a286112",
+        "review": "33fad4ba368f3ed8ae081694026d5515ced14bd88f838fbb6f5fc5da4b367a2f"
+      },
+      "status_path": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\gen\\artifacts\\2-0001\\V1\\短期负荷预测增益验证\\.paper-pipeline\\status.json",
+      "batch_id": "batch-51b9c05ec5f7c617"
+    }
+  ],
+  "shadowed": [],
+  "excluded": [],
+  "ignored": [],
+  "notice": "Structural inventory only; no scientific conclusion or signature authenticity is established."
+}

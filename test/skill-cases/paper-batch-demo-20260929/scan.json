@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-6d349bf2eeb22325",
+  "workspace": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-demo-20260929",
+  "artifacts_root": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-demo-20260929\\gen\\artifacts",
+  "goal": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-demo-20260929\\src\\goal.md",
+  "review": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-demo-20260929\\test\\README.md",
+  "goal_sha256": "7d5be82dbb8a630d225f6d0c9b9a2d6773ecb786d015d0d052428d261e9a8ca6",
+  "review_sha256": "891c6bd4158c47ddc6ee69ed0d90b3d1e719e95a51f9213eef934381f5d325ff",
+  "signature_requirement": {
+    "required": true,
+    "signer": "示例守门人",
+    "source": "named_rule_clause"
+  },
+  "scope": "all",
+  "project_count": 1,
+  "projects": [
+    {
+      "path": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-demo-20260929\\gen\\artifacts\\1-0001\\V1\\功角稳定预测方法演练",
+      "relative_path": "gen/artifacts/1-0001/V1/功角稳定预测方法演练",
+      "project_id": "1-0001",
+      "title": "功角稳定预测方法演练",
+      "authors": [
+        "示例作者"
+      ],
+      "authors_source": "prompt",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:7",
+        "line_number": 7,
+        "project_id": "1-0001",
+        "title": "功角稳定预测方法演练",
+        "authors": [
+          "示例作者"
+        ],
+        "path_match": true,
+        "current_progress": "待处理"
+      },
+      "inputs_sha256": {
+        "src": "35c216f3406195f83496bc52e98cbf5ad2444b3dbedf097486e45f084a07816e",
+        "speek": "3495664e007a8357334020dae7dda673fb64420b2a87f7894a5ee4098079df1f",
+        "review": "891c6bd4158c47ddc6ee69ed0d90b3d1e719e95a51f9213eef934381f5d325ff"
+      },
+      "status_path": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-demo-20260929\\gen\\artifacts\\1-0001\\V1\\功角稳定预测方法演练\\.paper-pipeline\\status.json",
+      "batch_id": "batch-6d349bf2eeb22325"
+    }
+  ],
+  "shadowed": [],
+  "excluded": [],
+  "ignored": [],
+  "notice": "Structural inventory only; no scientific conclusion or signature authenticity is established."
+}

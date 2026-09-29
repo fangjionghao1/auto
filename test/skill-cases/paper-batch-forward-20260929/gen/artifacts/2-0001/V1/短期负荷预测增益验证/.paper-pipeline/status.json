@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "project_id": "2-0001",
+  "title": "短期负荷预测增益验证",
+  "authors": [
+    "演练作者"
+  ],
+  "phase": "preflight-redesign-proposed",
+  "progress": "需重设计",
+  "prompt_sha256": "87dfc8fcf0dc0e2ddeba486067411ee85cd16db425dc7b892ba61aae55de81db",
+  "inputs_sha256": {
+    "src": "05ea2d9cb2958c4e6455c8433b1808e84016de4741452a7238e3e70988f2ab0c",
+    "speek": "9833707a3d1e35896da3d3ce4363f70fa8121ce75cd71a4d02c973437a286112",
+    "review": "33fad4ba368f3ed8ae081694026d5515ced14bd88f838fbb6f5fc5da4b367a2f"
+  },
+  "gates": {
+    "design": "fail",
+    "experiment": "fail",
+    "independent_v2": "pending",
+    "manuscript": "pending",
+    "matlab_assets": "pending",
+    "review": "fail"
+  },
+  "artifacts": [
+    {
+      "path": "pilot.csv",
+      "sha256": "0809dd9a9e1fbb8828caae29caa0b55d64979cf4328c7560e5e696f134bad2a8",
+      "role": "pilot_raw"
+    },
+    {
+      "path": "目标配置卡.md",
+      "sha256": "fe2a6662682aab9ff58e8efca7ecccbfdae8358fd9e287d26cef3456245f0af0",
+      "role": "target_configuration"
+    },
+    {
+      "path": "实验设计.md",
+      "sha256": "70c0cca78206208a835ae35494ec02cf9cdae650a6dc91e423eebc9b8e767905",
+      "role": "pilot_design"
+    },
+    {
+      "path": "先导复算.py",
+      "sha256": "6d44a18dcfa6afe427920c178f3870b6ed81810794e2bff72d66ac97542ea855",
+      "role": "pilot_calculation_code"
+    },
+    {
+      "path": "先导逐工况误差.csv",
+      "sha256": "236b79484014c368cae82b6a08fc7acc51ff48b7f32efcf698675cbf03b8b628",
+      "role": "pilot_case_errors"
+    },
+    {
+      "path": "先导指标.json",
+      "sha256": "7e1f080a898b2b856ccfbf30d82ad2eb1df0fb47d9d46fbcea5b10afefd5196b",
+      "role": "pilot_metrics"
+    },
+    {
+      "path": "先导运行.log",
+      "sha256": "04affdbbb41665005163ec7fdd4f073147a4a0e85da790923303879c054310db",
+      "role": "pilot_run_log"
+    },
+    {
+      "path": "先导核验.md",
+      "sha256": "2dbb4e6fa7f2348a7c645d93543839b4f909e1ed6e961c734179ab0b7455e18f",
+      "role": "pilot_review"
+    },
+    {
+      "path": "独立复核.md",
+      "sha256": "d4bdd0e6faaa4c5e67a2a7c5a393ee37d4fe3f3de4b7026739e4aa1f71da5826",
+      "role": "independent_arithmetic_review"
+    },
+    {
+      "path": "下一步实验方案.md",
+      "sha256": "f43322778d0fda6bb5b3d421c54d399d07465b5cc771fe66f16499421bd83d0b",
+      "role": "next_experiment_plan"
+    },
+    {
+      "path": "重设计记录.md",
+      "sha256": "350746cc6b3f4ccd31b67894c5021d9116336eddc425ab49b971a7b00aa7ef67",
+      "role": "redesign_record"
+    },
+    {
+      "path": "审稿报告.md",
+      "sha256": "72561f1e8abb3aea2b85d5b8950bd21cca6d2e5c3d8cead94c37789ddb9ea60c",
+      "role": "current_review"
+    }
+  ],
+  "review": {
+    "path": "审稿报告.md",
+    "sha256": "72561f1e8abb3aea2b85d5b8950bd21cca6d2e5c3d8cead94c37789ddb9ea60c",
+    "rule_sha256": "33fad4ba368f3ed8ae081694026d5515ced14bd88f838fbb6f5fc5da4b367a2f",
+    "prompt_sha256": "87dfc8fcf0dc0e2ddeba486067411ee85cd16db425dc7b892ba61aae55de81db",
+    "blocker_count": 1,
+    "major_count": 2
+  },
+  "signature": {
+    "required": true,
+    "signer": "",
+    "evidence_path": "",
+    "evidence_sha256": ""
+  },
+  "reason": "先导已复算：MAE新方法4 kW、基线1 kW，合同上限0.9 kW，20/20工况恶化；已保存R1方案，未执行新实验/MATLAB/成稿，需重设计。",
+  "updated_at": "2026-09-29T06:42:17.605958+00:00"
+}

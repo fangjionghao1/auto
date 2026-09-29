@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-51b9c05ec5f7c617",
+  "mode": "apply",
+  "scope": "all",
+  "goal": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\src\\goal.md",
+  "review": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\test\\README.md",
+  "signature_requirement": {
+    "required": true,
+    "signer": "演练审稿人",
+    "source": "named_rule_clause"
+  },
+  "changes": [
+    {
+      "row_key": "line:3",
+      "project_id": "2-0001",
+      "title": "短期负荷预测增益验证",
+      "authors": [
+        "演练作者"
+      ],
+      "from": "待处理",
+      "to": "需重设计",
+      "changed": true,
+      "projects": [
+        {
+          "path": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\gen\\artifacts\\2-0001\\V1\\短期负荷预测增益验证",
+          "valid_identity": true,
+          "requested_progress": "需重设计",
+          "progress": "需重设计",
+          "errors": [],
+          "reason": "先导已复算：MAE新方法4 kW、基线1 kW，合同上限0.9 kW，20/20工况恶化；已保存R1方案，未执行新实验/MATLAB/成稿，需重设计。",
+          "phase": "preflight-redesign-proposed"
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "unresolved": [],
+  "excluded": [],
+  "shadowed": [],
+  "written": true,
+  "notice": "Only structural/hash checks are automated. Scientific gate judgments and signature authenticity remain reviewer responsibilities.",
+  "backup": "D:\\wkplace\\auto\\test\\skill-cases\\paper-batch-forward-20260929\\src\\.paper-pipeline\\history\\goal.md.20260929T064239675482Z.ea4e1a990928.bak",
+  "new_goal_sha256": "e45d90dff20819d03b28b7ccab9aeef0b76b464cf3013392c2cd17eab36e0cb0"
+}

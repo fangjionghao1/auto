@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project_id": "2-0001",
+  "title": "短期负荷预测增益验证",
+  "authors": [
+    "演练作者"
+  ],
+  "phase": "queued",
+  "progress": "待处理",
+  "prompt_sha256": "87dfc8fcf0dc0e2ddeba486067411ee85cd16db425dc7b892ba61aae55de81db",
+  "inputs_sha256": {
+    "src": "05ea2d9cb2958c4e6455c8433b1808e84016de4741452a7238e3e70988f2ab0c",
+    "speek": "9833707a3d1e35896da3d3ce4363f70fa8121ce75cd71a4d02c973437a286112",
+    "review": "33fad4ba368f3ed8ae081694026d5515ced14bd88f838fbb6f5fc5da4b367a2f"
+  },
+  "gates": {
+    "design": "pending",
+    "experiment": "pending",
+    "independent_v2": "pending",
+    "manuscript": "pending",
+    "matlab_assets": "pending",
+    "review": "pending"
+  },
+  "artifacts": [],
+  "review": {},
+  "signature": {
+    "required": true,
+    "signer": "",
+    "evidence_path": "",
+    "evidence_sha256": ""
+  },
+  "reason": "本次仅执行先导审查；未运行的门禁保持pending",
+  "updated_at": "2026-09-29T14:38:11.3247811+08:00"
+}

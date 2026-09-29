@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-1e5ec444e6907972",
+  "workspace": "D:\\wkplace\\auto",
+  "artifacts_root": "D:\\wkplace\\auto\\gen\\artifacts",
+  "goal": "D:\\wkplace\\auto\\src\\goal.md",
+  "review": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "goal_sha256": "e6249b08435d9834794a705c951d6e20cc6c29f4666fd388c750c129b29cfd54",
+  "review_sha256": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373",
+  "signature_requirement": {
+    "required": true,
+    "signer": "FJH",
+    "source": "named_rule_clause"
+  },
+  "scope": "all",
+  "project_count": 7,
+  "projects": [
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V1\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "relative_path": "gen/artifacts/6-0928/V1/基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "project_id": "6-0928",
+      "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "authors": [
+        "董工"
+      ],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:7",
+        "line_number": 7,
+        "project_id": "6-0928",
+        "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+        "authors": [
+          "董工"
+        ],
+        "path_match": false,
+        "current_progress": "实验完成，成稿阻断"
+      },
+      "inputs_sha256": {
+        "src": "869cea918b77947dde22422cabac14452601f77cb0ed8bf6656f8684efddc817",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V1\\基于图神经网络的新能源场站同步调相机小干扰稳定评估\\.paper-pipeline\\status.json",
+      "batch_id": "batch-1e5ec444e6907972"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V2\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "relative_path": "gen/artifacts/6-0928/V2/基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "project_id": "6-0928",
+      "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "authors": [
+        "董工"
+      ],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:7",
+        "line_number": 7,
+        "project_id": "6-0928",
+        "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+        "authors": [
+          "董工"
+        ],
+        "path_match": false,
+        "current_progress": "实验完成，成稿阻断"
+      },
+      "inputs_sha256": {
+        "src": "869cea918b77947dde22422cabac14452601f77cb0ed8bf6656f8684efddc817",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V2\\基于图神经网络的新能源场站同步调相机小干扰稳定评估\\.paper-pipeline\\status.json",
+      "batch_id": "batch-1e5ec444e6907972"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V3\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "relative_path": "gen/artifacts/6-0928/V3/基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "project_id": "6-0928",
+      "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "authors": [
+        "董工"
+      ],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:7",
+        "line_number": 7,
+        "project_id": "6-0928",
+        "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+        "authors": [
+          "董工"
+        ],
+        "path_match": false,
+        "current_progress": "实验完成，成稿阻断"
+      },
+      "inputs_sha256": {
+        "src": "869cea918b77947dde22422cabac14452601f77cb0ed8bf6656f8684efddc817",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V3\\基于图神经网络的新能源场站同步调相机小干扰稳定评估\\.paper-pipeline\\status.json",
+      "batch_id": "batch-1e5ec444e6907972"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V4\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "relative_path": "gen/artifacts/6-0928/V4/基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "project_id": "6-0928",
+      "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+      "authors": [
+        "董工"
+      ],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:7",
+        "line_number": 7,
+        "project_id": "6-0928",
+        "title": "基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+        "authors": [
+          "董工"
+        ],
+        "path_match": true,
+        "current_progress": "实验完成，成稿阻断"
+      },
+      "inputs_sha256": {
+        "src": "869cea918b77947dde22422cabac14452601f77cb0ed8bf6656f8684efddc817",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V4\\基于图神经网络的新能源场站同步调相机小干扰稳定评估\\.paper-pipeline\\status.json",
+      "batch_id": "batch-1e5ec444e6907972"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V1\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "relative_path": "gen/artifacts/7-0928/V1/基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "project_id": "7-0928",
+      "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "authors": [
+        "董工"
+      ],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:8",
+        "line_number": 8,
+        "project_id": "7-0928",
+        "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+        "authors": [
+          "董工"
+        ],
+        "path_match": false,
+        "current_progress": "实验完成，成稿阻断"
+      },
+      "inputs_sha256": {
+        "src": "07e0a02cb9ab04834d50eed20cc502a39e71f72d350b1a43e5254ff454c49521",
+        "speek": "7bb5bebb44e023fdd815fa5173c817c46a322d00e00ee3734c5c7b3bec389ac3",
+        "review": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V1\\基于注意力机制的新能源场站同步调相机功角稳定预测\\.paper-pipeline\\status.json",
+      "batch_id": "batch-1e5ec444e6907972"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "relative_path": "gen/artifacts/7-0928/V2/基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "project_id": "7-0928",
+      "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "authors": [
+        "董工"
+      ],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:8",
+        "line_number": 8,
+        "project_id": "7-0928",
+        "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+        "authors": [
+          "董工"
+        ],
+        "path_match": false,
+        "current_progress": "实验完成，成稿阻断"
+      },
+      "inputs_sha256": {
+        "src": "c16d0ee4439259c02b9bbb6a19bef57f64269e6c65556c9a6bac87f86b1862cd",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V2\\基于注意力机制的新能源场站同步调相机功角稳定预测\\.paper-pipeline\\status.json",
+      "batch_id": "batch-1e5ec444e6907972"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V3\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "relative_path": "gen/artifacts/7-0928/V3/基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "project_id": "7-0928",
+      "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "authors": [
+        "董工"
+      ],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:8",
+        "line_number": 8,
+        "project_id": "7-0928",
+        "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+        "authors": [
+          "董工"
+        ],
+        "path_match": true,
+        "current_progress": "实验完成，成稿阻断"
+      },
+      "inputs_sha256": {
+        "src": "c16d0ee4439259c02b9bbb6a19bef57f64269e6c65556c9a6bac87f86b1862cd",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "b0506e678ac3a3302d19a6fc2bf24e5e9704e70a0d4e3b5c634f50b7f9e86373"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V3\\基于注意力机制的新能源场站同步调相机功角稳定预测\\.paper-pipeline\\status.json",
+      "batch_id": "batch-1e5ec444e6907972"
+    }
+  ],
+  "shadowed": [],
+  "excluded": [],
+  "ignored": [],
+  "notice": "Structural inventory only; no scientific conclusion or signature authenticity is established."
+}

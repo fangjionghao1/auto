@@ -1,0 +1,61 @@
+{
+  "source": "D:\\wkplace\\auto\\skills\\paper-batch-pipeline",
+  "installed": "C:\\Users\\Administrator\\.codex\\skills\\paper-batch-pipeline",
+  "file_count": 13,
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "36ae37803e0dc3c06b0ea9e351603d8349241ba54b4f4637727be76f81d9be0f"
+    },
+    {
+      "path": "assets/example-workspace/gen/artifacts/1-0001/V1/功角稳定预测方法演练/preflight.py",
+      "sha256": "1990353c620e0b06ce01c960b3bb525ac1019d6e3bf021532da6bc87c4ef7cd1"
+    },
+    {
+      "path": "assets/example-workspace/gen/artifacts/1-0001/V1/功角稳定预测方法演练/speek.md",
+      "sha256": "3495664e007a8357334020dae7dda673fb64420b2a87f7894a5ee4098079df1f"
+    },
+    {
+      "path": "assets/example-workspace/gen/artifacts/1-0001/V1/功角稳定预测方法演练/src.md",
+      "sha256": "35c216f3406195f83496bc52e98cbf5ad2444b3dbedf097486e45f084a07816e"
+    },
+    {
+      "path": "assets/example-workspace/src/goal.md",
+      "sha256": "7d5be82dbb8a630d225f6d0c9b9a2d6773ecb786d015d0d052428d261e9a8ca6"
+    },
+    {
+      "path": "assets/example-workspace/test/README.md",
+      "sha256": "891c6bd4158c47ddc6ee69ed0d90b3d1e719e95a51f9213eef934381f5d325ff"
+    },
+    {
+      "path": "references/example-power-angle.md",
+      "sha256": "6a305b0cad5bf2b4cf7782bc8109a88f81b27bf75be294eb25a8f7145737a947"
+    },
+    {
+      "path": "references/master-prompt.md",
+      "sha256": "cbcdbb0ef8fe499067690e39d217b4f978a88082d75371c2a3cbb1ab8c55b9f8"
+    },
+    {
+      "path": "references/protocol.md",
+      "sha256": "5740738d818fb570878fe23a30e02b7048dee0946012fcefd3b78e364baac2d6"
+    },
+    {
+      "path": "scripts/demo_case.py",
+      "sha256": "9d76d1805baacf14196c95f8a4ad77ff80f053beaae42b4d5e17bb0d6238f7d1"
+    },
+    {
+      "path": "scripts/pipeline.py",
+      "sha256": "9e0b497e4cc1103210f5ab0224c596de7f3fcd556db3dd8f6d94793247d70f92"
+    },
+    {
+      "path": "scripts/test_pipeline.py",
+      "sha256": "ba83a0e65ae3c39d79648d1041264d5dbd2e3bf3c5125b06f11608630776b65b"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "47a2aab3812dbe1977d5c8360a8227371d87b9beb4652a0737fe4bf1cd766ff7"
+    }
+  ],
+  "archive": "D:\\wkplace\\auto\\skills\\paper-batch-pipeline.zip",
+  "archive_sha256": "65492f83610ba77c4989b7f7ec4769b308f33eb5797e76367912bee1dbba09cb"
+}

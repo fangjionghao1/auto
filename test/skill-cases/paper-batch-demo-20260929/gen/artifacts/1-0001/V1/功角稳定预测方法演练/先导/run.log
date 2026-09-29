@@ -1,0 +1,13 @@
+{
+  "seed": 20260929,
+  "cases": 60,
+  "horizon_s": 40.0,
+  "step_s": 0.02,
+  "event_threshold_rad": 6.283185307179586,
+  "event_proxy_count": 0,
+  "no_event_proxy_count": 60,
+  "max_sampled_amplitude_rad": 0.04974241077494509,
+  "max_energy_bound_rad": 0.04974241083782228,
+  "model": "positive-damping linear oscillator; illustrative synthetic pilot",
+  "limitation": "Finite-window proxy is not a validated field stability label; model has no fault or nonlinear loss-of-synchronism mechanism."
+}

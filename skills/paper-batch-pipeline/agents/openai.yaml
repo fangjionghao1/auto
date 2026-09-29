@@ -1,0 +1,6 @@
+interface:
+  display_name: "批量论文生成与实验闭环"
+  short_description: "串行生成论文，前置实验有效性审查，保留重设计证据并交付MATLAB资产"
+  default_prompt: "使用 $paper-batch-pipeline 处理当前工作区所有含src.md和speek.md的项目，串行生成论文，实验无有效贡献时重新设计，交付MATLAB资产并据实更新goal.md。"
+policy:
+  allow_implicit_invocation: true

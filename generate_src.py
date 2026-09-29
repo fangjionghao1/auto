@@ -1,20 +1,15 @@
 """Generate manuscript source files from unfinished rows in src/goal.md.
 
 Skips rows whose 进度 is 完成/已完成/进行中. After generating, marks those
-rows as 进行中 in goal.md and immediately syncs goal.md via GitHub CLI (gh):
-pull the remote file, re-apply the marks, push it back.
+rows as 进行中 in goal.md.
 
-Requires GitHub CLI (gh) installed and authenticated.
 Run from any directory: python generate_src.py
 """
 
 from pathlib import Path
-import base64
 import json
 import re
 import shutil
-import subprocess
-from urllib.parse import quote
 
 
 ROOT = Path(__file__).resolve().parent
@@ -116,45 +111,6 @@ def mark_progress(ids, progress="进行中"):
     return marked
 
 
-def gh(*args, stdin=None):
-    result = subprocess.run(["gh", *args], cwd=ROOT, text=True, encoding="utf-8",
-                            input=stdin, capture_output=True, check=False)
-    if result.returncode:
-        raise RuntimeError(f"gh {' '.join(args)} 失败：{result.stderr.strip()}")
-    return json.loads(result.stdout) if result.stdout.strip() else {}
-
-
-def repo_info():
-    """Read owner/repo and branch from .git without invoking the git binary."""
-    config = (ROOT / ".git" / "config").read_text(encoding="utf-8")
-    match = re.search(r"github\.com[:/]([^/\s]+)/([^/\s]+?)(?:\.git)?\s*$", config, re.M)
-    if not match:
-        raise RuntimeError("无法从 .git/config 解析 GitHub 仓库地址")
-    repo = f"{match.group(1)}/{match.group(2)}"
-    head = (ROOT / ".git" / "HEAD").read_text(encoding="utf-8").strip()
-    branch = head[len("ref: refs/heads/"):] if head.startswith("ref: refs/heads/") else ""
-    if not branch:  # detached HEAD: fall back to the remote default branch
-        branch = gh("api", f"repos/{repo}")["default_branch"]
-    return repo, branch
-
-
-def sync_goal(ids):
-    """Sync goal.md via gh api: pull remote file, re-apply 进行中 marks, push back."""
-    repo, branch = repo_info()
-    endpoint = f"repos/{repo}/contents/src/goal.md"
-    remote = gh("api", f"{endpoint}?ref={quote(branch)}")
-    content = base64.b64decode(remote["content"]).decode("utf-8-sig")
-    if not content.endswith("\n"):
-        content += "\n"
-    GOAL.write_text(content, encoding="utf-8")
-    mark_progress(ids)
-    payload = {"message": "chore: 生成稿件目录后将 goal.md 进度标记为进行中",
-               "content": base64.b64encode(GOAL.read_bytes()).decode("ascii"),
-               "sha": remote["sha"], "branch": branch}
-    gh("api", "-X", "PUT", endpoint, "--input", "-", stdin=json.dumps(payload))
-    print("goal.md 进度已同步（gh api 拉取 + 推送）")
-
-
 def main():
     rows = list(table_rows(GOAL.read_text(encoding="utf-8-sig")))
     template = TEMPLATE.read_bytes().decode("utf-8")
@@ -182,7 +138,6 @@ def main():
     if generated_ids:
         marked = mark_progress(generated_ids)
         print(f"goal.md 标记进行中 {marked} 行")
-        sync_goal(generated_ids)
 
 
 if __name__ == "__main__":

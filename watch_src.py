@@ -32,6 +32,24 @@ def gh(*args):
     return json.loads(result.stdout)
 
 
+def repo_info():
+    """Read owner/repo and branch from .git without invoking the git binary.
+
+    `gh repo view` shells out to git, which is not installed on this machine,
+    so parse .git/config and .git/HEAD directly instead.
+    """
+    config = (ROOT / ".git" / "config").read_text(encoding="utf-8")
+    match = re.search(r"github\.com[:/]([^/\s]+)/([^/\s]+?)(?:\.git)?\s*$", config, re.M)
+    if not match:
+        raise RuntimeError("无法从 .git/config 解析 GitHub 仓库地址")
+    repo = f"{match.group(1)}/{match.group(2)}"
+    head = (ROOT / ".git" / "HEAD").read_text(encoding="utf-8").strip()
+    branch = head[len("ref: refs/heads/"):] if head.startswith("ref: refs/heads/") else ""
+    if not branch:  # detached HEAD: fall back to the remote default branch
+        branch = gh("api", f"repos/{repo}")["default_branch"]
+    return repo, branch
+
+
 def parse_manuscripts(content):
     values = {}
     current = None
@@ -186,11 +204,9 @@ def main():
     if not GOAL.exists() or not (ROOT / ".git").exists():
         parser.error("Run in the repository containing src/goal.md")
     try:
-        repo_info = gh("repo", "view", "--json", "nameWithOwner,defaultBranchRef")
+        repo, branch = repo_info()
     except FileNotFoundError:
         parser.error("GitHub CLI (gh) is required; install it and run gh auth login")
-    repo = repo_info["nameWithOwner"]
-    branch = repo_info["defaultBranchRef"]["name"]
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
     while True:
         try:

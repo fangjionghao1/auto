@@ -14,6 +14,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 from urllib.parse import quote
 
 
@@ -78,6 +79,15 @@ def safe_cell(value):
     return str(value).replace("|", "\\|").replace("\r", " ").replace("\n", "；")
 
 
+def display_width(text):
+    """Terminal/markdown display width: CJK wide/fullwidth chars count as 2."""
+    return sum(2 if unicodedata.east_asian_width(ch) in "WF" else 1 for ch in text)
+
+
+def pad_cell(text, width):
+    return text + " " * max(0, width - display_width(text))
+
+
 def goal_table():
     lines = GOAL.read_text(encoding="utf-8-sig").splitlines()
     rows = []
@@ -132,7 +142,7 @@ def add_goal_rows(path, parsed, upload_date):
     lines, headers, old_rows = goal_table()
     existing_ids = {row[headers.index("稿件ID")] for row in old_rows
                     if len(row) == len(headers)}
-    rows = []
+    records = []
     for index, title in enumerate(titles, 1):
         manuscript_id = path.stem + "-" + upload_date.strftime("%m%d")
         if len(titles) > 1:
@@ -147,11 +157,72 @@ def add_goal_rows(path, parsed, upload_date):
                   "src": str(path.resolve())}
         if "src" not in headers:
             record["产物路径"] = str(path.resolve())
-        rows.append("| " + " | ".join(safe_cell(record.get(header, "")) for header in headers) + " |")
-    if rows:
-        lines = [line for line in lines if not re.fullmatch(r"\|(?:\s*\|){" + str(len(headers)) + r"}", line)]
-        GOAL.write_text("\n".join(lines).rstrip() + "\n" + "\n".join(rows) + "\n", encoding="utf-8")
-    return len(rows)
+        records.append(record)
+    if not records:
+        return 0
+    cells_list = [[safe_cell(record.get(header, "")) for header in headers]
+                  for record in records]
+    # Re-pad the whole table to uniform column display widths (raw segments,
+    # escapes preserved) so the markdown stays aligned after appending.
+    table_idx = [i for i, line in enumerate(lines) if line.lstrip().startswith("|")]
+    widths = [0] * len(headers)
+    segments = {}
+    separators = {}
+    for i in table_idx:
+        row_segs = re.split(r"(?<!\\)\|", lines[i])[1:-1]
+        if len(row_segs) != len(headers):
+            continue
+        if all(re.fullmatch(r"\s*:?-+:?\s*", seg) for seg in row_segs):
+            separators[i] = row_segs
+            continue
+        segments[i] = row_segs
+        for col, seg in enumerate(row_segs):
+            widths[col] = max(widths[col], display_width(seg))
+    new_seg_rows = []
+    for cells in cells_list:
+        row_segs = [" " + cell + " " for cell in cells]
+        new_seg_rows.append(row_segs)
+        for col, seg in enumerate(row_segs):
+            widths[col] = max(widths[col], display_width(seg))
+
+    def render(row_segs):
+        return "|" + "|".join(
+            seg + " " * max(0, widths[col] - display_width(seg))
+            for col, seg in enumerate(row_segs)) + "|"
+
+    def render_separator(row_segs):
+        cells = []
+        for col, seg in enumerate(row_segs):
+            core = seg.strip()
+            left, right = core.startswith(":"), core.endswith(":")
+            dashes = "-" * max(3, widths[col] - 2 - int(left) - int(right))
+            cells.append(" " + (":" if left else "") + dashes + (":" if right else "") + " ")
+        return "|" + "|".join(cells) + "|"
+
+    for i, row_segs in segments.items():
+        lines[i] = render(row_segs)
+    for i, row_segs in separators.items():
+        lines[i] = render_separator(row_segs)
+    new_lines = [render(row_segs) for row_segs in new_seg_rows]
+    # Insert after the last table row; drop blank lines between table rows
+    # (blank lines break markdown table rendering) and empty placeholder rows.
+    last_table = table_idx[-1]
+    head, tail = lines[:last_table + 1], lines[last_table + 1:]
+    empty_row = re.compile(r"\|(?:\s*\|){" + str(len(headers)) + r"}")
+    compact = []
+    for index, line in enumerate(head):
+        if empty_row.fullmatch(line):
+            continue
+        if (not line.strip() and compact and compact[-1].lstrip().startswith("|")
+                and index + 1 < len(head) and head[index + 1].lstrip().startswith("|")):
+            continue
+        compact.append(line)
+    remainder = [line for line in tail if line.strip()]
+    out = compact + new_lines
+    if remainder:
+        out += [""] + remainder
+    GOAL.write_text("\n".join(out) + "\n", encoding="utf-8")
+    return len(new_lines)
 
 
 def poll(repo, branch, state):
@@ -169,7 +240,9 @@ def poll(repo, branch, state):
              and item["name"].lower().endswith(".txt") and item["name"] != "1.txt"
              and not item["name"].lower().endswith((".faild.txt", ".duplicate.txt"))}
     for name, item in sorted(names.items()):
-        if name in state:
+        # Skip only when the recorded sha matches: same-name re-uploads with new
+        # content are downloaded again and compared against the local goal table.
+        if state.get(name) == item["sha"]:
             continue
         path = SRC / name
         data = gh("api", f"repos/{repo}/contents/{quote('src/' + name, safe='/')}?ref={quote(branch)}")

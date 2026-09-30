@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gen/artifacts/6-0928/V2/基于图神经网络的新能源场站同步调相机小干扰稳定评估/src.md",
+                "file": "src/goal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,28 +189,33 @@
   },
   "active": "080a7dc4e6fdac8b",
   "lastOpenFiles": [
+    "src/14.txt",
+    "test_watch_format.py",
+    "__pycache__/watch_src.cpython-313.pyc.2714570686352",
+    "__pycache__/watch_src.cpython-313.pyc.2705927536528",
+    "README.md",
     "src/goal.md",
+    "src/13.txt",
+    "__pycache__/generate_src.cpython-313.pyc.2004889141136",
+    "gen/artifacts/12-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/src.md",
+    "gen/artifacts/12-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/speek.md",
+    "gen/artifacts/12-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统",
+    "gen/artifacts/12-0929/V1",
+    "gen/artifacts/12-0929",
+    "src/12.txt",
+    "gen/artifacts/11-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/src.md",
+    "gen/artifacts/11-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/speek.md",
+    "gen/artifacts/11-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统",
     "test/script/README.md",
     "gen/artifacts/10-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/speek.md",
     "gen/artifacts/10-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统/src.md",
-    "README.md",
-    "gen/artifacts/10-0929/V1/基于多尺度一维卷积神经网络的变压器扫频阻抗曲线故障诊断系统",
-    "gen/artifacts/10-0929/V1",
-    "gen/artifacts/10-0929",
     "gen/artifacts/7-0928/V3/基于注意力机制的新能源场站同步调相机功角稳定预测/src.md",
     "gen/artifacts/7-0928/V3/基于注意力机制的新能源场站同步调相机功角稳定预测/speek.md",
-    "gen/artifacts/7-0928/V3/基于注意力机制的新能源场站同步调相机功角稳定预测",
-    "gen/artifacts/7-0928/V3",
     "gen/artifacts/6-0928/V5/基于图神经网络的新能源场站同步调相机小干扰稳定评估/src.md",
     "gen/artifacts/6-0928/V5/基于图神经网络的新能源场站同步调相机小干扰稳定评估/speek.md",
-    "gen/artifacts/6-0928/V5/基于图神经网络的新能源场站同步调相机小干扰稳定评估",
-    "gen/artifacts/6-0928/V5",
     "gen/artifacts/6-0928/V2/基于图神经网络的新能源场站同步调相机小干扰稳定评估/src.md",
-    "__pycache__/generate_src.cpython-313.pyc.3264279216944",
-    "__pycache__/generate_src.cpython-313.pyc.1900381799216",
     "gen/artifacts/6-0928/V2/基于图神经网络的新能源场站同步调相机小干扰稳定评估/speek.md",
     "gen/artifacts/7-0928/V2/基于注意力机制的新能源场站同步调相机功角稳定预测/src.md",
-    "gen/artifacts/7-0928/V2/基于注意力机制的新能源场站同步调相机功角稳定预测/speek.md",
-    "gen/artifacts/7-0928/V2/基于注意力机制的新能源场站同步调相机功角稳定预测"
+    "gen/artifacts/7-0928/V2/基于注意力机制的新能源场站同步调相机功角稳定预测/speek.md"
   ]
 }

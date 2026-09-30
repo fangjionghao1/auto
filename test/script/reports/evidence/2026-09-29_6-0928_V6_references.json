@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-09-29T17:41:02+08:00",
+  "scope": "Crossref Works metadata; source title, authors, formal year, journal, volume, pages and DOI compared; see project 文献核验.md. No claim that all retraction signals are excluded.",
+  "project": "D:\\wkplace\\auto\\gen\\artifacts\\6-0928\\V6\\基于图神经网络的新能源场站同步调相机小干扰稳定评估",
+  "references": [
+    {
+      "doi": "10.1109/TPWRS.2022.3214484",
+      "title": "Small-Signal Synchronous Stability of a New-Generation Power System With 100% Renewable Energy",
+      "authors": [
+        "Ziqian Yang",
+        "Meng Zhan",
+        "Dan Liu",
+        "Chang Ye",
+        "Kan Cao",
+        "Shijie Cheng"
+      ],
+      "year": 2023,
+      "journal": "IEEE Transactions on Power Systems",
+      "volume": "38",
+      "issue": "5",
+      "pages": "4269-4280",
+      "url": "https://doi.org/10.1109/tpwrs.2022.3214484"
+    },
+    {
+      "doi": "10.1016/j.rser.2024.114576",
+      "title": "Small-signal stability analysis of uncertain power systems: A comprehensive survey",
+      "authors": [
+        "Antonio Pepiciello",
+        "José Luis Domínguez-García"
+      ],
+      "year": 2024,
+      "journal": "Renewable and Sustainable Energy Reviews",
+      "volume": "200",
+      "issue": "",
+      "pages": "114576",
+      "url": "https://doi.org/10.1016/j.rser.2024.114576"
+    },
+    {
+      "doi": "10.1016/j.rser.2024.115283",
+      "title": "Frequency-domain small-signal stability analysis methods for grid-following converters systems— An overview",
+      "authors": [
+        "Xianfu Lin",
+        "Jimmy Chih-Hsien Peng",
+        "David Macii",
+        "Dario Petri",
+        "Jingrong Yu",
+        "He Wen"
+      ],
+      "year": 2025,
+      "journal": "Renewable and Sustainable Energy Reviews",
+      "volume": "211",
+      "issue": "",
+      "pages": "115283",
+      "url": "https://doi.org/10.1016/j.rser.2024.115283"
+    },
+    {
+      "doi": "10.1109/ACCESS.2024.3497669",
+      "title": "Impact of Synchronous Condensers on Small-Signal Stability of Offshore Wind Power Plants",
+      "authors": [
+        "Sulav Ghimire",
+        "Kanakesh Vatta Kkuni",
+        "Emerson D. Guest",
+        "Kim H. Jensen",
+        "Guangya Yang"
+      ],
+      "year": 2024,
+      "journal": "IEEE Access",
+      "volume": "12",
+      "issue": "",
+      "pages": "168018-168029",
+      "url": "https://doi.org/10.1109/access.2024.3497669"
+    },
+    {
+      "doi": "10.1016/j.segan.2024.101469",
+      "title": "Real-time small-signal security assessment using graph neural networks",
+      "authors": [
+        "Glory Justin",
+        "Santiago Paternain"
+      ],
+      "year": 2024,
+      "journal": "Sustainable Energy, Grids and Networks",
+      "volume": "39",
+      "issue": "",
+      "pages": "101469",
+      "url": "https://doi.org/10.1016/j.segan.2024.101469"
+    },
+    {
+      "doi": "10.1016/j.epsr.2025.111775",
+      "title": "Domain-adversarial graph neural network for small-signal stability constrained optimal power flow in AC/DC renewable power systems",
+      "authors": [
+        "Xin Dong",
+        "Wenjuan Du",
+        "Qiang Fu",
+        "Haifeng Wang"
+      ],
+      "year": 2025,
+      "journal": "Electric Power Systems Research",
+      "volume": "247",
+      "issue": "",
+      "pages": "111775",
+      "url": "https://doi.org/10.1016/j.epsr.2025.111775"
+    },
+    {
+      "doi": "10.1016/j.epsr.2024.110853",
+      "title": "Fast small signal stability assessment using deep convolutional neural networks",
+      "authors": [
+        "Tetiana Bogodorova",
+        "Denis Osipov",
+        "Luigi Vanfretti"
+      ],
+      "year": 2024,
+      "journal": "Electric Power Systems Research",
+      "volume": "235",
+      "issue": "",
+      "pages": "110853",
+      "url": "https://doi.org/10.1016/j.epsr.2024.110853"
+    },
+    {
+      "doi": "10.1109/TPWRS.2024.3524406",
+      "title": "Real-Time Multi-Stability Risk Assessment and Visualization of Power Systems: A Graph Neural Network-Based Method",
+      "authors": [
+        "Qifan Chen",
+        "Siqi Bu",
+        "Huaiyuan Wang",
+        "Chao Lei"
+      ],
+      "year": 2025,
+      "journal": "IEEE Transactions on Power Systems",
+      "volume": "40",
+      "issue": "4",
+      "pages": "2955-2968",
+      "url": "https://doi.org/10.1109/tpwrs.2024.3524406"
+    },
+    {
+      "doi": "10.1016/j.ijepes.2021.107830",
+      "title": "Small signal stability analysis of VSC based DC systems using graph theory",
+      "authors": [
+        "Qi Geng",
+        "Xiaoxin Zhou"
+      ],
+      "year": 2022,
+      "journal": "International Journal of Electrical Power &amp; Energy Systems",
+      "volume": "137",
+      "issue": "",
+      "pages": "107830",
+      "url": "https://doi.org/10.1016/j.ijepes.2021.107830"
+    },
+    {
+      "doi": "10.1016/j.enconman.2026.121102",
+      "title": "Enhancing security of high-renewable electric power systems via synchronous condenser placement: A stability-constrained optimization approach",
+      "authors": [
+        "Yihang Jiang",
+        "Shuqiang Zhao",
+        "Hui Wang",
+        "Chutong Wang",
+        "Ming Cheng"
+      ],
+      "year": 2026,
+      "journal": "Energy Conversion and Management",
+      "volume": "352",
+      "issue": "",
+      "pages": "121102",
+      "url": "https://doi.org/10.1016/j.enconman.2026.121102"
+    }
+  ]
+}

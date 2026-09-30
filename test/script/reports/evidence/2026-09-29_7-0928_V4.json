@@ -1,0 +1,527 @@
+{
+  "generated_at": "2026-09-29T18:23:01+08:00",
+  "project_dir": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V4\\基于注意力机制的新能源场站同步调相机功角稳定预测",
+  "rule_path": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "rule_sha256": "18501a3be8c74aca2598eda5f6b64fcd26cbc704b9fbf5252361e61280aad123",
+  "rule_version_heading": "# 论文闭环验证规则 · VERIFICATION SPEC v2.0",
+  "target_configuration_card": {
+    "project_id": "7-0928",
+    "declared_goal_metadata": {
+      "authors_in_goal": "董工",
+      "category_in_goal": "EI会议-优质会议",
+      "title_in_goal": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "progress_in_goal": "已完成",
+      "goal_path": "D:\\wkplace\\auto\\src\\goal.md",
+      "goal_sha256": "ec5f03c10d5cc50a0bdc2543727aed2bedc0df255b0e74f7067636af8b7d52b8"
+    },
+    "venue_name": null,
+    "manuscript_type": null,
+    "official_guideline_url": null,
+    "template_url": null,
+    "guideline_checked_at": null,
+    "page_limit": null,
+    "word_or_character_limit": null,
+    "venue_count_scope": null,
+    "figure_table_requirement": null,
+    "reference_requirement": null,
+    "blind_review_requirement": null,
+    "language_requirement": null,
+    "declaration_requirement": null,
+    "revision_file_requirement": null,
+    "decision_letter_requirement": null,
+    "manual_review_required": "Null fields must be filled from the named venue and article type; goal metadata is a declaration, not venue verification."
+  },
+  "related_review_evidence": {
+    "target_configuration_file": {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V4\\基于注意力机制的新能源场站同步调相机功角稳定预测\\目标配置卡.md",
+      "sha256": "f821920d496179f5865cd846c7f38a88ac82f76a627dd90d2758073d9f5266a0",
+      "bytes": 817
+    },
+    "reference_verification_file": null
+  },
+  "files": {
+    "final_prompt.md": null,
+    "框架.md": null,
+    "P3_自检.md": null,
+    "P4_审稿返修.md": null,
+    "目标配置卡.md": {
+      "sha256": "f821920d496179f5865cd846c7f38a88ac82f76a627dd90d2758073d9f5266a0",
+      "bytes": 817
+    },
+    "交付说明.md": null,
+    "文献核验.md": null,
+    "论文_中文.md": {
+      "sha256": "c4573d54ee18d7d29bb6eeaabea5404fd5a1570a3d2acbd4314e335a645066e4",
+      "bytes": 16392
+    },
+    "论文_英文.md": {
+      "sha256": "572fe31412dc4122991c98ea46150a2ff58dae2db7116da2f4743a403f5b3d9f",
+      "bytes": 15964
+    },
+    "论文_中文.docx": {
+      "sha256": "cd1384156fad89a0b0f33a732f60f8b4d7eb2ebbf919a0ae9f6432fc638cc86f",
+      "bytes": 251379
+    },
+    "论文_英文.docx": {
+      "sha256": "be1789899ea60a1a6873191b5e7f753a50764b4960ae69ff4592c35beb0c3eaf",
+      "bytes": 261313
+    }
+  },
+  "markdown": {
+    "中文": {
+      "sha256": "c4573d54ee18d7d29bb6eeaabea5404fd5a1570a3d2acbd4314e335a645066e4",
+      "bytes": 16392,
+      "title": "基于注意力机制的新能源场站同步调相机功角稳定预测",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/图1_功角轨迹.png",
+        "仿真/图/图2_预测散点.png",
+        "仿真/图/图3_注意力权重.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/图1_功角轨迹.png": true,
+        "仿真/图/图2_预测散点.png": true,
+        "仿真/图/图3_注意力权重.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 142,
+      "counts": {
+        "unit": "Han characters",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 3574,
+        "body_net_count": 3058,
+        "body_start_line": 9,
+        "body_end_line_exclusive": 122,
+        "references_heading_line": 122,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    },
+    "英文": {
+      "sha256": "572fe31412dc4122991c98ea46150a2ff58dae2db7116da2f4743a403f5b3d9f",
+      "bytes": 15964,
+      "title": "Attention-Based Rotor-Angle Stability Prediction for a Synchronous Condenser at a Renewable Power Plant",
+      "equation_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "equations_sequential": true,
+      "figure_paths": [
+        "仿真/图/Fig1_rotor_angle.png",
+        "仿真/图/Fig2_predictions.png",
+        "仿真/图/Fig3_attention.png"
+      ],
+      "figure_paths_exist": {
+        "仿真/图/Fig1_rotor_angle.png": true,
+        "仿真/图/Fig2_predictions.png": true,
+        "仿真/图/Fig3_attention.png": true
+      },
+      "doi_count": 10,
+      "doi_unique_count": 10,
+      "contains_matlab_word": false,
+      "source_line_count": 136,
+      "counts": {
+        "unit": "English lexical tokens",
+        "tool": "check_gate_evidence.py regex count on Markdown UTF-8 source",
+        "whole_manuscript_count": 2115,
+        "body_net_count": 1381,
+        "body_start_line": 9,
+        "body_end_line_exclusive": 116,
+        "references_heading_line": 116,
+        "appendix_heading_line": null,
+        "main_figure_count": 3,
+        "main_table_count": 2,
+        "supplementary_figure_count": 0,
+        "supplementary_table_count": 0,
+        "reference_entry_count": 10,
+        "body_exclusions": [
+          "title and front matter",
+          "abstract",
+          "section headings",
+          "figure and table captions",
+          "image alt text and paths",
+          "Markdown table cells",
+          "references",
+          "appendix/supplementary material",
+          "display and inline TeX math"
+        ],
+        "whole_manuscript_scope": "All visible Markdown text, including title, abstract, captions, table cells and references; TeX math and image alt/path excluded.",
+        "caution": "Automated planning count; target venue/template word-count convention must be checked separately."
+      }
+    }
+  },
+  "docx": {
+    "中文": {
+      "sha256": "cd1384156fad89a0b0f33a732f60f8b4d7eb2ebbf919a0ae9f6432fc638cc86f",
+      "bytes": 251379,
+      "zip_crc_bad_member": null,
+      "omml_objects": 62,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    },
+    "英文": {
+      "sha256": "be1789899ea60a1a6873191b5e7f753a50764b4960ae69ff4592c35beb0c3eaf",
+      "bytes": 261313,
+      "zip_crc_bad_member": null,
+      "omml_objects": 52,
+      "display_equations": 0,
+      "empty_math_objects": 0,
+      "images": 3,
+      "tables": 2,
+      "footer_page_field": true
+    }
+  },
+  "render_pdf": {
+    "中文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V4\\基于注意力机制的新能源场站同步调相机功角稳定预测\\论文_中文.pdf",
+      "filename": "论文_中文.pdf",
+      "candidate_count": 1,
+      "selection_basis": "No timestamped render folder; latest PDF file modification time.",
+      "render_folder_stamp": null,
+      "modified_at": "2026-09-29T18:18:28+08:00",
+      "sha256": "b83784032c527b1de8d0856d2b601ab906bc1926054078d548a17927d443371c",
+      "bytes": 520356,
+      "docx_modified_at": "2026-09-29T18:17:57+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 6,
+      "page_count_tool": "pypdf.PdfReader"
+    },
+    "英文": {
+      "status": "found",
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V4\\基于注意力机制的新能源场站同步调相机功角稳定预测\\论文_英文.pdf",
+      "filename": "论文_英文.pdf",
+      "candidate_count": 1,
+      "selection_basis": "No timestamped render folder; latest PDF file modification time.",
+      "render_folder_stamp": null,
+      "modified_at": "2026-09-29T18:18:29+08:00",
+      "sha256": "f7b3ba2039a62b11024c2b6db2b401fb0ba61bdc718e54ad54467f466c26a78f",
+      "bytes": 437701,
+      "docx_modified_at": "2026-09-29T18:17:57+08:00",
+      "render_not_older_than_docx": true,
+      "page_count": 6,
+      "page_count_tool": "pypdf.PdfReader"
+    }
+  },
+  "figures": {
+    "Fig1_rotor_angle": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "9458a8d7b91bcb3ae79a84921a437a15caa37bfac96ed1948aeecd41dfdd74d1",
+      "png_sha256": "efda38b9b450353f7af3cfaf936c075c1d2ac1fd2be0c170a30cac59d6eea0c0"
+    },
+    "Fig2_predictions": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "0b75f625310bcb2e5417e61eef91dc8e0f0010c18d7efbb9de779e057ed45878",
+      "png_sha256": "22a75509c831382daf80eee39d7ff4dfcbe9ee5068a37819391ac744843e0624"
+    },
+    "Fig3_attention": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "f7139537d3ea73ded46d26f52b38d1ddabb1a43fbca19607784e231c2e8fea14",
+      "png_sha256": "02c9113c07911be9c49d2a08a627108eb0e40fa2a64de75557612298431a4a27"
+    },
+    "图1_功角轨迹": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "aaf4ae97d57567528ac2aa199d22bf6ecaec05b6dd7b8c670037be2e86b6d8b5",
+      "png_sha256": "bcfa930ef8d7d9b400608315fd691abaf5bea490352a0157e17b7b671cbdd429"
+    },
+    "图2_预测散点": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "41837adcff643ba763618d375b4b2a96d5d6ef29847042b9a6a6257a889316e4",
+      "png_sha256": "91e7a50001a2e684321db5392031682087f5b40fdcd6fb8a748886422c2b1271"
+    },
+    "图3_注意力权重": {
+      "fig": true,
+      "png": true,
+      "fig_sha256": "2747f630afd0d399d7e6e5480614af7760dce25f02d2655d9c74f949cda1f21b",
+      "png_sha256": "f6a27a68fb0a3d2671ce97acdeffcbaff8f2ff5d95b99eee4acbb426a671da88"
+    }
+  },
+  "asset_manifest": {
+    "figure_and_png_assets": {
+      "仿真/历史第二轮/图/图1_功角轨迹.fig": {
+        "sha256": "eb62fddcb2a02890efde0ee14d482b4554665c314aee1bf64e5a04eb63da4262",
+        "bytes": 29726,
+        "publication_figure": false
+      },
+      "仿真/历史第二轮/图/图1_功角轨迹.png": {
+        "sha256": "4cf8711bb05258f91f168c15fd6283662e97011480c8a8f1663a6f641ebcbf49",
+        "bytes": 95130,
+        "publication_figure": false
+      },
+      "仿真/历史第二轮/图/图2_预测散点.fig": {
+        "sha256": "7ad73521c9e0d6ea6ba7e0a86f3260e0640b39d1f196082fe9e165aeb0bd024f",
+        "bytes": 12012,
+        "publication_figure": false
+      },
+      "仿真/历史第二轮/图/图2_预测散点.png": {
+        "sha256": "3f0253ec554cdd0fe44f8074984ed7ae41254a03a3b408d64847a8e25a853a0c",
+        "bytes": 77763,
+        "publication_figure": false
+      },
+      "仿真/历史第二轮/图/图3_注意力权重.fig": {
+        "sha256": "8db6593007d6188ea85782725161d633fde1cc39f4de7e5edcfca7b7fdde650b",
+        "bytes": 9528,
+        "publication_figure": false
+      },
+      "仿真/历史第二轮/图/图3_注意力权重.png": {
+        "sha256": "65d406bf894c81183435ca3dd895b82db5031a4e2f75aafdace4799b483f10be",
+        "bytes": 85575,
+        "publication_figure": false
+      },
+      "仿真/图/Fig1_rotor_angle.fig": {
+        "sha256": "9458a8d7b91bcb3ae79a84921a437a15caa37bfac96ed1948aeecd41dfdd74d1",
+        "bytes": 29811,
+        "publication_figure": true
+      },
+      "仿真/图/Fig1_rotor_angle.png": {
+        "sha256": "efda38b9b450353f7af3cfaf936c075c1d2ac1fd2be0c170a30cac59d6eea0c0",
+        "bytes": 97876,
+        "publication_figure": true
+      },
+      "仿真/图/Fig2_predictions.fig": {
+        "sha256": "0b75f625310bcb2e5417e61eef91dc8e0f0010c18d7efbb9de779e057ed45878",
+        "bytes": 12121,
+        "publication_figure": true
+      },
+      "仿真/图/Fig2_predictions.png": {
+        "sha256": "22a75509c831382daf80eee39d7ff4dfcbe9ee5068a37819391ac744843e0624",
+        "bytes": 88602,
+        "publication_figure": true
+      },
+      "仿真/图/Fig3_attention.fig": {
+        "sha256": "f7139537d3ea73ded46d26f52b38d1ddabb1a43fbca19607784e231c2e8fea14",
+        "bytes": 9806,
+        "publication_figure": true
+      },
+      "仿真/图/Fig3_attention.png": {
+        "sha256": "02c9113c07911be9c49d2a08a627108eb0e40fa2a64de75557612298431a4a27",
+        "bytes": 95221,
+        "publication_figure": true
+      },
+      "仿真/图/图1_功角轨迹.fig": {
+        "sha256": "aaf4ae97d57567528ac2aa199d22bf6ecaec05b6dd7b8c670037be2e86b6d8b5",
+        "bytes": 29823,
+        "publication_figure": true
+      },
+      "仿真/图/图1_功角轨迹.png": {
+        "sha256": "bcfa930ef8d7d9b400608315fd691abaf5bea490352a0157e17b7b671cbdd429",
+        "bytes": 90086,
+        "publication_figure": true
+      },
+      "仿真/图/图2_预测散点.fig": {
+        "sha256": "41837adcff643ba763618d375b4b2a96d5d6ef29847042b9a6a6257a889316e4",
+        "bytes": 12137,
+        "publication_figure": true
+      },
+      "仿真/图/图2_预测散点.png": {
+        "sha256": "91e7a50001a2e684321db5392031682087f5b40fdcd6fb8a748886422c2b1271",
+        "bytes": 85587,
+        "publication_figure": true
+      },
+      "仿真/图/图3_注意力权重.fig": {
+        "sha256": "2747f630afd0d399d7e6e5480614af7760dce25f02d2655d9c74f949cda1f21b",
+        "bytes": 9789,
+        "publication_figure": true
+      },
+      "仿真/图/图3_注意力权重.png": {
+        "sha256": "f6a27a68fb0a3d2671ce97acdeffcbaff8f2ff5d95b99eee4acbb426a671da88",
+        "bytes": 93117,
+        "publication_figure": true
+      },
+      "排版核验/中文-1.png": {
+        "sha256": "1e9c1512f2f73789c9a6f2347ce18c528925d611fff94a160c74ac0f4ba8288c",
+        "bytes": 415304,
+        "publication_figure": false
+      },
+      "排版核验/中文-3.png": {
+        "sha256": "32058addc9deffc2ecf9ca0e1049f24c63ae6ef41b3ec27f8c9f8709910ac836",
+        "bytes": 211208,
+        "publication_figure": false
+      },
+      "排版核验/中文-4.png": {
+        "sha256": "c7f28366e32ae023843b9c4cec0e5079046274538ce361d8b4954d134d622fdf",
+        "bytes": 212733,
+        "publication_figure": false
+      },
+      "排版核验/中文-5.png": {
+        "sha256": "48c805d12073d00c3201f64dbb21be26df785762cca7806d53070e91a581b376",
+        "bytes": 188267,
+        "publication_figure": false
+      },
+      "排版核验/中文-6.png": {
+        "sha256": "15e6a479591a22424f328a90d5a0c6fa1bba578e0181a07f2da123abb5a51569",
+        "bytes": 84677,
+        "publication_figure": false
+      },
+      "排版核验/英文-1.png": {
+        "sha256": "ac8b4aea56666b785eb153069229ef22c0ecb929b29a31dc70745ba9da21596d",
+        "bytes": 262541,
+        "publication_figure": false
+      },
+      "排版核验/英文-3.png": {
+        "sha256": "d056e1ac3dd8c7d2acbfbcab67acf8f8b84bb3b2f802e98e54b388644a40923e",
+        "bytes": 145203,
+        "publication_figure": false
+      },
+      "排版核验/英文-4.png": {
+        "sha256": "352ce79503dcde11e6851fe1ae9d12eb389d1aa7a55d55924e90c5f4c5f5a699",
+        "bytes": 157354,
+        "publication_figure": false
+      },
+      "排版核验/英文-5.png": {
+        "sha256": "57f1bbca89dc3a37974b2f9e396f2828991e664d4b00af33d14ca2cc22f93bd4",
+        "bytes": 173318,
+        "publication_figure": false
+      },
+      "排版核验/英文-6.png": {
+        "sha256": "176c1ae47ac9e527458edfb19bc6b703f96f8f4c5938ed3088f8036eaa080af3",
+        "bytes": 35892,
+        "publication_figure": false
+      }
+    },
+    "simulation_data_source_and_packages": {
+      "仿真/audit.json": {
+        "sha256": "7b849f78f0d2f86d50e3b35bf7f2685dcd253911ab47871e94b80d9aea409fb9",
+        "bytes": 1296
+      },
+      "仿真/env.txt": {
+        "sha256": "655241f03c196d30cd1f7138983ae78c15efd94a5377c4343a0fef639e8667be",
+        "bytes": 429
+      },
+      "仿真/independent_audit.py": {
+        "sha256": "9792814797ee99645d8c93e864a6b23b911f916b4d0b0e3f55339967ec5ae886",
+        "bytes": 2908
+      },
+      "仿真/make_english_figures.m": {
+        "sha256": "361b9b686e7103b5761ed3a61e81a208e81172525ad4809b318ef2076a207bc8",
+        "bytes": 1875
+      },
+      "仿真/manifest.sha256": {
+        "sha256": "db97bf62b612a6eb96c8af0a688cc0cb371bcd8b1fcfdaae2a227f0f4952a330",
+        "bytes": 2011
+      },
+      "仿真/metrics.csv": {
+        "sha256": "050107a486d5962e6f4a2631ce124703c7f7ab6b6bac20e97b3fc4233c15e76a",
+        "bytes": 340
+      },
+      "仿真/observations.csv": {
+        "sha256": "ad24df93840af1c6dd6ce8a209f494023cd96764478bf243461486667fe75c84",
+        "bytes": 274031
+      },
+      "仿真/package_sim.py": {
+        "sha256": "6a45c9f496727cec47715d018920473d9f3140272aa708e6133be1617f9abcea",
+        "bytes": 967
+      },
+      "仿真/params.m": {
+        "sha256": "a5c1513455eab7d1c74c422381bd737d3f298537d1fa350f1d04e47e50ca9b8f",
+        "bytes": 484
+      },
+      "仿真/raw_results.csv": {
+        "sha256": "899c2840397dab8f853d913ce1ce9912a2721a04ca47481ac8e1cba884625e0d",
+        "bytes": 112797
+      },
+      "仿真/raw_results.mat": {
+        "sha256": "cd92d2e27c502c3805b2bf33a6955d660085e608415cccff0aec20b17815b1eb",
+        "bytes": 5627767
+      },
+      "仿真/run_experiment.m": {
+        "sha256": "e6fd60b40569a2666f82e49398f7e2de5fe4ada6a609fcffa49eb15ef47356d9",
+        "bytes": 8048
+      },
+      "仿真/summary.txt": {
+        "sha256": "fc7d6dc569a6b29468dd6bb4cbe50e508533cf7a89afd421fa4a6a8c6f6a738e",
+        "bytes": 360
+      },
+      "仿真/仿真打包.zip": {
+        "sha256": "c23ed17b1c5b2ae161da28574aa940277c9390b47abb79bce0012925793728e6",
+        "bytes": 4415257
+      },
+      "仿真/仿真打包.zip.sha256": {
+        "sha256": "492f3bacfe5e091d53164bd5a21b59f9798659cae8ebfe737e5f61670b257968",
+        "bytes": 84
+      },
+      "仿真/历史第二轮/audit.json": {
+        "sha256": "ac86ec867cc533ac0c221836415c479354a7037f7f73f177a79ee9bd9d9d3790",
+        "bytes": 1522
+      },
+      "仿真/历史第二轮/metrics.csv": {
+        "sha256": "57c655cfaa6a6aaba28efab1094357c1403ef2dfe43c16db2c94b87a9c7434b3",
+        "bytes": 397
+      },
+      "仿真/历史第二轮/observations.csv": {
+        "sha256": "fa88e44a05ce0f09592288f62d68de838bf6afb8045b01727720ad8e9f991e01",
+        "bytes": 273462
+      },
+      "仿真/历史第二轮/raw_results.csv": {
+        "sha256": "3852854f3a4dfa451c26b443c488382b46ccc723d136652cd14f429a3d2220eb",
+        "bytes": 113823
+      },
+      "仿真/历史第二轮/raw_results.mat": {
+        "sha256": "96b62062b2aeaeb3f71d68cc8320a2b33ed9cc5345b774dacc2ad427ace152b2",
+        "bytes": 5616327
+      },
+      "仿真/历史第二轮/summary.txt": {
+        "sha256": "5a5c67ec4a7bc1117491cf9a0eca5a78dccdea84a72cc1c7e080257b431d5ea6",
+        "bytes": 360
+      }
+    },
+    "figure_and_png_count": 28,
+    "simulation_file_count": 21
+  },
+  "simulation_package": {
+    "sha256": "c23ed17b1c5b2ae161da28574aa940277c9390b47abb79bce0012925793728e6",
+    "bytes": 4415257,
+    "members": 24,
+    "zip_crc_bad_member": null,
+    "sha256_sidecar_path": "D:\\wkplace\\auto\\gen\\artifacts\\7-0928\\V4\\基于注意力机制的新能源场站同步调相机功角稳定预测\\仿真\\仿真打包.zip.sha256",
+    "sha256_sidecar": "c23ed17b1c5b2ae161da28574aa940277c9390b47abb79bce0012925793728e6",
+    "sha256_matches_sidecar": true
+  },
+  "raw_files": {
+    "raw_results.csv": {
+      "sha256": "899c2840397dab8f853d913ce1ce9912a2721a04ca47481ac8e1cba884625e0d",
+      "bytes": 112797
+    },
+    "raw_results.mat": {
+      "sha256": "cd92d2e27c502c3805b2bf33a6955d660085e608415cccff0aec20b17815b1eb",
+      "bytes": 5627767
+    }
+  }
+}

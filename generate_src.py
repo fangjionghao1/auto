@@ -132,7 +132,7 @@ def main():
         destination.mkdir(parents=True, exist_ok=True)
         (destination / "src.md").write_bytes(content.encode("utf-8"))
         shutil.copyfile(SPEEK, destination / "speek.md")
-        shutil.copyfile(README, destination / "README.md")
+        shutil.copyfile(README_MD, destination / "README.md")
         print(destination)
         generated_ids.append(manuscript_id)
         count += 1

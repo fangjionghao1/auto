@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parent
 GOAL = ROOT / "src" / "goal.md"
 TEMPLATE = ROOT / "gen-src-repo" / "src.md"
 SPEEK = ROOT / "gen-src-repo" / "speek.md"
+README_MD = ROOT / "gen-src-repo" / "README.md"
 OUTPUT = ROOT / "gen" / "artifacts"
 
 
@@ -131,6 +132,7 @@ def main():
         destination.mkdir(parents=True, exist_ok=True)
         (destination / "src.md").write_bytes(content.encode("utf-8"))
         shutil.copyfile(SPEEK, destination / "speek.md")
+        shutil.copyfile(README, destination / "README.md")
         print(destination)
         generated_ids.append(manuscript_id)
         count += 1

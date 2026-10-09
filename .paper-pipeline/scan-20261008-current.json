@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-2e9e285fc7dda451",
+  "workspace": "D:\\wkplace\\auto",
+  "artifacts_root": "D:\\wkplace\\auto\\gen\\artifacts",
+  "goal": "D:\\wkplace\\auto\\src\\goal.md",
+  "review": "D:\\wkplace\\auto\\test\\script\\README.md",
+  "goal_sha256": "58aed004f762496511cc1c9705b70e76b9832741709268bdfade03112f4a88aa",
+  "review_sha256": "18501a3be8c74aca2598eda5f6b64fcd26cbc704b9fbf5252361e61280aad123",
+  "signature_requirement": {
+    "required": true,
+    "signer": "FJH",
+    "source": "named_rule_clause"
+  },
+  "scope": "all",
+  "project_count": 3,
+  "projects": [
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\1009基于Transformer的电缆沟软体机器人多驱动信号序列预测模型-1008\\V1\\基于Transformer的电缆沟软体机器人多驱动信号序列预测模型",
+      "relative_path": "gen/artifacts/1009基于Transformer的电缆沟软体机器人多驱动信号序列预测模型-1008/V1/基于Transformer的电缆沟软体机器人多驱动信号序列预测模型",
+      "project_id": "1009基于Transformer的电缆沟软体机器人多驱动信号序列预测模型-1008",
+      "title": "基于Transformer的电缆沟软体机器人多驱动信号序列预测模型",
+      "authors": [],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:17",
+        "line_number": 17,
+        "project_id": "1009基于Transformer的电缆沟软体机器人多驱动信号序列预测模型-1008",
+        "title": "基于Transformer的电缆沟软体机器人多驱动信号序列预测模型",
+        "authors": [],
+        "path_match": false,
+        "current_progress": "进行中"
+      },
+      "inputs_sha256": {
+        "src": "99ee3f2869a95c2ad5a182115868ab3323bfb122617c7206fffb574844b95a92",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "18501a3be8c74aca2598eda5f6b64fcd26cbc704b9fbf5252361e61280aad123"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\1009基于Transformer的电缆沟软体机器人多驱动信号序列预测模型-1008\\V1\\基于Transformer的电缆沟软体机器人多驱动信号序列预测模型\\.paper-pipeline\\status.json",
+      "batch_id": "batch-2e9e285fc7dda451"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\1009基于一维卷积神经网络的电缆故障行波波头反演建模-1008\\V1\\基于一维卷积神经网络的电缆故障行波波头反演建模",
+      "relative_path": "gen/artifacts/1009基于一维卷积神经网络的电缆故障行波波头反演建模-1008/V1/基于一维卷积神经网络的电缆故障行波波头反演建模",
+      "project_id": "1009基于一维卷积神经网络的电缆故障行波波头反演建模-1008",
+      "title": "基于一维卷积神经网络的电缆故障行波波头反演建模",
+      "authors": [],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:18",
+        "line_number": 18,
+        "project_id": "1009基于一维卷积神经网络的电缆故障行波波头反演建模-1008",
+        "title": "基于一维卷积神经网络的电缆故障行波波头反演建模",
+        "authors": [],
+        "path_match": false,
+        "current_progress": "进行中"
+      },
+      "inputs_sha256": {
+        "src": "044caaea49632d3955a43ba34f26a5f69714e62203cce1f5ce702be87a1fa833",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "18501a3be8c74aca2598eda5f6b64fcd26cbc704b9fbf5252361e61280aad123"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\1009基于一维卷积神经网络的电缆故障行波波头反演建模-1008\\V1\\基于一维卷积神经网络的电缆故障行波波头反演建模\\.paper-pipeline\\status.json",
+      "batch_id": "batch-2e9e285fc7dda451"
+    },
+    {
+      "path": "D:\\wkplace\\auto\\gen\\artifacts\\1009基于自监督对比学习的智能电表少样本负荷预测算法-1008\\V1\\基于自监督对比学习的智能电表少样本负荷预测算法",
+      "relative_path": "gen/artifacts/1009基于自监督对比学习的智能电表少样本负荷预测算法-1008/V1/基于自监督对比学习的智能电表少样本负荷预测算法",
+      "project_id": "1009基于自监督对比学习的智能电表少样本负荷预测算法-1008",
+      "title": "基于自监督对比学习的智能电表少样本负荷预测算法",
+      "authors": [],
+      "authors_source": "goal",
+      "title_source": "prompt",
+      "conflicts": [],
+      "goal_match": {
+        "status": "matched",
+        "row_key": "line:19",
+        "line_number": 19,
+        "project_id": "1009基于自监督对比学习的智能电表少样本负荷预测算法-1008",
+        "title": "基于自监督对比学习的智能电表少样本负荷预测算法",
+        "authors": [],
+        "path_match": false,
+        "current_progress": "进行中"
+      },
+      "inputs_sha256": {
+        "src": "4f88e5b8b55fd916ee98d906abd479b783a7bdc0603052a32db8d99e7c79553d",
+        "speek": "64d80d4504ce36f57924790939837ea4693180b0a5eed4dbe71907890cc874b9",
+        "review": "18501a3be8c74aca2598eda5f6b64fcd26cbc704b9fbf5252361e61280aad123"
+      },
+      "status_path": "D:\\wkplace\\auto\\gen\\artifacts\\1009基于自监督对比学习的智能电表少样本负荷预测算法-1008\\V1\\基于自监督对比学习的智能电表少样本负荷预测算法\\.paper-pipeline\\status.json",
+      "batch_id": "batch-2e9e285fc7dda451"
+    }
+  ],
+  "shadowed": [],
+  "excluded": [],
+  "ignored": [],
+  "notice": "Structural inventory only; no scientific conclusion or signature authenticity is established."
+}

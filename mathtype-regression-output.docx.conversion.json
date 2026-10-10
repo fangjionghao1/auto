@@ -1,0 +1,113 @@
+﻿{
+    "source":  "D:\\wkplace\\auto\\mathtype-regression-input.docx",
+    "output":  "D:\\wkplace\\auto\\mathtype-regression-output.docx",
+    "backup":  "D:\\wkplace\\auto\\mathtype-regression-input.docx.omml-backup-20261010-152543-012.bak",
+    "total":  16,
+    "converted":  16,
+    "spaceNormalized":  4,
+    "remaining":  0,
+    "mathTypeBefore":  0,
+    "saved":  true,
+    "status":  "converted-awaiting-visual-review",
+    "visualReview":  "required",
+    "equations":  [
+                      {
+                          "position":  1033,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  16
+                      },
+                      {
+                          "position":  1027,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  15
+                      },
+                      {
+                          "position":  1003,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  14
+                      },
+                      {
+                          "position":  948,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  13
+                      },
+                      {
+                          "position":  913,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  12
+                      },
+                      {
+                          "position":  747,
+                          "status":  "converted",
+                          "spaceNormalized":  true,
+                          "index":  11
+                      },
+                      {
+                          "position":  696,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  10
+                      },
+                      {
+                          "position":  541,
+                          "status":  "converted",
+                          "spaceNormalized":  true,
+                          "index":  9
+                      },
+                      {
+                          "position":  475,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  8
+                      },
+                      {
+                          "position":  438,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  7
+                      },
+                      {
+                          "position":  359,
+                          "status":  "converted",
+                          "spaceNormalized":  true,
+                          "index":  6
+                      },
+                      {
+                          "position":  262,
+                          "status":  "converted",
+                          "spaceNormalized":  true,
+                          "index":  5
+                      },
+                      {
+                          "position":  197,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  4
+                      },
+                      {
+                          "position":  129,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  3
+                      },
+                      {
+                          "position":  41,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  2
+                      },
+                      {
+                          "position":  5,
+                          "status":  "converted",
+                          "spaceNormalized":  false,
+                          "index":  1
+                      }
+                  ],
+    "mathTypeAfter":  16,
+    "pdf":  "D:\\wkplace\\auto\\mathtype-regression-output.qa.pdf"
+}

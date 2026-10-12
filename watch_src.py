@@ -56,13 +56,13 @@ def parse_manuscripts(content):
     current = None
     for line in content.splitlines():
         matches = list(re.finditer(
-            r"(?<!\S)(部门|采编|订单时间|类别|作者|题目|目标等级|状态|备注|note)[：:]",
+            r"(?<!\S)(部门|采编|订单时间|类别|类型|作者|单位|题目|目标等级|状态|备注|note)[：:]",
             line,
         ))
         if matches:
             for index, match in enumerate(matches):
                 end = matches[index + 1].start() if index + 1 < len(matches) else len(line)
-                current = match.group(1)
+                current = "类别" if match.group(1) == "类型" else match.group(1)
                 values[current] = line[match.end():end].strip()
         elif current == "题目" and line[:1].isspace() and line.strip():
             values["题目"] += "\n" + line.strip()
